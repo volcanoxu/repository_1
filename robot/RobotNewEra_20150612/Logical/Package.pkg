@@ -13,5 +13,6 @@
     <Object Type="Package" Description="Visualization">Visualization</Object>
     <Object Type="Package">GmcIpConfig</Object>
     <Object Type="Package">GmcIpUserConfig</Object>
+    <Object Type="Program" Language="ANSIC">test</Object>
   </Objects>
 </Package>

@@ -18,7 +18,9 @@
   <TaskClass Name="Cyclic#3">
     <Task Name="HmiPrg" Source="HmiHandling.HmiPrg.HmiPrg.prg" Memory="UserROM" Description="C++ Implementation FileExplorer" Language="ANSIC" Debugging="true" />
   </TaskClass>
-  <TaskClass Name="Cyclic#4" />
+  <TaskClass Name="Cyclic#4">
+    <Task Name="test" Source="test.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+  </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />

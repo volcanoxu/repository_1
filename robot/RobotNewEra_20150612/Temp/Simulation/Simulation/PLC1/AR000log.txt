@@ -1,0 +1,24 @@
+
+
+Fri Jan 06 11:22:05 2017
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Fri Jan 06 11:22:05 2017
+COMMAND_COLDSTART
+InstanceName : 01d267cc0e3db4c0
+
+WorkingPath :
+D:\AS projects\gitHub\robot\RobotNewEra_20150612\Temp\Simulation\Simulation\PLC1\
+
+
+
+Fri Jan 06 11:22:05 2017
+COMMAND_COLDSTART
+Version : D4.24
+
+
+
+Fri Jan 06 11:23:44 2017
