@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageSetup">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="26"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="173165" Value="Axis Q1"/>
+    <Text ID="173166" Value="Axis Q2"/>
+    <Text ID="173167" Value="Axis Q3"/>
+    <Text ID="173168" Value="Axis Q4"/>
+    <Text ID="173169" Value="Axis Q5"/>
+    <Text ID="173170" Value="Axis Q6"/>
+    <Text ID="173171" Value="Homing"/>
+    <Text ID="173172" Value="Robot"/>
+    <Text ID="173203" Value="Auto"/>
+    <Text ID="173204" Value="Manual"/>
+    <Text ID="173215" Value="Ignore SW limits"/>
+    <Text ID="173218" Value="(Require Operator Level 4)"/>
+    <Text ID="173927" Value="Q1"/>
+    <Text ID="173933" Value="Q2"/>
+    <Text ID="173934" Value="Q3"/>
+    <Text ID="173935" Value="Q4"/>
+    <Text ID="173936" Value="Q5"/>
+    <Text ID="173937" Value="Q6"/>
+    <Text ID="173964" Value="ax"/>
+    <Text ID="173965" Value="ay"/>
+    <Text ID="173966" Value="az"/>
+    <Text ID="173967" Value="rev"/>
+    <Text ID="173968" Value="units"/>
+    <Text ID="173969" Value="s"/>
+    <Text ID="173970" Value="v"/>
+    <Text ID="173971" Value="a"/>
+    <Text ID="173972" Value="Backlash"/>
+    <Text ID="173973" Value="Ratio"/>
+    <Text ID="173974" Value="Geometric"/>
+    <Text ID="173975" Value="Axis"/>
+    <Text ID="173979" Value="Save homing"/>
+    <Text ID="173980" Value="Save Mech. parameters"/>
+    <Text ID="193664" Value="Tool"/>
+    <Text ID="195093" Value="Radius"/>
+    <Text ID="196553" Value="Save"/>
+    <Text ID="204227" Value="System"/>
+    <Text ID="204228" Value="Axis"/>
+    <Text ID="204229" Value="Kinematics"/>
+    <Text ID="204230" Value="Calibration"/>
+    <Text ID="204231" Value="Setup"/>
+    <Text ID="204236" Value="I/O"/>
+    <Text ID="204590" Value="Info"/>
+    <Text ID="204591" Value="The Fig. shows the Homeposition of the Robot. When Homing, SW limit of the toggled Axis will be ignored. Because of Coupling of Axis 4-5-6, the order of Calibration should be Q4-&gt;Q5-&gt;Q6. Calib. is only allowed in Lock Mode."/>
+    <Text ID="204931" Value="Positive"/>
+    <Text ID="204932" Value="Negative"/>
+    <Text ID="205339" Value="Direction:"/>
+    <Text ID="205340" Value="Offset"/>
+    <Text ID="205341" Value="X offset:"/>
+    <Text ID="205342" Value="Y offset:"/>
+    <Text ID="205343" Value="Z offset:"/>
+    <Text ID="205344" Value="Joint limit:"/>
+    <Text ID="205345" Value="°"/>
+    <Text ID="205346" Value="~"/>
+    <Text ID="205347" Value="Axis coupling:"/>
+    <Text ID="205348" Value="4-&gt;5"/>
+    <Text ID="205349" Value="5-&gt;6"/>
+    <Text ID="205350" Value="4-&gt;6"/>
+    <Text ID="205351" Value="Changes of Kinematics would not take effect before restart. In Concern of Safety, please restart the machine Immediately in Setup Main Page."/>
+    <Text ID="205352" Value="mm"/>
+    <Text ID="205354" Value="Restart"/>
+    <Text ID="205361" Value="Please make sure the Machine is not moving. Press OK for a warm restart."/>
+    <Text ID="205362" Value="OK"/>
+    <Text ID="205728" Value="Workspace"/>
+    <Text ID="213702" Value="Axis"/>
+    <Text ID="213703" Value="Encoder value"/>
+    <Text ID="213704" Value="Refresh"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="173165" Value="轴 Q1"/>
+    <Text ID="173166" Value="轴 Q2"/>
+    <Text ID="173167" Value="轴 Q3"/>
+    <Text ID="173168" Value="轴 Q4"/>
+    <Text ID="173169" Value="轴 Q5"/>
+    <Text ID="173170" Value="轴 Q6"/>
+    <Text ID="173171" Value="回零"/>
+    <Text ID="173172" Value="机器人"/>
+    <Text ID="173203" Value="自动"/>
+    <Text ID="173204" Value="手动"/>
+    <Text ID="173215" Value="忽略软限位"/>
+    <Text ID="173218" Value="（要求操作者等级4）"/>
+    <Text ID="173927" Value="Q1"/>
+    <Text ID="173933" Value="Q2"/>
+    <Text ID="173934" Value="Q3"/>
+    <Text ID="173935" Value="Q4"/>
+    <Text ID="173936" Value="Q5"/>
+    <Text ID="173937" Value="Q6"/>
+    <Text ID="173964" Value="ax"/>
+    <Text ID="173965" Value="ay"/>
+    <Text ID="173966" Value="az"/>
+    <Text ID="173967" Value="rev"/>
+    <Text ID="173968" Value="units"/>
+    <Text ID="173969" Value="s"/>
+    <Text ID="173970" Value="v"/>
+    <Text ID="173971" Value="a"/>
+    <Text ID="173972" Value="背隙"/>
+    <Text ID="173973" Value="减速比"/>
+    <Text ID="173974" Value="尺寸"/>
+    <Text ID="173975" Value="轴"/>
+    <Text ID="173979" Value="保存零位"/>
+    <Text ID="173980" Value="保存机械参数"/>
+    <Text ID="193664" Value="Tool"/>
+    <Text ID="195093" Value="Radius"/>
+    <Text ID="196553" Value="保存"/>
+    <Text ID="204227" Value="系统"/>
+    <Text ID="204228" Value="轴"/>
+    <Text ID="204229" Value="运动学"/>
+    <Text ID="204230" Value="零点标定"/>
+    <Text ID="204231" Value="设置"/>
+    <Text ID="204236" Value="I/O"/>
+    <Text ID="204590" Value="提示信息"/>
+    <Text ID="204591" Value="左图指示了机械零位。当标定时，选中的轴的软限位将被忽略。由于4-5-6轴间的耦合，标定顺序应为Q4-&gt;Q5-&gt;Q6。标定仅允许于锁定模式下。"/>
+    <Text ID="204931" Value="正向"/>
+    <Text ID="204932" Value="反向"/>
+    <Text ID="205339" Value="方向："/>
+    <Text ID="205340" Value="偏移"/>
+    <Text ID="205341" Value="X偏移:"/>
+    <Text ID="205342" Value="Y偏移:"/>
+    <Text ID="205343" Value="Z偏移:"/>
+    <Text ID="205344" Value="关节限位："/>
+    <Text ID="205345" Value="°"/>
+    <Text ID="205346" Value="~"/>
+    <Text ID="205347" Value="轴耦合："/>
+    <Text ID="205348" Value="4-&gt;5"/>
+    <Text ID="205349" Value="5-&gt;6"/>
+    <Text ID="205350" Value="4-&gt;6"/>
+    <Text ID="205351" Value="在重新启动前，所做机械模型改变不会生效。出于安全原因，请务必重启机器，位于设置主界面。"/>
+    <Text ID="205352" Value="mm"/>
+    <Text ID="205354" Value="重启"/>
+    <Text ID="205361" Value="确认机器处于静止状态，按OK进行热启动。"/>
+    <Text ID="205362" Value="OK"/>
+    <Text ID="205728" Value="工作空间"/>
+    <Text ID="213702" Value="轴"/>
+    <Text ID="213703" Value="编码器值"/>
+    <Text ID="213704" Value="刷新"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="173165" Value="0"/>
+    <Index ID="173166" Value="1"/>
+    <Index ID="173167" Value="2"/>
+    <Index ID="173168" Value="3"/>
+    <Index ID="173169" Value="4"/>
+    <Index ID="173170" Value="5"/>
+    <Index ID="173171" Value="6"/>
+    <Index ID="173172" Value="7"/>
+    <Index ID="173203" Value="8"/>
+    <Index ID="173204" Value="9"/>
+    <Index ID="173215" Value="10"/>
+    <Index ID="173218" Value="11"/>
+    <Index ID="173927" Value="12"/>
+    <Index ID="173933" Value="13"/>
+    <Index ID="173934" Value="14"/>
+    <Index ID="173935" Value="15"/>
+    <Index ID="173936" Value="16"/>
+    <Index ID="173937" Value="17"/>
+    <Index ID="173964" Value="18"/>
+    <Index ID="173965" Value="19"/>
+    <Index ID="173966" Value="20"/>
+    <Index ID="173967" Value="21"/>
+    <Index ID="173968" Value="22"/>
+    <Index ID="173969" Value="23"/>
+    <Index ID="173970" Value="24"/>
+    <Index ID="173971" Value="25"/>
+    <Index ID="173972" Value="26"/>
+    <Index ID="173973" Value="27"/>
+    <Index ID="173974" Value="28"/>
+    <Index ID="173975" Value="29"/>
+    <Index ID="173979" Value="30"/>
+    <Index ID="173980" Value="31"/>
+    <Index ID="193664" Value="32"/>
+    <Index ID="195093" Value="33"/>
+    <Index ID="196553" Value="34"/>
+    <Index ID="204227" Value="35"/>
+    <Index ID="204228" Value="36"/>
+    <Index ID="204229" Value="37"/>
+    <Index ID="204230" Value="38"/>
+    <Index ID="204231" Value="39"/>
+    <Index ID="204236" Value="40"/>
+    <Index ID="204590" Value="41"/>
+    <Index ID="204591" Value="42"/>
+    <Index ID="204931" Value="43"/>
+    <Index ID="204932" Value="44"/>
+    <Index ID="205339" Value="45"/>
+    <Index ID="205340" Value="46"/>
+    <Index ID="205341" Value="47"/>
+    <Index ID="205342" Value="48"/>
+    <Index ID="205343" Value="49"/>
+    <Index ID="205344" Value="50"/>
+    <Index ID="205345" Value="51"/>
+    <Index ID="205346" Value="52"/>
+    <Index ID="205347" Value="53"/>
+    <Index ID="205348" Value="54"/>
+    <Index ID="205349" Value="55"/>
+    <Index ID="205350" Value="56"/>
+    <Index ID="205351" Value="57"/>
+    <Index ID="205352" Value="58"/>
+    <Index ID="205354" Value="59"/>
+    <Index ID="205361" Value="60"/>
+    <Index ID="205362" Value="61"/>
+    <Index ID="205728" Value="62"/>
+    <Index ID="213702" Value="63"/>
+    <Index ID="213703" Value="64"/>
+    <Index ID="213704" Value="65"/>
+  </IndexMap>
+</TextGroup>

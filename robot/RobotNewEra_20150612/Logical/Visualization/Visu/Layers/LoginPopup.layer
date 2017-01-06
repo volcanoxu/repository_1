@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="LoginPopup">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiKeyCtrl.HmiKeyControl.Components.LayerLogin.Layer.StatusDatapoint]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="bmpTransparentBackground">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[BackTransparent]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="640"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="txtHeader">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[SimSun12px]"/>
+      <Property Name="Height" Value="195"/>
+      <Property Name="Left" Value="140"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="MsgBox Header"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[GroupControl]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[MSGTexts]"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="100"/>
+      <Property Name="Width" Value="360"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="txtContent">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[SimSun12px]"/>
+      <Property Name="ForeColor" Value="254"/>
+      <Property Name="Height" Value="116"/>
+      <Property Name="Left" Value="164"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Example Alarm Text"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[MSGTexts]"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="157"/>
+      <Property Name="Width" Value="315"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="cmdLogin">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="Border" Value="Source[local].Border[ButtonFlat]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="199"/>
+      <Property Name="PressedBackColor" Value="242"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[ButtonFlatPressed]"/>
+      <Property Name="PressedForeColor" Value="254"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[MSGTexts]"/>
+      <Property Name="TextIndex" Value="3"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="242"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Login]"/>
+      <Property Name="Width" Value="83"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="cmdLogout">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="Border" Value="Source[local].Border[ButtonFlat]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="365"/>
+      <Property Name="PressedBackColor" Value="242"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[ButtonFlatPressed]"/>
+      <Property Name="PressedForeColor" Value="254"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[MSGTexts]"/>
+      <Property Name="TextIndex" Value="4"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="242"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Logout]"/>
+      <Property Name="Width" Value="83"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_Icon">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[info]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="148"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="102"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="String_PasswordInput">
+      <Property Name="Border" Value="Source[local].Border[InputBorder]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="254"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMode" Value="Password"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputPasswordChar" Value="*"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTabSize" Value="0"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[AlphaPad]"/>
+      <Property Name="Left" Value="214"/>
+      <Property Name="SimulationValue" Value="ABC"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="190"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UserStd.UserStd.curPassword]"/>
+      <Property Name="Width" Value="218"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_Close">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[close]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="24"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="472"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="104"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_Close">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_63]"/>
+      <Property Name="Height" Value="24"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="472"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="104"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_LoginCancel]"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="VK_Login">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UserStd.UserStd.cmdLogIn]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="VK_LoginCancel">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiKeyCtrl.HmiKeyControl.Components.LayerLogin.Layer.StatusDatapoint]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="VK_Logout">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UserStd.UserStd.cmdLogOut]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: MotionPvMap.vvm
+ * Author: radaka
+ * Created: June 29, 2009
+ ********************************************************************
+ * PV mapping file
+ ********************************************************************)
+VAR_CONFIG
+	::Config:Config.Output.Monitor.ConfigOk AT %Q.::Axes:Axes[0].Input.Parameter.ConfigOk; (*Insert your comment here...*)
+	::Config:Config.Output.Monitor.ConfigOk AT %Q.::Cnc:Cnc[0].Input.Parameter.ConfigOk; (*Insert your comment here...*)
+	::Config:Config.Output.Monitor.ConfigOk AT %Q.::System:System[0].Input.Parameter.ConfigOk; (*Insert your comment here...*)
+	::System:System[0].Output.Monitor.SystemAddress AT %Q.::Config:Config.Input.Parameter.SystemAddress; (*Insert your comment here...*)
+	::Cnc:Cnc[0].Output.Monitor.CncAddress AT %Q.::Config:Config.Input.Parameter.CncAddress; (*Insert your comment here...*)
+	::Axes:Axes[0].Output.Monitor.AxesAddress AT %Q.::Config:Config.Input.Parameter.AxesAddress; (*Insert your comment here...*)
+	::Axes:Axes[0].Output.Monitor.AxesAddress AT %Q.::System:System[0].Input.Parameter.AxesAddress; (*Insert your comment here...*)
+	::Cnc:Cnc[0].Output.Monitor.CncAddress AT %Q.::System:System[0].Input.Parameter.CncAddress; (*Insert your comment here...*)
+	::Axes:Axes[0].Output.Monitor.AxesAddress AT %Q.::Trf:AxesAddress; (*Only if TRF is used*)
+	::Cnc:Cnc[0].Output.Monitor.CncAddress AT %Q.::Jog:CncAddress; (*Insert your comment here...*)
+END_VAR

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">HmiEditorGlobal.typ</Object>
+    <Object Type="File" Description="Global variables">HmiEditorGlobal.var</Object>
+    <Object Type="File" Description="Global data types" Private="true">HmiEditorLocalGlobal.typ</Object>
+    <Object Type="File" Description="Global variables" Private="true">HmiEditorLocalGlobal.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="Hmi Prg Edit">HmiEditor</Object>
+    <Object Type="Program" Language="IEC" Description="File Read Write">HmiFileVar</Object>
+  </Objects>
+</Package>

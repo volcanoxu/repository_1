@@ -1,0 +1,47 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: Global.var
+ * Author: radaka
+ * Created: February 09, 2009
+ ********************************************************************
+ * Global variables of project CncMotionHandling
+ ********************************************************************)
+(*Machine Definitions*)
+VAR CONSTANT
+	ROBOT : USINT := 0;
+END_VAR
+(**)
+(*Modes Definitions*)
+VAR CONSTANT
+	MODE_AUTO : USINT := 0;
+	MODE_JOG : USINT := 1;
+END_VAR
+(**)
+(*Cnc Definitions*)
+VAR CONSTANT
+	CNC : USINT := 0;
+END_VAR
+(**)
+(*Axes definitions*)
+VAR CONSTANT
+	AXIS_X : USINT := 0;
+	AXIS_Y : USINT := 1;
+	AXIS_Z : USINT := 2;
+	AXIS_A : USINT := 3;
+	AXIS_B : USINT := 4;
+	AXIS_C : USINT := 5;
+	AXIS_Q1 : USINT := 6;
+	AXIS_Q2 : USINT := 7;
+	AXIS_Q3 : USINT := 8;
+	AXIS_Q4 : USINT := 9;
+	AXIS_Q5 : USINT := 10;
+	AXIS_Q6 : USINT := 11;
+	AXIS_PS : USINT := 12;
+	AXIS_FRAME_X : USINT := 13;
+END_VAR
+(**)
+(*Transformations Definitions*)
+VAR
+	Robot_TRF : TRF_DATA04_typ;
+END_VAR

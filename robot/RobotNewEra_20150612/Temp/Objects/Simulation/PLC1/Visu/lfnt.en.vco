@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Localizer">
+    <Folder Name="POBJ">
+      <Object Name="en" ClsId="0x10F" Version="1" TargetIndex="0" Type="LOC" RefString="Source[local].Localizer[en]">
+        <UInt32 Name="LanguageIndex">0</UInt32>
+        <Byte Name="BidiMode">0</Byte>
+        <Byte Name="InputMethod">0</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <UInt32 Name="LogFontTableEntries">21</UInt32>
+        <Group Name="LogFontTable">
+          <Symbol Name="SimSunArial10px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">20</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SimSunArial12px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">19</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SimSunArial14px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">14</UInt32>
+            <UInt32 Name="FontSize">22</UInt32>
+            <UInt32 Name="Index">18</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SimSun12px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">17</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Button1" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">16</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SimSun14px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">14</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">15</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="ArialUnicode12Bold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">14</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="ArialUni14pxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">14</UInt32>
+            <UInt32 Name="FontSize">22</UInt32>
+            <UInt32 Name="Index">13</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="DefaultBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">12</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="CourierNew11Bold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">courbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">11</UInt32>
+            <UInt32 Name="FontSize">17</UInt32>
+            <UInt32 Name="Index">11</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="ArialUnicode14pxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">14</UInt32>
+            <UInt32 Name="FontSize">22</UInt32>
+            <UInt32 Name="Index">10</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="DejaVu9PxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">dejavz0z</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">14</UInt32>
+            <UInt32 Name="Index">9</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="ArialUnicode18pxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">18</UInt32>
+            <UInt32 Name="FontSize">29</UInt32>
+            <UInt32 Name="Index">8</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Pads" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">7</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Info" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">6</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Status" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
+            <UInt32 Name="Index">5</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Html_SDM" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialxsr</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">8</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">4</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Input" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">3</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SimSun10px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">13</UInt32>
+            <UInt32 Name="Index">2</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Header" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">1</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Default" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">simsun</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">13</UInt32>
+            <UInt32 Name="Index">0</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="LogFonts">
+    <Object Name="SimSunArial10px" ClsId="0x0" Version="0" TargetIndex="20" Type="FNT" RefString="Source[local].Font[SimSunArial10px]" />
+    <Object Name="SimSunArial12px" ClsId="0x0" Version="0" TargetIndex="19" Type="FNT" RefString="Source[local].Font[SimSunArial12px]" />
+    <Object Name="SimSunArial14px" ClsId="0x0" Version="0" TargetIndex="18" Type="FNT" RefString="Source[local].Font[SimSunArial14px]" />
+    <Object Name="SimSun12px" ClsId="0x0" Version="0" TargetIndex="17" Type="FNT" RefString="Source[local].Font[SimSun12px]" />
+    <Object Name="Button1" ClsId="0x0" Version="0" TargetIndex="16" Type="FNT" RefString="Source[local].Font[Button1]" />
+    <Object Name="SimSun14px" ClsId="0x0" Version="0" TargetIndex="15" Type="FNT" RefString="Source[local].Font[SimSun14px]" />
+    <Object Name="ArialUnicode12Bold" ClsId="0x0" Version="0" TargetIndex="14" Type="FNT" RefString="Source[local].Font[ArialUnicode12Bold]" />
+    <Object Name="ArialUni14pxBold" ClsId="0x0" Version="0" TargetIndex="13" Type="FNT" RefString="Source[local].Font[ArialUni14pxBold]" />
+    <Object Name="DefaultBold" ClsId="0x0" Version="0" TargetIndex="12" Type="FNT" RefString="Source[local].Font[DefaultBold]" />
+    <Object Name="CourierNew11Bold" ClsId="0x0" Version="0" TargetIndex="11" Type="FNT" RefString="Source[local].Font[CourierNew11Bold]" />
+    <Object Name="ArialUnicode14pxBold" ClsId="0x0" Version="0" TargetIndex="10" Type="FNT" RefString="Source[local].Font[ArialUnicode14pxBold]" />
+    <Object Name="DejaVu9PxBold" ClsId="0x0" Version="0" TargetIndex="9" Type="FNT" RefString="Source[local].Font[DejaVu9PxBold]" />
+    <Object Name="ArialUnicode18pxBold" ClsId="0x0" Version="0" TargetIndex="8" Type="FNT" RefString="Source[local].Font[ArialUnicode18pxBold]" />
+    <Object Name="Pads" ClsId="0x0" Version="0" TargetIndex="7" Type="FNT" RefString="Source[local].Font[Pads]" />
+    <Object Name="Info" ClsId="0x0" Version="0" TargetIndex="6" Type="FNT" RefString="Source[local].Font[Info]" />
+    <Object Name="Status" ClsId="0x0" Version="0" TargetIndex="5" Type="FNT" RefString="Source[local].Font[Status]" />
+    <Object Name="Html_SDM" ClsId="0x0" Version="0" TargetIndex="4" Type="FNT" RefString="Source[local].Font[Html_SDM]" />
+    <Object Name="Input" ClsId="0x0" Version="0" TargetIndex="3" Type="FNT" RefString="Source[local].Font[Input]" />
+    <Object Name="SimSun10px" ClsId="0x0" Version="0" TargetIndex="2" Type="FNT" RefString="Source[local].Font[SimSun10px]" />
+    <Object Name="Header" ClsId="0x0" Version="0" TargetIndex="1" Type="FNT" RefString="Source[local].Font[Header]" />
+    <Object Name="Default" ClsId="0x0" Version="0" TargetIndex="0" Type="FNT" RefString="Source[local].Font[Default]" />
+  </Folder>
+</Intermediate>

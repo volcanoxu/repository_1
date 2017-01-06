@@ -1,0 +1,44 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: HmiKeyControl
+ * File: HmiKeyControl.var
+ * Author: B&R, International Applications
+ * Created: March 16, 2009
+ ********************************************************************
+ * Local variables of program HmiKeyControl
+ ********************************************************************)
+VAR CONSTANT
+END_VAR
+(*Variables*)
+VAR
+	Internal : HmiKeyCtrlInternal_Type := (0);
+END_VAR
+(*References*)
+VAR
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	pCnc : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type;
+	pSystem : REFERENCE TO ARRAY[0..MAX_SYS_MINUS_ONE] OF System_Type;
+	pJog : REFERENCE TO Jog_Type;
+	pRecipe : REFERENCE TO RECIPE_typ;
+	pError : REFERENCE TO Error_Type;
+	pCncDat : REFERENCE TO ARNC0CNC_typ;
+END_VAR
+(*Separator*)
+VAR
+	j : USINT := 0;
+	i : USINT;
+	NumberOfActiveSys : USINT;
+	hmiRTInfo : RTInfo;
+	cycT : DINT;
+	CalculateInterval : DINT;
+	VPlus1T : DINT;
+	VPlus10T : DINT;
+	HWInfo_01 : HWInfo;
+	HWInfo_01_String : STRING[20];
+	TrfDataAdd : UDINT := 0;
+	SimPos : ARRAY[0..5] OF REAL;
+	StartState : INT;
+	TempStr : STRING[5] := '';
+	LCRPT1_0 : LCRPT1;
+END_VAR

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<LogicalFont xmlns="http://br-automation.co.at/AS/VC/Project" Name="CourierNew11Bold">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <FontMapping LanguageId="en">
+    <Property Name="Antialiasing" Value="Default"/>
+    <Property Name="Bold" Value="True"/>
+    <Property Name="Family" Value="Courier New"/>
+    <Property Name="Italic" Value="False"/>
+    <Property Name="Size" Value="11"/>
+  </FontMapping>
+  <FontMapping LanguageId="zh">
+    <Property Name="Antialiasing" Value="Default"/>
+    <Property Name="Bold" Value="True"/>
+    <Property Name="Family" Value="Courier New"/>
+    <Property Name="Italic" Value="False"/>
+    <Property Name="Size" Value="11"/>
+  </FontMapping>
+</LogicalFont>

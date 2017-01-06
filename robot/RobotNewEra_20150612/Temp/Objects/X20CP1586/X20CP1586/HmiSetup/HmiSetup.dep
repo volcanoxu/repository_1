@@ -1,0 +1,17 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiSetup/HmiSetup/HmiSetupLocal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/SystemHandling/System.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiSetup/HmiSetup/HmiSetupLocal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiSetup/HmiSetupGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiSetup/HmiSetupGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0mx/arnc0mx.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.typ

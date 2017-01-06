@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.214?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="5LS182.6-1" Type="5LS182.6-1" Version="1.2.6.0">
+    <Connection Connector="SL" TargetModule="PLC1" TargetConnector="SL1" />
+    <Connector Name="IF1">
+      <Parameter ID="EplInterfaceRedundant" Value="0" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="0" />
+    </Connector>
+  </Module>
+  <Module Name="5MP050.0653-02" Type="5MP050.0653-02" Version="1.0.3.1">
+    <Connection Connector="ETH1" TargetModule="PLC1" TargetConnector="IF3" NodeNumber="1" />
+    <Parameter ID="Terminal" Value="true" />
+    <Parameter ID="VncVcObjectName" Value="Visu" />
+    <Parameter ID="VncPortNumber" Value="5902" />
+    <Parameter ID="VncMaxConnections" Value="8" />
+    <Parameter ID="VncRefreshRate" Value="100" />
+  </Module>
+  <Module Name="8AC114.60-2" Type="8AC114.60-2" Version="1.0.0.8" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1045.00-2" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="5LS182.6-1" TargetConnector="IF1" NodeNumber="1" />
+  </Module>
+  <Module Name="8AC120.60-1" Type="8AC120.60-1" Version="1.0.0.2" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1045.00-2" TargetConnector="SS3" />
+  </Module>
+  <Module Name="8AC120.60-1a" Type="8AC120.60-1" Version="1.0.0.2" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1045.00-2" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8LSA25.E9060D200-0" Type="8LSA25.E9060D200-0" Version="1.0.1.34" Disabled="true">
+    <Connection Connector="MT" TargetModule="8V1045.00-2" TargetConnector="MT1" />
+  </Module>
+  <Module Name="8V1045.00-2" Type="8V1045.00-2" Version="1.0.0.2" Disabled="true">
+    <Parameter ID="CNC_r1" Value="on" />
+  </Module>
+  <Module Name="PLC1" Type="PC_any" Version="1.1.0.0" OrderNumber="PC">
+    <Connector Name="IF3">
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="MP50Ke" />
+      <Parameter ID="VncAuthentication1" Value="1" />
+      <Parameter ID="VncPasswordViewOnly1" Value="v" />
+      <Parameter ID="VncPasswordViewControl1" Value="c" />
+      <Parameter ID="VncPortNumber1" Value="5901" />
+      <Parameter ID="VncMaxConnections1" Value="8" />
+      <Parameter ID="VncRefreshRate1" Value="500" />
+    </Connector>
+    <Parameter ID="RemanentGlobalPvSize" Value="81920" />
+    <Parameter ID="VolatileGlobalPvSize" Value="3000000" />
+    <Parameter ID="PreserveNonVolatileSystemSettings" Value="0" />
+    <Parameter ID="SystemTick" Value="2000" />
+    <Parameter ID="TaskClassIdleTime" Value="4000" />
+    <Parameter ID="XLinkUseDefault" Value="0" />
+    <Parameter ID="XLinkDuration" Value="50000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Stack" Value="30000" />
+    <Parameter ID="Cyclic1Output" Value="2" />
+    <Parameter ID="Cyclic2Duration" Value="30000" />
+    <Parameter ID="Cyclic2Tolerance" Value="1200000" />
+    <Parameter ID="Cyclic3Duration" Value="20000" />
+    <Parameter ID="Cyclic3Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic4Duration" Value="1006000" />
+    <Parameter ID="Cyclic4Tolerance" Value="10060000" />
+    <Parameter ID="Cyclic5Duration" Value="2006000" />
+    <Parameter ID="Cyclic5Tolerance" Value="10030000" />
+    <Parameter ID="Cyclic6Duration" Value="3000000" />
+    <Parameter ID="Cyclic6Tolerance" Value="12000000" />
+    <Parameter ID="Cyclic7Duration" Value="4006000" />
+    <Parameter ID="Cyclic7Tolerance" Value="12018000" />
+    <Parameter ID="Cyclic8Duration" Value="30000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="Cyclic8Stack" Value="28196" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="CNC_PrgDir" />
+    <Parameter ID="FileDevicePath1" Value="C:\Data\Programs" />
+  </Module>
+</Hardware>

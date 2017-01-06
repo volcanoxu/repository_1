@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=78</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\AS\workspace\projects\RobotNewEra_20150612\RobotNewEra.apj</ApjFullFileName>
+    <ProjectName>RobotNewEra</ProjectName>
+    <ActiveConfigurationName>Simulation</ActiveConfigurationName>
+    <LicenseDataFolder>D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

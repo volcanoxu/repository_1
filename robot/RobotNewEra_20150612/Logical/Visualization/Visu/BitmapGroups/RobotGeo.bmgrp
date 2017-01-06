@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="RobotGeo">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="1072" Value="Source[local].Bitmap[RobotGeo0]"/>
+    <BitmapRef ID="1073" Value="Source[local].Bitmap[RobotGeo1]"/>
+    <BitmapRef ID="1074" Value="Source[local].Bitmap[RobotGeo2]"/>
+    <BitmapRef ID="1075" Value="Source[local].Bitmap[RobotGeo3]"/>
+    <BitmapRef ID="1076" Value="Source[local].Bitmap[RobotGeo4]"/>
+    <BitmapRef ID="1077" Value="Source[local].Bitmap[RobotGeo5]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="1072" Value="0"/>
+    <Index ID="1073" Value="1"/>
+    <Index ID="1074" Value="2"/>
+    <Index ID="1075" Value="3"/>
+    <Index ID="1076" Value="4"/>
+    <Index ID="1077" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

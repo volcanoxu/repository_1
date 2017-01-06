@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: Hmi.vvm
+ * Author: renj
+ * Created: July 28, 2014
+ ********************************************************************
+ * PV mapping file
+ ********************************************************************)
+VAR_CONFIG
+	::System:System[0].Output.Monitor.SystemAddress AT %Q.::HmiGlobal.Address.SystemAddress; (*Insert your comment here...*)
+	::Cnc:Cnc[0].Output.Monitor.CncAddress AT %Q.::HmiGlobal.Address.CncAddress; (*Insert your comment here...*)
+	::Axes:Axes[0].Output.Monitor.AxesAddress AT %Q.::HmiGlobal.Address.AxesAddress; (*Insert your comment here...*)
+	::Jog:Jogging.JogAddress AT %Q.::HmiGlobal.Address.JogAddress; (*Insert your comment here...*)
+	::RecipeCont:Recipe.Monitor.RecipeAddress AT %Q.::HmiGlobal.Address.RecipeAddress; (*Insert your comment here...*)
+	::Error:Error.Output.Monitor.ErrorHandlingAddress AT %Q.::HmiGlobal.Address.ErrorAddress; (*Insert your comment here...*)
+END_VAR

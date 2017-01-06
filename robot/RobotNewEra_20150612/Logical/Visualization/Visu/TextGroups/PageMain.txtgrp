@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageMain">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="ProgramName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiProgram.Name]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="204209" Value="Current program"/>
+    <Text ID="204210" Value="&lt;NONE&gt;"/>
+    <Text ID="204213" Value="{ProgramName}"/>
+    <Text ID="212207" Value="Set Ptr"/>
+    <Text ID="212886" Value="Main"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="204209" Value="当前程序"/>
+    <Text ID="204210" Value="&lt;无&gt; "/>
+    <Text ID="204213" Value="{ProgramName}"/>
+    <Text ID="212207" Value="设置指针"/>
+    <Text ID="212886" Value="主程序"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="204209" Value="0"/>
+    <Index ID="204210" Value="1"/>
+    <Index ID="204213" Value="2"/>
+    <Index ID="212207" Value="4"/>
+    <Index ID="212886" Value="3"/>
+  </IndexMap>
+</TextGroup>

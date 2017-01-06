@@ -1,0 +1,26 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: Global.var
+ * Author: frigenif
+ * Created: December 05, 2012
+ ********************************************************************
+ * Global variables of project Estun
+ ********************************************************************)
+VAR
+	gAxisQ1 : ACP10AXIS_typ := (0);
+	gAxisQ2 : ACP10AXIS_typ := (0);
+	gAxisQ3 : ACP10AXIS_typ := (0);
+	gAxisQ4 : ACP10AXIS_typ := (0);
+	gAxisQ5 : ACP10AXIS_typ := (0);
+	gAxisQ6 : ACP10AXIS_typ := (0);
+	gAxisX : ACP10AXIS_typ := (0);
+	gAxisY : ACP10AXIS_typ := (0);
+	gAxisZ : ACP10AXIS_typ := (0);
+	gAxisA : ACP10AXIS_typ := (0);
+	gAxisB : ACP10AXIS_typ := (0);
+	gAxisC : ACP10AXIS_typ := (0);
+	gPowerSupply : ACP10AXIS_typ := (0);
+	gAxisFrameX : ACP10AXIS_typ := (0);
+	gRobot : ARNC0CNC_typ := (0);
+END_VAR

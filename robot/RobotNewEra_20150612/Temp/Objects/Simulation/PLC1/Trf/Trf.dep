@@ -1,0 +1,13 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/TRF_LIB/TRF_LIB.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Transformations/Trf/TrfPrv.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/TRF_LIB/TRF_LIB.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalDefines.var
+$(AS_PROJECT_PATH)/Logical/Libraries/TRF_LIB/TRF_LIB.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0mx/arnc0mx.typ

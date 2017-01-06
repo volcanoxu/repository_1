@@ -1,0 +1,14 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/ErrorHandling/Error/ErrorPrv.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/SystemHandling/System.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Physical/APC820/5PC900_TS77_00/Cpu.per
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0mx/arnc0mx.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.typ
+$(AS_PROJECT_PATH)/Logical/ErrorHandling/Error.typ

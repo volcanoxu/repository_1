@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: 6axATrqFF
+ * File: 6axATrqFF.var
+ * Author: frigenif
+ * Created: May 17, 2011
+ ********************************************************************
+ * Local variables of program 6axATrqFF
+ ********************************************************************)
+VAR
+	AllAxHomingOk : BOOL;
+	AllAxControllerOn : BOOL;
+	TrqFF6axA : TrqFF6axA_Type;
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	i : USINT;
+	OptMotInMotion : BOOL;
+	CncProgWasActive : BOOL;
+	AxesAddress : UDINT := 0;
+END_VAR

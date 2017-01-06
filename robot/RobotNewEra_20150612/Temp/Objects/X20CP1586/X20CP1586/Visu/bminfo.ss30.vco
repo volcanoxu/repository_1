@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="ss30" ClsId="0x306" Version="1" TargetIndex="43" Type="GFX" RefString="Source[local].Bitmap[ss30]">
+        <UInt16 Name="Width">30</UInt16>
+        <UInt16 Name="Height">30</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM6SURBVEhLtZbLaxNRFIcnan2M1qIiqKggBqOxeT8I2USwrrroQuKmoMUHgv9BQVAQtYqoCMEu6qOIK8EuRAShtgvxAc3GpX9CN61UfNv6nZs7cWYyMzRNcuDHuXPm3PvNvXPvmTEymcwCWmpG6XT6D75SKpXWG8uwaDS6NZVKPaXfUjKZzKkgAzQNtukJ6lEDBVgkEukG+FDAKK2CdFRgrj+hEdrX8Nf9xP2bkm+J2HgsFtuiBvMxZrwJ8ANyG8HoMUu3RgUNI+QnGcSCWmKsae4FWYicewIm/6CK0KiDy+XyahUMsGKx2K3z3ZrJ5/ObdVrd4vH4RoCX0DsBo9vM/lg7wTLoB1kRnaqMuMnGequhSolE4nBbwSIGnsLv1elissz9NvAzHm5t28Fak9lsdo/uIowugOPoJ7OPW8FOgGVmVd7ldvx+geHPoRtyjvHpVsBzaN6lOcb8hldwgLuQHNNF/C/8D/Hod9NgLCTnlvwet6SS4c8jC3wIWIFZDuDH0Gc0iPpXAg40xjmjx5PymJBYOBxeR1tVLitmcNFWMOOddYOlZDL7RwJGjZXLDmZX9qLTxE+6Rd8TaKdOdRjxBjBtk/h9JGc4qRIJeoJJGtZxL83yUH061WFeYCnFzLgiYCrZAZVIgidYDrlUISl5XvJ7LW6wbERiXwWKFsUz6yFf8DJNPhwOc4MJSeW6oMGy06vcM4PecR+xCrrjJwaS9zZk+6p5LnUul9sGUNVr/HFCoaB3PEjsPX7KR2/QR3Iuoy7dzQEGWNtIGA8xAPSqvvR/xzKLQqGwIUj0MVXBt5kdzGdyH9cjAF+g12gSPUcvA8HETC+gVChSVtUyneYC7+b6FaB5re9cz+K/rGSpp9EEyuhUhxGvgwHE8SZLvoN2vYCoHwZuNL256HuFwWrn0WV2sLW55PhZYMZNqUQSPMHaGv65kJjlG8wLLCWTuP/Pnge4afMC68p1V8DMuFcldhos1Q/oLVQVMLFRKtf/zyLBMd23JWOcU3awnACgsilV5RLxzlP2Gc+gi62IQYfRBG3HUtM+QvyvBo+qlSVogdsu+zsGKD/0C+rXVj9Nx8FiLHcWHaXJiTCMf93V28MP68QLAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

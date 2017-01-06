@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Axes
+ * File: Axes.var
+ * Author: radaka
+ * Created: February 09, 2009
+ ********************************************************************
+ * Local variables of program Axes
+ ********************************************************************)
+VAR
+	i : USINT;
+	j : USINT;
+	k : USINT;
+	Config : Config_Type := (0);
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	pCnc : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type;
+	pSystem : REFERENCE TO ARRAY[0..MAX_SYS_MINUS_ONE] OF System_Type;
+END_VAR

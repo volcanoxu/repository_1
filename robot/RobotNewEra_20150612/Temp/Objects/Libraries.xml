@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<LibraryInfos>
+  <Library
+    Name="Acp10_MC"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Acp10man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Acp10par"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Acp10sdc"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Acp10sim"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Arnc0ext"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.47.4" />
+  <Library
+    Name="Arnc0man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Arnc0mx"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="AsArLog"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsArProf"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsICMP"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIecCon"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIO"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIODiag"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIOMMan"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsMem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="asrfbext"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsSem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsUSB"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="brsystem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="DataObj"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="FileIO"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="LoopConR"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.80.9" />
+  <Library
+    Name="ModDiag"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.02.0" />
+  <Library
+    Name="MyLib"
+    IsDeployed="true"
+    IsStatic="true"
+    UseAsStatic="true"
+    Version="" />
+  <Library
+    Name="NcGlobal"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.48.1" />
+  <Library
+    Name="Operator"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="TRF_LIB"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.02.0" />
+  <Library
+    Name="visapi"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

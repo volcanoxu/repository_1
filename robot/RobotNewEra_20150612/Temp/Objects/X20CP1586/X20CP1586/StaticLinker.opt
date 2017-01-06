@@ -1,0 +1,2 @@
+ModDiag	"$(AS_CPU_PATH)/ModDiag/iolist.c.o" "$(AS_CPU_PATH)/ModDiag/iostatus.c.o" "$(AS_CPU_PATH)/ModDiag/modulediagnose.c.o"  -o "$(AS_STATIC_ARCHIVES_PATH)/libModDiag_s.a"  -G V4.1.2  -T SG4  -M IA32 
+MyLib	 -o "$(AS_STATIC_ARCHIVES_PATH)/libMyLib_s.a"  -G V4.1.2  -T SG4  -M IA32 

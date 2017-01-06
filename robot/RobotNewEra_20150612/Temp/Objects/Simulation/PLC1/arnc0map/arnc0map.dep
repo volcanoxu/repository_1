@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)//physical/simulation/plc1/motion/arnc0map.ncm
+$(AS_PROJECT_PATH)//physical/simulation/hardware.hw

@@ -1,0 +1,527 @@
+(********************************************************************
+ * COPYRIGHT (C) BERNECKER + RAINER, AUSTRIA, A-5142 EGGELSBERG
+ ********************************************************************
+ * Library: TRF_LIB
+ * File: TRF_LIB.var
+ * Created: 04.08.2008
+ ********************************************************************
+ * Constants of library TRF_LIB
+ ********************************************************************)
+VAR CONSTANT
+    TRF_LIB_VERSION_NUMBER           : UDINT := 2020;
+
+    TRF_INFO_LENGTH                  : UDINT := 9;          (*length of info array for transformations*)
+
+    TRF_DEGREES                      : UDINT := 1;          (*units.measure: degrees*)
+    TRF_RADIANS                      : UDINT := 2;          (*units.measure: radians*)
+    TRF_GRADIANS                     : UDINT := 4;          (*units.measure: gradians*)
+
+    TRF_MILLIMETERS                  : UDINT := 16;         (*units.measure: millimeters*)
+    TRF_METERS                       : UDINT := 32;         (*units.measure: meters*)
+    TRF_INCHES                       : UDINT := 64;         (*units.measure: inches*)
+
+    TRF_CARDAN_XYZ_ANGLES            : UDINT := 1;          (*angles_type: Cardan XYZ angles*)
+    TRF_EULER_XYZ_ANGLES             : UDINT := 1;          (*angles_type: Cardan XYZ angles*)
+    TRF_CARDAN_XZY_ANGLES            : UDINT := 2;          (*angles_type: Cardan XZY angles*)
+    TRF_EULER_XZY_ANGLES             : UDINT := 2;          (*angles_type: Cardan XZY angles*)
+    TRF_CARDAN_YXZ_ANGLES            : UDINT := 4;          (*angles_type: Cardan YXZ angles*)
+    TRF_EULER_YXZ_ANGLES             : UDINT := 4;          (*angles_type: Cardan YXZ angles*)
+    TRF_CARDAN_YZX_ANGLES            : UDINT := 8;          (*angles_type: Cardan YZX angles*)
+    TRF_EULER_YZX_ANGLES             : UDINT := 8;          (*angles_type: Cardan YZX angles*)
+    TRF_CARDAN_ZXY_ANGLES            : UDINT := 16;         (*angles_type: Cardan ZXY angles*)
+    TRF_EULER_ZXY_ANGLES             : UDINT := 16;         (*angles_type: Cardan ZXY angles*)
+    TRF_CARDAN_ZYX_ANGLES            : UDINT := 32;         (*angles_type: Cardan ZYX angles*)
+    TRF_EULER_ZYX_ANGLES             : UDINT := 32;         (*angles_type: Cardan ZYX angles*)
+    TRF_EULER_XYX_ANGLES             : UDINT := 64;         (*angles_type: Euler XYX angles*)
+    TRF_EULER_XZX_ANGLES             : UDINT := 128;        (*angles_type: Euler XZX angles*)
+    TRF_EULER_YXY_ANGLES             : UDINT := 256;        (*angles_type: Euler YXY angles*)
+    TRF_EULER_YZY_ANGLES             : UDINT := 512;        (*angles_type: Euler YZY angles*)
+    TRF_EULER_ZXZ_ANGLES             : UDINT := 1024;       (*angles_type: Euler ZXZ angles*)
+    TRF_EULER_ZYZ_ANGLES             : UDINT := 2048;       (*angles_type: Euler ZYZ angles*)
+    TRF_POSITIVE_ANGLES              : UDINT := 4096;       (*angles_type: mathematically positive angles*)
+    TRF_NEGATIVE_ANGLES              : UDINT := 8192;       (*angles_type: mathematically negative angles*)
+    TRF_DIRECT_ANGLES                : UDINT := 16384;      (*angles_type: direct "R" rotation matrix*)
+    TRF_INDIRECT_ANGLES              : UDINT := 32768;      (*angles_type: indirect "R^T" rotation matrix*)
+    TRF_INTRINSIC_ANGLES             : UDINT := 65536;      (*angles_type: intrinsic interpretation of angles*)
+    TRF_EXTRINSIC_ANGLES             : UDINT := 131072;     (*angles_type: extrinsic interpretation of angles*)
+
+    TRF_EULER_ANGLES                 : UDINT := 1024;       (*Euler ZXZ is commonly in view*)
+    TRF_CARDAN_ANGLES                : UDINT := 1;          (*Cardan XYZ is commonly in view*)
+    TRF_NAUTICAL_ANGLES              : UDINT := 1;          (*Cardan XYZ is commonly in view*)
+    TRF_TAIT_BRYAN_ANGLES            : UDINT := 1;          (*Cardan XYZ is commonly in view*)
+
+    TRF_DIRECTION_DEFAULT            : UDINT := 0;          (*direction_type 0+0: default direction - depends on mechanical system*)
+    TRF_DIRECTION_X_PLUS             : UDINT := 1;          (*direction_type 1+0: positive direction on X axis*)
+    TRF_DIRECTION_X_MINUS            : UDINT := 9;          (*direction_type 1+8: negative direction on X axis*)
+    TRF_DIRECTION_Y_PLUS             : UDINT := 2;          (*direction_type 2+0: positive direction on Y axis*)
+    TRF_DIRECTION_Y_MINUS            : UDINT := 10;         (*direction_type 2+8: negative direction on Y axis*)
+    TRF_DIRECTION_Z_PLUS             : UDINT := 4;          (*direction_type 4+0: positive direction on Z axis*)
+    TRF_DIRECTION_Z_MINUS            : UDINT := 12;         (*direction_type 4+8: negative direction on Z axis*)
+
+    TRF_SUCCESS                      : UDINT := 0;          (*return status: OK*)
+    TRF_ERROR                        : UDINT := 1;          (*return status: error in computations*)
+    TRF_WARNING                      : UDINT := 2;          (*return status: warning in computations*)
+    TRF_INFO                         : UDINT := 3;          (*return status: information*)
+
+    TRF_MATH_POSITIVE                : UDINT := 1;          (*property 0x00000001: mathematically positive sense*)
+    TRF_MATH_NEGATIVE                : UDINT := 2;          (*property 0x00000002: mathematically negative sense*)
+    TRF_SW_ENDS_ENABLE               : UDINT := 4;          (*property 0x00000004: enable SW end limits*)
+    TRF_SW_ENDS_DISABLE              : UDINT := 8;          (*property 0x00000008: disable SW end limits*)
+    TRF_MULT_FACTOR_ENABLE           : UDINT := 16;         (*property 0x00000010: enable mult_factor*)
+    TRF_MULT_FACTOR_DISABLE          : UDINT := 32;         (*property 0x00000020: disable mult_factor*)
+
+    TRF_MODE_FRONT                   : UDINT := 1;          (*mode 0x00000001: front*)
+    TRF_MODE_BACK                    : UDINT := 2;          (*mode 0x00000002: back*)
+    TRF_MODE_CONVEX                  : UDINT := 4;          (*mode 0x00000004: convex*)
+    TRF_MODE_CONCAVE                 : UDINT := 8;          (*mode 0x00000008: concave*)
+    TRF_MODE_POSITIVE                : UDINT := 16;         (*mode 0x00000010: positive*)
+    TRF_MODE_NEGATIVE                : UDINT := 32;         (*mode 0x00000020: negative*)
+    TRF_MODE_LEFT                    : UDINT := 64;         (*mode 0x00000040: left*)
+    TRF_MODE_RIGHT                   : UDINT := 128;        (*mode 0x00000080: right*)
+    TRF_MODE_DIRECT                  : UDINT := 256;        (*mode 0x00000100: direct*)
+    TRF_MODE_INDIRECT                : UDINT := 512;        (*mode 0x00000200: indirect*)
+    TRF_MODE_CONVEX2                 : UDINT := 1024;       (*mode 0x00000400: convex2*)
+    TRF_MODE_CONCAVE2                : UDINT := 2048;       (*mode 0x00000800: concave2*)
+    TRF_MODE_CONVEX3                 : UDINT := 4096;       (*mode 0x00001000: convex3*)
+    TRF_MODE_CONCAVE3                : UDINT := 8192;       (*mode 0x00002000: concave3*)
+    TRF_MODE_HETEROGENEOUS           : UDINT := 16384;      (*mode 0x00004000: heterogeneous*)
+    TRF_MODE_HOMOGENEOUS             : UDINT := 32768;      (*mode 0x00008000: homogeneous*)
+    TRF_MODE_LEFT2                   : UDINT := 65536;      (*mode 0x00010000: left2*)
+    TRF_MODE_RIGHT2                  : UDINT := 131072;     (*mode 0x00020000: right2*)
+    TRF_MODE_UP                      : UDINT := 262144;     (*mode 0x00040000: up*)
+    TRF_MODE_DOWN                    : UDINT := 524288;     (*mode 0x00080000: down*)
+    TRF_MODE_NEG_DIR                 : UDINT := 268435456;  (*mode 0x10000000: negative direction forced*)
+    TRF_MODE_POS_DIR                 : UDINT := 536870912;  (*mode 0x20000000: positive direction forced*)
+    TRF_MODE_IN_SW_ENDS              : UDINT := 1073741824; (*mode 0x40000000: in SW end limits*)
+
+    TRF_CDC_OUTER                    : UDINT := 1;          (*CDC settings 0x00000001: outer CDC*)
+    TRF_CDC_INNER                    : UDINT := 2;          (*CDC settings 0x00000002: inner CDC*)
+    TRF_CDC_STILL_PERP               : UDINT := 4;          (*CDC settings 0x00000004: still perpendicular tool*)
+
+    TRF_updateUnits                  : UDINT := 1;          (*update code for TRF_generic (cmd_code = 1000) 0x00000001: update epsilon*)
+    TRF_updateLocalFrame             : UDINT := 2;          (*update code for TRF_generic (cmd_code = 1000) 0x00000002: update local_frame*)
+    TRF_updateTool                   : UDINT := 4;          (*update code for TRF_generic (cmd_code = 1000) 0x00000004: updatetool*)
+    TRF_updateMode                   : UDINT := 8;          (*update code for TRF_generic (cmd_code = 1000) 0x00000008: update mode*)
+    TRF_updateCDC                    : UDINT := 16;         (*update code for TRF_generic (cmd_code = 1000) 0x00000010: update cdc*)
+    TRF_updateMech                   : UDINT := 64;         (*update code for TRF_generic (cmd_code = 1000) 0x00000040: update mech and coordinate properties*)
+    TRF_updateExt                    : UDINT := 128;        (*update code for TRF_generic (cmd_code = 1000) 0x00000080: update TRF_EXT_typ*)
+    TRF_updateAll                    : UDINT := 255;        (*update code for TRF_generic (cmd_code = 1000)           : update all*)
+
+    TRF_call                         : UDINT := 1;          (*TRF_generic (cmd_code = 1000): command call*)
+    TRF_update                       : UDINT := 2;          (*TRF_generic (cmd_code = 1000): command update*)
+    TRF_clone                        : UDINT := 3;          (*TRF_generic (cmd_code = 1000): command clone*)
+    TRF_delete                       : UDINT := 4;          (*TRF_generic (cmd_code = 1000): command delete*)
+
+    TRF_idealJoint                   : UDINT := 1;          (*ideal/coupled meaning (mode.useIdealCoord) 0x00000001: ideal joint coordinates for transformation*)
+    TRF_idealRefJoint                : UDINT := 2;          (*ideal/coupled meaning (mode.useIdealCoord) 0x00000002: ideal refJoint coordinates for transformation*)
+    TRF_idealPath                    : UDINT := 4;          (*ideal/coupled meaning (mode.useIdealCoord) 0x00000004: ideal path coordinates for transformation*)
+    TRF_idealRefPath                 : UDINT := 8;          (*ideal/coupled meaning (mode.useIdealCoord) 0x00000008: ideal refPath coordinates for transformation*)
+    TRF_idealAdd                     : UDINT := 16;         (*ideal/coupled meaning (mode.useIdealCoord) 0x00000010: ideal add coordinates for transformation*)
+    TRF_idealCtrl                    : UDINT := 32;         (*ideal/coupled meaning (mode.useIdealCoord) 0x00000020: ideal control coordinates for transformation*)
+
+    TRFo_direct                      : UDINT := 20;         (*methodID for TRF_generic (cmd_code = 1000): direct*)
+    TRFo_inverse                     : UDINT := 21;         (*methodID for TRF_generic (cmd_code = 1000): inverse*)
+
+    TRFo_getJointsPos                : UDINT := 22;         (*methodID for TRF_generic (cmd_code = 1000): getJointsPos*)
+    TRFo_getSize                     : UDINT := 23;         (*methodID for TRF_generic (cmd_code = 1000): getSize*)
+    TRFo_getMode                     : UDINT := 24;         (*methodID for TRF_generic (cmd_code = 1000): getMode*)
+    TRFo_getJacobian                 : UDINT := 25;         (*methodID for TRF_generic (cmd_code = 1000): getJacobian*)
+    TRFo_getGeneralJacobian          : UDINT := 26;         (*methodID for TRF_generic (cmd_code = 1000): getGeneralJacobian*)
+
+    TRFo_getJointPosX                : UDINT := 30;         (*methodID for TRF_generic (cmd_code = 1000): getJointPosX*)
+    TRFo_getJointPosY                : UDINT := 31;         (*methodID for TRF_generic (cmd_code = 1000): getJointPosY*)
+    TRFo_getJointPosZ                : UDINT := 32;         (*methodID for TRF_generic (cmd_code = 1000): getJointPosZ*)
+
+    TRFo_getSizeX                    : UDINT := 35;         (*methodID for TRF_generic (cmd_code = 1000): getSizeX*)
+    TRFo_getSizeY                    : UDINT := 36;         (*methodID for TRF_generic (cmd_code = 1000): getSizeY*)
+    TRFo_getSizeZ                    : UDINT := 37;         (*methodID for TRF_generic (cmd_code = 1000): getSizeZ*)
+
+    TRFo_getJacobianCoeff            : UDINT := 40;         (*methodID for TRF_generic (cmd_code = 1000): getJacobianCoeff*)
+    TRFo_getGeneralJacobianCoeff     : UDINT := 41;         (*methodID for TRF_generic (cmd_code = 1000): getGeneralJacobianCoeff*)
+
+    TRFo_getJointCount               : UDINT := 100;        (*methodID for TRF_generic (cmd_code = 1000): getJointCount*)
+    TRFo_getPathCount                : UDINT := 101;        (*methodID for TRF_generic (cmd_code = 1000): getPathCount*)
+    TRFo_getAddCount                 : UDINT := 102;        (*methodID for TRF_generic (cmd_code = 1000): getAddCount*)
+    TRFo_getCtrlCount                : UDINT := 103;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlCount*)
+
+    TRFo_getJointType                : UDINT := 110;        (*methodID for TRF_generic (cmd_code = 1000): getJointType*)
+    TRFo_getPathType                 : UDINT := 111;        (*methodID for TRF_generic (cmd_code = 1000): getPathType*)
+    TRFo_getAddType                  : UDINT := 112;        (*methodID for TRF_generic (cmd_code = 1000): getAddType*)
+    TRFo_getCtrlType                 : UDINT := 113;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlType*)
+
+    TRFo_getJointName                : UDINT := 120;        (*methodID for TRF_generic (cmd_code = 1000): getJointName*)
+    TRFo_getPathName                 : UDINT := 121;        (*methodID for TRF_generic (cmd_code = 1000): getPathName*)
+    TRFo_getAddName                  : UDINT := 122;        (*methodID for TRF_generic (cmd_code = 1000): getAddName*)
+    TRFo_getCtrlName                 : UDINT := 123;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlName*)
+
+    TRFo_setJointCoord               : UDINT := 160;        (*methodID for TRF_generic (cmd_code = 1000): setJointCoord*)
+    TRFo_setPathCoord                : UDINT := 161;        (*methodID for TRF_generic (cmd_code = 1000): setPathCoord*)
+    TRFo_setAddCoord                 : UDINT := 162;        (*methodID for TRF_generic (cmd_code = 1000): setAddCoord*)
+    TRFo_setCtrlCoord                : UDINT := 163;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlCoord*)
+
+    TRFo_setCplJointCoord            : UDINT := 170;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointCoord*)
+    TRFo_setCplPathCoord             : UDINT := 171;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathCoord*)
+    TRFo_setCplAddCoord              : UDINT := 172;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddCoord*)
+    TRFo_setCplCtrlCoord             : UDINT := 173;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlCoord*)
+
+    TRFo_getJointCoord               : UDINT := 180;        (*methodID for TRF_generic (cmd_code = 1000): getJointCoord*)
+    TRFo_getPathCoord                : UDINT := 181;        (*methodID for TRF_generic (cmd_code = 1000): getPathCoord*)
+    TRFo_getAddCoord                 : UDINT := 182;        (*methodID for TRF_generic (cmd_code = 1000): getAddCoord*)
+    TRFo_getCtrlCoord                : UDINT := 183;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlCoord*)
+
+    TRFo_getCplJointCoord            : UDINT := 190;        (*methodID for TRF_generic (cmd_code = 1000): getCplJointCoord*)
+    TRFo_getCplPathCoord             : UDINT := 191;        (*methodID for TRF_generic (cmd_code = 1000): getCplPathCoord*)
+    TRFo_getCplAddCoord              : UDINT := 192;        (*methodID for TRF_generic (cmd_code = 1000): getCplAddCoord*)
+    TRFo_getCplCtrlCoord             : UDINT := 193;        (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlCoord*)
+
+    TRFo_setJointRefCoord            : UDINT := 200;        (*methodID for TRF_generic (cmd_code = 1000): setJointRefCoord*)
+    TRFo_setPathRefCoord             : UDINT := 201;        (*methodID for TRF_generic (cmd_code = 1000): setPathRefCoord*)
+
+    TRFo_setCplJointRefCoord         : UDINT := 210;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointRefCoord*)
+    TRFo_setCplPathRefCoord          : UDINT := 211;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathRefCoord*)
+
+    TRFo_getJointRefCoord            : UDINT := 220;        (*methodID for TRF_generic (cmd_code = 1000): getJointRefCoord*)
+    TRFo_getPathRefCoord             : UDINT := 221;        (*methodID for TRF_generic (cmd_code = 1000): getPathRefCoord*)
+
+    TRFo_getCplJointRefCoord         : UDINT := 230;        (*methodID for TRF_generic (cmd_code = 1000): getCplJointRefCoord*)
+    TRFo_getCplPathRefCoord          : UDINT := 231;        (*methodID for TRF_generic (cmd_code = 1000): getCplPathRefCoord*)
+
+    TRFo_setJointIdealToCplCoeff     : UDINT := 240;        (*methodID for TRF_generic (cmd_code = 1000): setJointIdealToCplCoeff*)
+    TRFo_setPathIdealToCplCoeff      : UDINT := 241;        (*methodID for TRF_generic (cmd_code = 1000): setPathIdealToCplCoeff*)
+    TRFo_setAddIdealToCplCoeff       : UDINT := 242;        (*methodID for TRF_generic (cmd_code = 1000): setAddIdealToCplCoeff*)
+    TRFo_setCtrlIdealToCplCoeff      : UDINT := 243;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlIdealToCplCoeff*)
+
+    TRFo_setJointCplToIdealCoeff     : UDINT := 250;        (*methodID for TRF_generic (cmd_code = 1000): setJointCplToIdealCoeff*)
+    TRFo_setPathCplToIdealCoeff      : UDINT := 251;        (*methodID for TRF_generic (cmd_code = 1000): setPathCplToIdealCoeff*)
+    TRFo_setAddCplToIdealCoeff       : UDINT := 252;        (*methodID for TRF_generic (cmd_code = 1000): setAddCplToIdealCoeff*)
+    TRFo_setCtrlCplToIdealCoeff      : UDINT := 253;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlCplToIdealCoeff*)
+
+    TRFo_getJointIdealToCplCoeff     : UDINT := 260;        (*methodID for TRF_generic (cmd_code = 1000): getJointIdealToCplCoeff*)
+    TRFo_getPathIdealToCplCoeff      : UDINT := 261;        (*methodID for TRF_generic (cmd_code = 1000): getPathIdealToCplCoeff*)
+    TRFo_getAddIdealToCplCoeff       : UDINT := 262;        (*methodID for TRF_generic (cmd_code = 1000): getAddIdealToCplCoeff*)
+    TRFo_getCtrlIdealToCplCoeff      : UDINT := 263;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlIdealToCplCoeff*)
+
+    TRFo_getJointCplToIdealCoeff     : UDINT := 270;        (*methodID for TRF_generic (cmd_code = 1000): getJointCplToIdealCoeff*)
+    TRFo_getPathCplToIdealCoeff      : UDINT := 271;        (*methodID for TRF_generic (cmd_code = 1000): getPathCplToIdealCoeff*)
+    TRFo_getAddCplToIdealCoeff       : UDINT := 272;        (*methodID for TRF_generic (cmd_code = 1000): getAddCplToIdealCoeff*)
+    TRFo_getCtrlCplToIdealCoeff      : UDINT := 273;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlCplToIdealCoeff*)
+
+    TRFo_disJointCoupling            : UDINT := 280;        (*methodID for TRF_generic (cmd_code = 1000): disJointCoupling*)
+    TRFo_disPathCoupling             : UDINT := 281;        (*methodID for TRF_generic (cmd_code = 1000): disPathCoupling*)
+    TRFo_disAddCoupling              : UDINT := 282;        (*methodID for TRF_generic (cmd_code = 1000): disAddCoupling*)
+    TRFo_disCtrlCoupling             : UDINT := 283;        (*methodID for TRF_generic (cmd_code = 1000): disCtrlCoupling*)
+
+    TRFo_getJointPositionCount       : UDINT := 310;        (*methodID for TRF_generic (cmd_code = 1000): getJointPositionCount*)
+    TRFo_getRobotID                  : UDINT := 320;        (*methodID for TRF_generic (cmd_code = 1000): getRobotID*)
+
+    TRFo_checkLicense                : UDINT := 331;        (*methodID for TRF_generic (cmd_code = 1000): checkLicense*)
+    TRFo_isLicensed                  : UDINT := 332;        (*methodID for TRF_generic (cmd_code = 1000): isLicensed*)
+
+    TRFo_setEpsilon                  : UDINT := 340;        (*methodID for TRF_generic (cmd_code = 1000): setEpsilon*)
+    TRFo_getEpsilon                  : UDINT := 341;        (*methodID for TRF_generic (cmd_code = 1000): getEpsilon*)
+
+    TRFo_setBaseFrame                : UDINT := 351;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrame*)
+    TRFo_setBaseFrameDx              : UDINT := 352;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrameDx*)
+    TRFo_setBaseFrameDy              : UDINT := 353;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrameDy*)
+    TRFo_setBaseFrameDz              : UDINT := 354;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrameDz*)
+    TRFo_setBaseFramePhi             : UDINT := 355;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFramePhi*)
+    TRFo_setBaseFrameTheta           : UDINT := 356;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrameTheta*)
+    TRFo_setBaseFramePsi             : UDINT := 357;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFramePsi*)
+    TRFo_setBaseFrameAnglesType      : UDINT := 358;        (*methodID for TRF_generic (cmd_code = 1000): setBaseFrameAnglesType*)
+    TRFo_disBaseFrame                : UDINT := 359;        (*methodID for TRF_generic (cmd_code = 1000): disBaseFrame*)
+
+    TRFo_getBaseFrameDx              : UDINT := 372;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFrameDx*)
+    TRFo_getBaseFrameDy              : UDINT := 373;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFrameDy*)
+    TRFo_getBaseFrameDz              : UDINT := 374;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFrameDz*)
+    TRFo_getBaseFramePhi             : UDINT := 375;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFramePhi*)
+    TRFo_getBaseFrameTheta           : UDINT := 376;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFrameTheta*)
+    TRFo_getBaseFramePsi             : UDINT := 377;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFramePsi*)
+    TRFo_getBaseFrameAnglesType      : UDINT := 378;        (*methodID for TRF_generic (cmd_code = 1000): getBaseFrameAnglesType*)
+
+    TRFo_setTool                     : UDINT := 391;        (*methodID for TRF_generic (cmd_code = 1000): setTool*)
+    TRFo_setToolDx                   : UDINT := 392;        (*methodID for TRF_generic (cmd_code = 1000): setToolDx*)
+    TRFo_setToolDy                   : UDINT := 393;        (*methodID for TRF_generic (cmd_code = 1000): setToolDy*)
+    TRFo_setToolDz                   : UDINT := 394;        (*methodID for TRF_generic (cmd_code = 1000): setToolDz*)
+    TRFo_setToolPhi                  : UDINT := 395;        (*methodID for TRF_generic (cmd_code = 1000): setToolPhi*)
+    TRFo_setToolTheta                : UDINT := 396;        (*methodID for TRF_generic (cmd_code = 1000): setToolTheta*)
+    TRFo_setToolPsi                  : UDINT := 397;        (*methodID for TRF_generic (cmd_code = 1000): setToolPsi*)
+    TRFo_setToolAnglesType           : UDINT := 398;        (*methodID for TRF_generic (cmd_code = 1000): setToolAnglesType*)
+    TRFo_disTool                     : UDINT := 399;        (*methodID for TRF_generic (cmd_code = 1000): disTool*)
+
+    TRFo_getToolDx                   : UDINT := 412;        (*methodID for TRF_generic (cmd_code = 1000): getToolDx*)
+    TRFo_getToolDy                   : UDINT := 413;        (*methodID for TRF_generic (cmd_code = 1000): getToolDy*)
+    TRFo_getToolDz                   : UDINT := 414;        (*methodID for TRF_generic (cmd_code = 1000): getToolDz*)
+    TRFo_getToolPhi                  : UDINT := 415;        (*methodID for TRF_generic (cmd_code = 1000): getToolPhi*)
+    TRFo_getToolTheta                : UDINT := 416;        (*methodID for TRF_generic (cmd_code = 1000): getToolTheta*)
+    TRFo_getToolPsi                  : UDINT := 417;        (*methodID for TRF_generic (cmd_code = 1000): getToolPsi*)
+    TRFo_getToolAnglesType           : UDINT := 418;        (*methodID for TRF_generic (cmd_code = 1000): getToolAnglesType*)
+
+    TRFo_setForcedMode               : UDINT := 432;        (*methodID for TRF_generic (cmd_code = 1000): setForcedMode*)
+    TRFo_getForcedMode               : UDINT := 436;        (*methodID for TRF_generic (cmd_code = 1000): getForcedMode*)
+
+    TRFo_setCDCRadius                : UDINT := 441;        (*methodID for TRF_generic (cmd_code = 1000): setCDCRadius*)
+    TRFo_setCDCProperty              : UDINT := 442;        (*methodID for TRF_generic (cmd_code = 1000): setCDCProperty*)
+    TRFo_disCDC                      : UDINT := 443;        (*methodID for TRF_generic (cmd_code = 1000): disCDC*)
+
+    TRFo_getCDCRadius                : UDINT := 451;        (*methodID for TRF_generic (cmd_code = 1000): getCDCRadius*)
+    TRFo_getCDCProperty              : UDINT := 452;        (*methodID for TRF_generic (cmd_code = 1000): getCDCProperty*)
+
+    TRFo_switchVariant               : UDINT := 470;        (*methodID for TRF_generic (cmd_code = 1000): switchVariant*)
+    TRFo_getVariant                  : UDINT := 471;        (*methodID for TRF_generic (cmd_code = 1000): getVariant*)
+
+    TRFo_setJointSwEndLim            : UDINT := 600;        (*methodID for TRF_generic (cmd_code = 1000): setJointSwEndLim*)
+    TRFo_setPathSwEndLim             : UDINT := 601;        (*methodID for TRF_generic (cmd_code = 1000): setPathSwEndLim*)
+    TRFo_setAddSwEndLim              : UDINT := 602;        (*methodID for TRF_generic (cmd_code = 1000): setAddSwEndLim*)
+    TRFo_setCtrlSwEndLim             : UDINT := 603;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlSwEndLim*)
+
+    TRFo_setCplJointSwEndLim         : UDINT := 610;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointSwEndLim*)
+    TRFo_setCplPathSwEndLim          : UDINT := 611;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathSwEndLim*)
+    TRFo_setCplAddSwEndLim           : UDINT := 612;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddSwEndLim*)
+    TRFo_setCplCtrlSwEndLim          : UDINT := 613;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlSwEndLim*)
+
+    TRFo_setJointFactor              : UDINT := 620;        (*methodID for TRF_generic (cmd_code = 1000): setJointFactor*)
+    TRFo_setPathFactor               : UDINT := 621;        (*methodID for TRF_generic (cmd_code = 1000): setPathFactor*)
+    TRFo_setAddFactor                : UDINT := 622;        (*methodID for TRF_generic (cmd_code = 1000): setAddFactor*)
+    TRFo_setCtrlFactor               : UDINT := 623;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlFactor*)
+
+    TRFo_setCplJointFactor           : UDINT := 630;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointFactor*)
+    TRFo_setCplPathFactor            : UDINT := 631;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathFactor*)
+    TRFo_setCplAddFactor             : UDINT := 632;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddFactor*)
+    TRFo_setCplCtrlFactor            : UDINT := 633;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlFactor*)
+
+    TRFo_setJointOffset              : UDINT := 640;        (*methodID for TRF_generic (cmd_code = 1000): setJointOffset*)
+    TRFo_setPathOffset               : UDINT := 641;        (*methodID for TRF_generic (cmd_code = 1000): setPathOffset*)
+    TRFo_setAddOffset                : UDINT := 642;        (*methodID for TRF_generic (cmd_code = 1000): setAddOffset*)
+    TRFo_setCtrlOffset               : UDINT := 643;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlOffset*)
+
+    TRFo_setCplJointOffset           : UDINT := 650;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointOffset*)
+    TRFo_setCplPathOffset            : UDINT := 651;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathOffset*)
+    TRFo_setCplAddOffset             : UDINT := 652;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddOffset*)
+    TRFo_setCplCtrlOffset            : UDINT := 653;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlOffset*)
+
+    TRFo_setJointMaxChange           : UDINT := 660;        (*methodID for TRF_generic (cmd_code = 1000): setJointMaxChange*)
+    TRFo_setPathMaxChange            : UDINT := 661;        (*methodID for TRF_generic (cmd_code = 1000): setPathMaxChange*)
+    TRFo_setAddMaxChange             : UDINT := 662;        (*methodID for TRF_generic (cmd_code = 1000): setAddMaxChange*)
+    TRFo_setCtrlMaxChange            : UDINT := 663;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlMaxChange*)
+
+    TRFo_setCplJointMaxChange        : UDINT := 674;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointMaxChange*)
+    TRFo_setCplPathMaxChange         : UDINT := 675;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathMaxChange*)
+    TRFo_setCplAddMaxChange          : UDINT := 676;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddMaxChange*)
+    TRFo_setCplCtrlMaxChange         : UDINT := 677;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlMaxChange*)
+
+    TRFo_disJointSwEndLim            : UDINT := 690;        (*methodID for TRF_generic (cmd_code = 1000): disJointSwEndLim*)
+    TRFo_disPathSwEndLim             : UDINT := 691;        (*methodID for TRF_generic (cmd_code = 1000): disPathSwEndLim*)
+    TRFo_disAddSwEndLim              : UDINT := 692;        (*methodID for TRF_generic (cmd_code = 1000): disAddSwEndLim*)
+    TRFo_disCtrlSwEndLim             : UDINT := 693;        (*methodID for TRF_generic (cmd_code = 1000): disCtrlSwEndLim*)
+
+    TRFo_disCplJointSwEndLim         : UDINT := 700;        (*methodID for TRF_generic (cmd_code = 1000): disCplJointSwEndLim*)
+    TRFo_disCplPathSwEndLim          : UDINT := 701;        (*methodID for TRF_generic (cmd_code = 1000): disCplPathSwEndLim*)
+    TRFo_disCplAddSwEndLim           : UDINT := 702;        (*methodID for TRF_generic (cmd_code = 1000): disCplAddSwEndLim*)
+    TRFo_disCplCtrlSwEndLim          : UDINT := 703;        (*methodID for TRF_generic (cmd_code = 1000): disCplCtrlSwEndLim*)
+
+    TRFo_disJointFactor              : UDINT := 710;        (*methodID for TRF_generic (cmd_code = 1000): disJointFactor*)
+    TRFo_disPathFactor               : UDINT := 711;        (*methodID for TRF_generic (cmd_code = 1000): disPathFactor*)
+    TRFo_disAddFactor                : UDINT := 712;        (*methodID for TRF_generic (cmd_code = 1000): disAddFactor*)
+    TRFo_disCtrlFactor               : UDINT := 713;        (*methodID for TRF_generic (cmd_code = 1000): disCtrlFactor*)
+
+    TRFo_disCplJointFactor           : UDINT := 720;        (*methodID for TRF_generic (cmd_code = 1000): disCplJointFactor*)
+    TRFo_disCplPathFactor            : UDINT := 721;        (*methodID for TRF_generic (cmd_code = 1000): disCplPathFactor*)
+    TRFo_disCplAddFactor             : UDINT := 722;        (*methodID for TRF_generic (cmd_code = 1000): disCplAddFactor*)
+    TRFo_disCplCtrlFactor            : UDINT := 723;        (*methodID for TRF_generic (cmd_code = 1000): disCplCtrlFactor*)
+
+    TRFo_disJointOffset              : UDINT := 730;        (*methodID for TRF_generic (cmd_code = 1000): disJointOffset*)
+    TRFo_disPathOffset               : UDINT := 731;        (*methodID for TRF_generic (cmd_code = 1000): disPathOffset*)
+    TRFo_disAddOffset                : UDINT := 732;        (*methodID for TRF_generic (cmd_code = 1000): disAddOffset*)
+    TRFo_disCtrlOffset               : UDINT := 733;        (*methodID for TRF_generic (cmd_code = 1000): disCtrlOffset*)
+
+    TRFo_disCplJointOffset           : UDINT := 740;        (*methodID for TRF_generic (cmd_code = 1000): disCplJointOffset*)
+    TRFo_disCplPathOffset            : UDINT := 741;        (*methodID for TRF_generic (cmd_code = 1000): disCplPathOffset*)
+    TRFo_disCplAddOffset             : UDINT := 742;        (*methodID for TRF_generic (cmd_code = 1000): disCplAddOffset*)
+    TRFo_disCplCtrlOffset            : UDINT := 743;        (*methodID for TRF_generic (cmd_code = 1000): disCplCtrlOffset*)
+
+    TRFo_disJointMaxChange           : UDINT := 750;        (*methodID for TRF_generic (cmd_code = 1000): disJointMaxChange*)
+    TRFo_disPathMaxChange            : UDINT := 751;        (*methodID for TRF_generic (cmd_code = 1000): disPathMaxChange*)
+    TRFo_disAddMaxChange             : UDINT := 752;        (*methodID for TRF_generic (cmd_code = 1000): disAddMaxChange*)
+    TRFo_disCtrlMaxChange            : UDINT := 753;        (*methodID for TRF_generic (cmd_code = 1000): disCtrlMaxChange*)
+
+    TRFo_disCplJointMaxChange        : UDINT := 760;        (*methodID for TRF_generic (cmd_code = 1000): disCplJointMaxChange*)
+    TRFo_disCplPathMaxChange         : UDINT := 761;        (*methodID for TRF_generic (cmd_code = 1000): disCplPathMaxChange*)
+    TRFo_disCplAddMaxChange          : UDINT := 762;        (*methodID for TRF_generic (cmd_code = 1000): disCplAddMaxChange*)
+    TRFo_disCplCtrlMaxChange         : UDINT := 763;        (*methodID for TRF_generic (cmd_code = 1000): disCplCtrlMaxChange*)
+
+    TRFo_setJointNeg                 : UDINT := 770;        (*methodID for TRF_generic (cmd_code = 1000): setJointNeg*)
+    TRFo_setPathNeg                  : UDINT := 771;        (*methodID for TRF_generic (cmd_code = 1000): setPathNeg*)
+    TRFo_setAddNeg                   : UDINT := 772;        (*methodID for TRF_generic (cmd_code = 1000): setAddNeg*)
+    TRFo_setCtrlNeg                  : UDINT := 773;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlNeg*)
+
+    TRFo_setCplJointNeg              : UDINT := 780;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointNeg*)
+    TRFo_setCplPathNeg               : UDINT := 781;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathNeg*)
+    TRFo_setCplAddNeg                : UDINT := 782;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddNeg*)
+    TRFo_setCplCtrlNeg               : UDINT := 783;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlNeg*)
+
+    TRFo_setJointInSwEndLim          : UDINT := 810;        (*methodID for TRF_generic (cmd_code = 1000): setJointInSwEndLim*)
+    TRFo_setPathInSwEndLim           : UDINT := 811;        (*methodID for TRF_generic (cmd_code = 1000): setPathInSwEndLim*)
+    TRFo_setAddInSwEndLim            : UDINT := 812;        (*methodID for TRF_generic (cmd_code = 1000): setAddInSwEndLim*)
+    TRFo_setCtrlInSwEndLim           : UDINT := 813;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlInSwEndLim*)
+
+    TRFo_setCplJointInSwEndLim       : UDINT := 820;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointInSwEndLim*)
+    TRFo_setCplPathInSwEndLim        : UDINT := 821;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathInSwEndLim*)
+    TRFo_setCplAddInSwEndLim         : UDINT := 822;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddInSwEndLim*)
+    TRFo_setCplCtrlInSwEndLim        : UDINT := 823;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlInSwEndLim*)
+
+    TRFo_setJointPosDir              : UDINT := 850;        (*methodID for TRF_generic (cmd_code = 1000): setJointPosDir*)
+    TRFo_setPathPosDir               : UDINT := 851;        (*methodID for TRF_generic (cmd_code = 1000): setPathPosDir*)
+    TRFo_setAddPosDir                : UDINT := 852;        (*methodID for TRF_generic (cmd_code = 1000): setAddPosDir*)
+    TRFo_setCtrlPosDir               : UDINT := 853;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlPosDir*)
+
+    TRFo_setCplJointPosDir           : UDINT := 860;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointPosDir*)
+    TRFo_setCplPathPosDir            : UDINT := 861;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathPosDir*)
+    TRFo_setCplAddPosDir             : UDINT := 862;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddPosDir*)
+    TRFo_setCplCtrlPosDir            : UDINT := 863;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlPosDir*)
+
+    TRFo_setJointNegDir              : UDINT := 890;        (*methodID for TRF_generic (cmd_code = 1000): setJointNegDir*)
+    TRFo_setPathNegDir               : UDINT := 891;        (*methodID for TRF_generic (cmd_code = 1000): setPathNegDir*)
+    TRFo_setAddNegDir                : UDINT := 892;        (*methodID for TRF_generic (cmd_code = 1000): setAddNegDir*)
+    TRFo_setCtrlNegDir               : UDINT := 893;        (*methodID for TRF_generic (cmd_code = 1000): setCtrlNegDir*)
+
+    TRFo_setCplJointNegDir           : UDINT := 900;        (*methodID for TRF_generic (cmd_code = 1000): setCplJointNegDir*)
+    TRFo_setCplPathNegDir            : UDINT := 901;        (*methodID for TRF_generic (cmd_code = 1000): setCplPathNegDir*)
+    TRFo_setCplAddNegDir             : UDINT := 902;        (*methodID for TRF_generic (cmd_code = 1000): setCplAddNegDir*)
+    TRFo_setCplCtrlNegDir            : UDINT := 903;        (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlNegDir*)
+
+    TRFo_getJointSwEndLim1           : UDINT := 930;        (*methodID for TRF_generic (cmd_code = 1000): getJointSwEndLim1*)
+    TRFo_getPathSwEndLim1            : UDINT := 931;        (*methodID for TRF_generic (cmd_code = 1000): getPathSwEndLim1*)
+    TRFo_getAddSwEndLim1             : UDINT := 932;        (*methodID for TRF_generic (cmd_code = 1000): getAddSwEndLim1*)
+    TRFo_getCtrlSwEndLim1            : UDINT := 933;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlSwEndLim1*)
+
+    TRFo_getCplJointSwEndLim1        : UDINT := 940;        (*methodID for TRF_generic (cmd_code = 1000): getCplJointSwEndLim1*)
+    TRFo_getCplPathSwEndLim1         : UDINT := 941;        (*methodID for TRF_generic (cmd_code = 1000): getCplPathSwEndLim1*)
+    TRFo_getCplAddSwEndLim1          : UDINT := 942;        (*methodID for TRF_generic (cmd_code = 1000): getCplAddSwEndLim1*)
+    TRFo_getCplCtrlSwEndLim1         : UDINT := 943;        (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlSwEndLim1*)
+
+    TRFo_getJointSwEndLim2           : UDINT := 950;        (*methodID for TRF_generic (cmd_code = 1000): getJointSwEndLim2*)
+    TRFo_getPathSwEndLim2            : UDINT := 951;        (*methodID for TRF_generic (cmd_code = 1000): getPathSwEndLim2*)
+    TRFo_getAddSwEndLim2             : UDINT := 952;        (*methodID for TRF_generic (cmd_code = 1000): getAddSwEndLim2*)
+    TRFo_getCtrlSwEndLim2            : UDINT := 953;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlSwEndLim2*)
+
+    TRFo_getCplJointSwEndLim2        : UDINT := 960;        (*methodID for TRF_generic (cmd_code = 1000): getCplJointSwEndLim2*)
+    TRFo_getCplPathSwEndLim2         : UDINT := 961;        (*methodID for TRF_generic (cmd_code = 1000): getCplPathSwEndLim2*)
+    TRFo_getCplAddSwEndLim2          : UDINT := 962;        (*methodID for TRF_generic (cmd_code = 1000): getCplAddSwEndLim2*)
+    TRFo_getCplCtrlSwEndLim2         : UDINT := 963;        (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlSwEndLim2*)
+
+    TRFo_getJointFactor              : UDINT := 970;        (*methodID for TRF_generic (cmd_code = 1000): getJointFactor*)
+    TRFo_getPathFactor               : UDINT := 971;        (*methodID for TRF_generic (cmd_code = 1000): getPathFactor*)
+    TRFo_getAddFactor                : UDINT := 972;        (*methodID for TRF_generic (cmd_code = 1000): getAddFactor*)
+    TRFo_getCtrlFactor               : UDINT := 973;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlFactor*)
+
+    TRFo_getCplJointFactor           : UDINT := 980;        (*methodID for TRF_generic (cmd_code = 1000): getCplJointFactor*)
+    TRFo_getCplPathFactor            : UDINT := 981;        (*methodID for TRF_generic (cmd_code = 1000): getCplPathFactor*)
+    TRFo_getCplAddFactor             : UDINT := 982;        (*methodID for TRF_generic (cmd_code = 1000): getCplAddFactor*)
+    TRFo_getCplCtrlFactor            : UDINT := 983;        (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlFactor*)
+
+    TRFo_getJointOffset              : UDINT := 990;        (*methodID for TRF_generic (cmd_code = 1000): getJointOffset*)
+    TRFo_getPathOffset               : UDINT := 991;        (*methodID for TRF_generic (cmd_code = 1000): getPathOffset*)
+    TRFo_getAddOffset                : UDINT := 992;        (*methodID for TRF_generic (cmd_code = 1000): getAddOffset*)
+    TRFo_getCtrlOffset               : UDINT := 993;        (*methodID for TRF_generic (cmd_code = 1000): getCtrlOffset*)
+
+    TRFo_getCplJointOffset           : UDINT := 1000;       (*methodID for TRF_generic (cmd_code = 1000): getCplJointOffset*)
+    TRFo_getCplPathOffset            : UDINT := 1001;       (*methodID for TRF_generic (cmd_code = 1000): getCplPathOffset*)
+    TRFo_getCplAddOffset             : UDINT := 1002;       (*methodID for TRF_generic (cmd_code = 1000): getCplAddOffset*)
+    TRFo_getCplCtrlOffset            : UDINT := 1003;       (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlOffset*)
+
+    TRFo_getJointMaxChange           : UDINT := 1010;       (*methodID for TRF_generic (cmd_code = 1000): getJointMaxChange*)
+    TRFo_getPathMaxChange            : UDINT := 1011;       (*methodID for TRF_generic (cmd_code = 1000): getPathMaxChange*)
+    TRFo_getAddMaxChange             : UDINT := 1012;       (*methodID for TRF_generic (cmd_code = 1000): getAddMaxChange*)
+    TRFo_getCtrlMaxChange            : UDINT := 1013;       (*methodID for TRF_generic (cmd_code = 1000): getCtrlMaxChange*)
+
+    TRFo_getCplJointMaxChange        : UDINT := 1020;       (*methodID for TRF_generic (cmd_code = 1000): getCplJointMaxChange*)
+    TRFo_getCplPathMaxChange         : UDINT := 1021;       (*methodID for TRF_generic (cmd_code = 1000): getCplPathMaxChange*)
+    TRFo_getCplAddMaxChange          : UDINT := 1022;       (*methodID for TRF_generic (cmd_code = 1000): getCplAddMaxChange*)
+    TRFo_getCplCtrlMaxChange         : UDINT := 1023;       (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlMaxChange*)
+
+    TRFo_isJointNeg                  : UDINT := 1110;       (*methodID for TRF_generic (cmd_code = 1000): isJointNeg*)
+    TRFo_isPathNeg                   : UDINT := 1111;       (*methodID for TRF_generic (cmd_code = 1000): isPathNeg*)
+    TRFo_isAddNeg                    : UDINT := 1112;       (*methodID for TRF_generic (cmd_code = 1000): isAddNeg*)
+    TRFo_isCtrlNeg                   : UDINT := 1113;       (*methodID for TRF_generic (cmd_code = 1000): isCtrlNeg*)
+
+    TRFo_isCplJointNeg               : UDINT := 1120;       (*methodID for TRF_generic (cmd_code = 1000): isCplJointNeg*)
+    TRFo_isCplPathNeg                : UDINT := 1121;       (*methodID for TRF_generic (cmd_code = 1000): isCplPathNeg*)
+    TRFo_isCplAddNeg                 : UDINT := 1122;       (*methodID for TRF_generic (cmd_code = 1000): isCplAddNeg*)
+    TRFo_isCplCtrlNeg                : UDINT := 1123;       (*methodID for TRF_generic (cmd_code = 1000): isCplCtrlNeg*)
+
+    TRFo_isJointInSwEndLim           : UDINT := 1130;       (*methodID for TRF_generic (cmd_code = 1000): isJointInSwEndLim*)
+    TRFo_isPathInSwEndLim            : UDINT := 1131;       (*methodID for TRF_generic (cmd_code = 1000): isPathInSwEndLim*)
+    TRFo_isAddInSwEndLim             : UDINT := 1132;       (*methodID for TRF_generic (cmd_code = 1000): isAddInSwEndLim*)
+    TRFo_isCtrlInSwEndLim            : UDINT := 1133;       (*methodID for TRF_generic (cmd_code = 1000): isCtrlInSwEndLim*)
+
+    TRFo_isCplJointInSwEndLim        : UDINT := 1140;       (*methodID for TRF_generic (cmd_code = 1000): isCplJointInSwEndLim*)
+    TRFo_isCplPathInSwEndLim         : UDINT := 1141;       (*methodID for TRF_generic (cmd_code = 1000): isCplPathInSwEndLim*)
+    TRFo_isCplAddInSwEndLim          : UDINT := 1142;       (*methodID for TRF_generic (cmd_code = 1000): isCplAddInSwEndLim*)
+    TRFo_isCplCtrlInSwEndLim         : UDINT := 1143;       (*methodID for TRF_generic (cmd_code = 1000): isCplCtrlInSwEndLim*)
+
+    TRFo_isJointPosDir               : UDINT := 1150;       (*methodID for TRF_generic (cmd_code = 1000): isJointPosDir*)
+    TRFo_isPathPosDir                : UDINT := 1151;       (*methodID for TRF_generic (cmd_code = 1000): isPathPosDir*)
+    TRFo_isAddPosDir                 : UDINT := 1152;       (*methodID for TRF_generic (cmd_code = 1000): isAddPosDir*)
+    TRFo_isCtrlPosDir                : UDINT := 1153;       (*methodID for TRF_generic (cmd_code = 1000): isCtrlPosDir*)
+
+    TRFo_isCplJointPosDir            : UDINT := 1160;       (*methodID for TRF_generic (cmd_code = 1000): isCplJointPosDir*)
+    TRFo_isCplPathPosDir             : UDINT := 1161;       (*methodID for TRF_generic (cmd_code = 1000): isCplPathPosDir*)
+    TRFo_isCplAddPosDir              : UDINT := 1162;       (*methodID for TRF_generic (cmd_code = 1000): isCplAddPosDir*)
+    TRFo_isCplCtrlPosDir             : UDINT := 1163;       (*methodID for TRF_generic (cmd_code = 1000): isCplCtrlPosDir*)
+
+    TRFo_isJointNegDir               : UDINT := 1170;       (*methodID for TRF_generic (cmd_code = 1000): isJointNegDir*)
+    TRFo_isPathNegDir                : UDINT := 1171;       (*methodID for TRF_generic (cmd_code = 1000): isPathNegDir*)
+    TRFo_isAddNegDir                 : UDINT := 1172;       (*methodID for TRF_generic (cmd_code = 1000): isAddNegDir*)
+    TRFo_isCtrlNegDir                : UDINT := 1173;       (*methodID for TRF_generic (cmd_code = 1000): isCtrlNegDir*)
+
+    TRFo_isCplJointNegDir            : UDINT := 1180;       (*methodID for TRF_generic (cmd_code = 1000): isCplJointNegDir*)
+    TRFo_isCplPathNegDir             : UDINT := 1181;       (*methodID for TRF_generic (cmd_code = 1000): isCplPathNegDir*)
+    TRFo_isCplAddNegDir              : UDINT := 1182;       (*methodID for TRF_generic (cmd_code = 1000): isCplAddNegDir*)
+    TRFo_isCplCtrlNegDir             : UDINT := 1183;       (*methodID for TRF_generic (cmd_code = 1000): isCplCtrlNegDir*)
+
+    TRFo_setMeasure                  : UDINT := 1230;       (*methodID for TRF_generic (cmd_code = 1000): setMeasure*)
+    TRFo_getMeasure                  : UDINT := 1231;       (*methodID for TRF_generic (cmd_code = 1000): getMeasure*)
+
+    TRFo_setJointCoords              : UDINT := 1240;       (*methodID for TRF_generic (cmd_code = 1000): setJointCoords*)
+    TRFo_setPathCoords               : UDINT := 1241;       (*methodID for TRF_generic (cmd_code = 1000): setPathCoords*)
+    TRFo_setAddCoords                : UDINT := 1242;       (*methodID for TRF_generic (cmd_code = 1000): setAddCoords*)
+    TRFo_setCtrlCoords               : UDINT := 1243;       (*methodID for TRF_generic (cmd_code = 1000): setCtrlCoords*)
+
+    TRFo_setCplJointCoords           : UDINT := 1250;       (*methodID for TRF_generic (cmd_code = 1000): setCplJointCoords*)
+    TRFo_setCplPathCoords            : UDINT := 1251;       (*methodID for TRF_generic (cmd_code = 1000): setCplPathCoords*)
+    TRFo_setCplAddCoords             : UDINT := 1252;       (*methodID for TRF_generic (cmd_code = 1000): setCplAddCoords*)
+    TRFo_setCplCtrlCoords            : UDINT := 1253;       (*methodID for TRF_generic (cmd_code = 1000): setCplCtrlCoords*)
+
+    TRFo_getJointCoords              : UDINT := 1260;       (*methodID for TRF_generic (cmd_code = 1000): getJointCoords*)
+    TRFo_getPathCoords               : UDINT := 1261;       (*methodID for TRF_generic (cmd_code = 1000): getPathCoords*)
+    TRFo_getAddCoords                : UDINT := 1262;       (*methodID for TRF_generic (cmd_code = 1000): getAddCoords*)
+    TRFo_getCtrlCoords               : UDINT := 1263;       (*methodID for TRF_generic (cmd_code = 1000): getCtrlCoords*)
+
+    TRFo_getCplJointCoords           : UDINT := 1270;       (*methodID for TRF_generic (cmd_code = 1000): getCplJointCoords*)
+    TRFo_getCplPathCoords            : UDINT := 1271;       (*methodID for TRF_generic (cmd_code = 1000): getCplPathCoords*)
+    TRFo_getCplAddCoords             : UDINT := 1272;       (*methodID for TRF_generic (cmd_code = 1000): getCplAddCoords*)
+    TRFo_getCplCtrlCoords            : UDINT := 1273;       (*methodID for TRF_generic (cmd_code = 1000): getCplCtrlCoords*)
+
+    TRFo_setJointRefCoords           : UDINT := 1280;       (*methodID for TRF_generic (cmd_code = 1000): setJointRefCoords*)
+    TRFo_setPathRefCoords            : UDINT := 1281;       (*methodID for TRF_generic (cmd_code = 1000): setPathRefCoords*)
+
+    TRFo_setCplJointRefCoords        : UDINT := 1290;       (*methodID for TRF_generic (cmd_code = 1000): setCplJointRefCoords*)
+    TRFo_setCplPathRefCoords         : UDINT := 1291;       (*methodID for TRF_generic (cmd_code = 1000): setCplPathRefCoords*)
+
+    TRFo_getJointRefCoords           : UDINT := 1300;       (*methodID for TRF_generic (cmd_code = 1000): getJointRefCoords*)
+    TRFo_getPathRefCoords            : UDINT := 1301;       (*methodID for TRF_generic (cmd_code = 1000): getPathRefCoords*)
+
+    TRFo_getCplJointRefCoords        : UDINT := 1310;       (*methodID for TRF_generic (cmd_code = 1000): getCplJointRefCoords*)
+    TRFo_getCplPathRefCoords         : UDINT := 1311;       (*methodID for TRF_generic (cmd_code = 1000): getCplPathRefCoords*)
+
+    TRFo_clone                       : UDINT := 1320;       (*methodID for TRF_generic (cmd_code = 1000): clone*)
+    TRFo_getAnglesType               : UDINT := 1325;       (*methodID for TRF_generic (cmd_code = 1000): getAnglesType*)
+
+    TRFo_getTcpPosition              : UDINT := 1326;       (*methodID for TRF_generic (cmd_code = 1000): getTcpPosition*)
+    TRFo_getTcpQuaternion            : UDINT := 1327;       (*methodID for TRF_generic (cmd_code = 1000): getTcpQuaternion*)
+    TRFo_setTcpPosition              : UDINT := 1328;       (*methodID for TRF_generic (cmd_code = 1000): setTcpPosition*)
+    TRFo_setTcpQuaternion            : UDINT := 1329;       (*methodID for TRF_generic (cmd_code = 1000): setTcpQuaternion*)
+
+    TRFo_isDualUseCompliant          : UDINT := 1340;       (*methodID for TRF_generic (cmd_code = 1000): isDualUseCompliant*)
+    TRFo_getDirectionType            : UDINT := 1341;       (*methodID for TRF_generic (cmd_code = 1000): getDirectionType*)    
+END_VAR

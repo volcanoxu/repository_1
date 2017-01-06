@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiFile
+ * File: HmiFileLocal.var
+ * Author: renj
+ * Created: October 29, 2014
+ ********************************************************************
+ * Local variables of program HmiFile
+ ********************************************************************)
+VAR
+	FileOpen_0 : FileOpen := (0);
+	FileClose_0 : FileClose := (0);
+	FileReadEx_0 : FileReadEx := (0);
+	FileDelete_0 : FileDelete := (0);
+	FileCreate_0 : FileCreate := (0);
+	FileWriteEx_0 : FileWriteEx := (0);
+	wStatus : UINT := 0;
+	wError : UINT := 0;
+	Internal : HmiFileCtrlInternal_Type := (0);
+END_VAR

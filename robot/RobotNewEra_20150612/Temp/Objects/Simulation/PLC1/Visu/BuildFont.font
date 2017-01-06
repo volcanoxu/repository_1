@@ -1,0 +1,10 @@
+<FontFiles>
+  <LastBuildFont>
+    <Property Name="File" Value="arialbd.TTF" ModuleName="arialbd" />
+    <Property Name="File" Value="arial.TTF" ModuleName="arial" />
+    <Property Name="File" Value="simsun.ttc" ModuleName="simsun" />
+    <Property Name="File" Value="courbd.TTF" ModuleName="courbd" />
+    <Property Name="File" Value="DejaVuSansMono-Bold.TTF" ModuleName="dejavz0z" />
+    <Property Name="File" Value="ARIALUNIBR.TTF" ModuleName="arialxsr" />
+  </LastBuildFont>
+</FontFiles>

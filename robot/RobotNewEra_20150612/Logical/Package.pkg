@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.4.149?>
+<Package Version="1.11.2" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Reserved">Global.typ</Object>
+    <Object Type="File" Description="Axes Definition">Global.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package" Description="Motion Handling">MotionHandling</Object>
+    <Object Type="Package" Description="Hmi Handling">HmiHandling</Object>
+    <Object Type="Package" Description="Error Handling">ErrorHandling</Object>
+    <Object Type="Package" Description="Recipe Control">Recipe</Object>
+    <Object Type="Package" Description="User Management">UserStd</Object>
+    <Object Type="Package" Description="Visualization">Visualization</Object>
+    <Object Type="Package">GmcIpConfig</Object>
+    <Object Type="Package">GmcIpUserConfig</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiEdit
+ * File: HmiEdit.var
+ * Author: renj
+ * Created: October 21, 2014
+ ********************************************************************
+ * Local variables of program HmiEdit
+ ********************************************************************)
+VAR
+	Internal : HmiEditorInternalType := (0);
+	pSystem : REFERENCE TO System_Type;
+	pCnc : REFERENCE TO Cnc_Type;
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+END_VAR

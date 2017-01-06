@@ -1,0 +1,284 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<PanelMaps xmlns="http://br-automation.co.at/AS/VC/Project">
+  <PanelMap>
+    <PanelItems>
+      <PanelItem Index="1">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="31" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="2">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="30" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="3">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="29" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="4">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="27" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="5">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="26" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="6">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="25" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="7">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="24" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="8">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="16" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="9">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="17" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="10">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="18" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="11">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="19" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="12">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="20" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="13">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="21" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="14">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="22" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="15">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="23" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="16">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="0" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="17">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="1" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="18">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="2" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="19">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="3" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="20">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="4" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="21">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="5" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="22">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="6" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="23">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="63" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="24">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="62" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="25">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="61" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="26">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="60" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="27">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="59" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="28">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="58" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="29">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="57" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="30">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="56" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="31">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="48" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="32">
+        <KeyLevels>
+          <KeyLevel Level="0" VirtualKey="VK_LedRun" />
+          <KeyLevel Level="1" VirtualKey="VK_LedRun" />
+          <KeyLevel Level="2" VirtualKey="VK_LedRun" />
+          <KeyLevel Level="3" VirtualKey="VK_LedRun" />
+          <KeyLevel Level="4" VirtualKey="VK_LedRun" />
+          <KeyLevel Level="5" VirtualKey="VK_LedRun" />
+        </KeyLevels>
+        <Map>
+          <Property Name="LedPos" Value="0" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="33">
+        <KeyLevels>
+          <KeyLevel Level="0" VirtualKey="VK_LedError" />
+          <KeyLevel Level="1" VirtualKey="VK_LedError" />
+          <KeyLevel Level="2" VirtualKey="VK_LedError" />
+          <KeyLevel Level="3" VirtualKey="VK_LedError" />
+          <KeyLevel Level="4" VirtualKey="VK_LedError" />
+          <KeyLevel Level="5" VirtualKey="VK_LedError" />
+        </KeyLevels>
+        <Map>
+          <Property Name="LedPos" Value="1" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="34">
+        <KeyLevels>
+          <KeyLevel Level="0" VirtualKey="VK_LedMotion" />
+          <KeyLevel Level="1" VirtualKey="VK_LedMotion" />
+          <KeyLevel Level="2" VirtualKey="VK_LedMotion" />
+          <KeyLevel Level="3" VirtualKey="VK_LedMotion" />
+          <KeyLevel Level="4" VirtualKey="VK_LedMotion" />
+          <KeyLevel Level="5" VirtualKey="VK_LedMotion" />
+        </KeyLevels>
+        <Map>
+          <Property Name="LedPos" Value="2" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="35">
+        <KeyLevels>
+          <KeyLevel Level="0" VirtualKey="VK_LedProcess" />
+          <KeyLevel Level="1" VirtualKey="VK_LedProcess" />
+          <KeyLevel Level="2" VirtualKey="VK_LedProcess" />
+          <KeyLevel Level="3" VirtualKey="VK_LedProcess" />
+          <KeyLevel Level="4" VirtualKey="VK_LedProcess" />
+          <KeyLevel Level="5" VirtualKey="VK_LedProcess" />
+        </KeyLevels>
+        <Map>
+          <Property Name="LedPos" Value="3" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="36">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="64" />
+        </Map>
+      </PanelItem>
+      <PanelItem Index="37">
+        <KeyLevels />
+        <Map>
+          <Property Name="KeyPos" Value="65" />
+        </Map>
+      </PanelItem>
+    </PanelItems>
+    <Property Name="Type" Value="5MP050.0653-02" />
+    <Property Name="NumLevel" Value="6" />
+    <Property Name="IsLocal" Value="False" />
+    <Property Name="IsTerminal" Value="False" />
+    <Property Name="IsVncSlave" Value="False" />
+    <Property Name="IsVncOnly" Value="False" />
+    <Property Name="DataModule" Value="" />
+    <Property Name="TerminalIP" Value="0.0.0.0" />
+    <Property Name="TerminalGW" Value="0.0.0.0" />
+    <Property Name="TerminalMask" Value="255.255.255.255" />
+    <Property Name="TerminalMode" Value="0" />
+    <Property Name="TerminalNode" Value="4294967295" />
+    <Property Name="TerminalAddress" Value="IF2" />
+    <Property Name="VNCKeyboard" Value="5MP050.0653-02" />
+    <Property Name="VNCKeyLedCount" Value="True" />
+    <Property Name="LedCount" Value="4" />
+    <Property Name="KeyCount" Value="33" />
+    <Property Name="Slave" Value="True" />
+    <Property Name="RackPosition" Value="0" />
+    <Drivers>
+      <Driver Name="">
+        <Property Name="ClassID" Value="" />
+        <Property Name="Interface" Value="" />
+        <Property Name="RefreshRate" Value="10" />
+        <Property Name="TaskPriority" Value="255" />
+      </Driver>
+    </Drivers>
+  </PanelMap>
+</PanelMaps>

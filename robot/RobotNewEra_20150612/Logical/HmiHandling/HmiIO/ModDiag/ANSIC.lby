@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Library Version="2.02.0" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>ModDiag.fun</File>
+    <File>ModDiag.typ</File>
+    <File>ModDiag.var</File>
+    <File>internal_h.h</File>
+    <File>iolist.c</File>
+    <File>iostatus.c</File>
+    <File>modulediagnose.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsIO" />
+    <Dependency ObjectName="AsIODiag" />
+    <Dependency ObjectName="AsIOMMan" />
+    <Dependency ObjectName="Sys_lib" />
+    <Dependency ObjectName="Standard" />
+    <Dependency ObjectName="DataObj" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,11 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.fun
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc/CncPrivate.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc/CncPrivate.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0man/arnc0man.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.var

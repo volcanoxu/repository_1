@@ -1,0 +1,13 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIO/AsIO.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/ModDiag/ModDiag.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/ModDiag/ModDiag.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIO/HmiIOCtrlLocal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIO/HmiIOCtrlLocal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ

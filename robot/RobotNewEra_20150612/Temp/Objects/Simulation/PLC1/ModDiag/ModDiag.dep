@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/ModDiag/ModDiag.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/ModDiag/ModDiag.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIO/AsIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOMMan/AsIOMMan.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIODiag/AsIODiag.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun

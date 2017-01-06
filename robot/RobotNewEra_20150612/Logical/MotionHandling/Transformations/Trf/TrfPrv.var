@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Trf
+ * File: Trf.var
+ * Author: frigenif
+ * Created: December 08, 2011
+ ********************************************************************
+ * Local variables of program Trf
+ ********************************************************************)
+VAR
+	TRF_6AX_InitStatus : UDINT;
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	AxesAddress : UDINT := 0;
+	TrfOutPos : ARRAY[0..5] OF LREAL;
+	TrfInPos : ARRAY[0..5] OF LREAL;
+	TrfInPosExt : ARRAY[0..5] OF LREAL;
+	TrfDirectInfo : ARRAY[0..1] OF UDINT;
+	TrfDirectTransStatus : UDINT;
+	SimPosVisu : ARRAY[0..5] OF REAL;
+	SimPos : ARRAY[0..5] OF REAL;
+	RobotDynGeneric : TRF_DYN_typ := (0);
+	ExtJoint : TRF_extEntity_t := (0);
+	ExtTrfData : TRF_EXT_typ := (0);
+END_VAR

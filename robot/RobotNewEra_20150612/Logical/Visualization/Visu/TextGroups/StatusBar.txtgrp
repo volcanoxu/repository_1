@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StatusBar">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="52"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="Userlvl">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.UserStd.gUserLevel]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="199803" Value="Servo:ON"/>
+    <Text ID="199804" Value="Servo:OFF"/>
+    <Text ID="199807" Value="Manual"/>
+    <Text ID="199808" Value="Auto"/>
+    <Text ID="199809" Value="Lock"/>
+    <Text ID="199810" Value="Run"/>
+    <Text ID="199811" Value="Pause"/>
+    <Text ID="199812" Value="Stop"/>
+    <Text ID="199931" Value="Userlevel:{Userlvl}"/>
+    <Text ID="204592" Value="Disabled"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="199803" Value="伺服:开"/>
+    <Text ID="199804" Value="伺服:关"/>
+    <Text ID="199807" Value="手动"/>
+    <Text ID="199808" Value="自动"/>
+    <Text ID="199809" Value="锁定"/>
+    <Text ID="199810" Value="运行"/>
+    <Text ID="199811" Value="暂停"/>
+    <Text ID="199812" Value="停止"/>
+    <Text ID="199931" Value="用户等级:{Userlvl}"/>
+    <Text ID="204592" Value="禁用"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="199803" Value="5"/>
+    <Index ID="199804" Value="4"/>
+    <Index ID="199807" Value="0"/>
+    <Index ID="199808" Value="1"/>
+    <Index ID="199809" Value="2"/>
+    <Index ID="199810" Value="8"/>
+    <Index ID="199811" Value="7"/>
+    <Index ID="199812" Value="6"/>
+    <Index ID="199931" Value="9"/>
+    <Index ID="204592" Value="3"/>
+  </IndexMap>
+</TextGroup>

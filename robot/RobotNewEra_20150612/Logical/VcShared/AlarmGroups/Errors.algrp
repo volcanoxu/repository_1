@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Errors">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[DataSource.ErrorHandling.Error.Error.Output.Monitor.AlarmImage]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="252"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="127"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="15">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets>
+      <TextSnippet ClassId="0x00002001" Name="CncErrorCount">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="CncErrorNumber">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes1">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes1">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes2">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes2">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes3">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes3">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes4">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes4">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes5">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes5">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes6">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes6">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorNumberAxes7">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Number]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="ErrorCountAxes7">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Only Value"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Count]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes1">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes1">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes1">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes1">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[6].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes2">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes2">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes2">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes2">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[7].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes3">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes3">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes3">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes3">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[8].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes4">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes4">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes4">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes4">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[9].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes5">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes5">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes5">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes5">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[10].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes6">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes6">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes6">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes6">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[11].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Axes7">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Axes7">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Axes7">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Axes7">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.AxesHandling.Axes.Axes[12].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText4Cnc">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Text.Line4]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText3Cnc">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Text.Line3]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText2Cnc">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Text.Line2]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="ErrorText1Cnc">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.MotionHandling.CncHandling.Cnc.Cnc[0].Output.Error.Text.Line1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+    </TextSnippets>
+    <TextLayer LanguageId="en">
+      <Text ID="505" Value="Cnc error(Count:{CncErrorCount};Number:{CncErrorNumber};Info:{ErrorText1Cnc};{ErrorText3Cnc};{ErrorText4Cnc})"/>
+      <Text ID="670" Value="J6 error(Count:{ErrorCountAxes6};Number:{ErrorNumberAxes6};Info:{ErrorText1Axes6};{ErrorText2Axes6};{ErrorText3Axes6};{ErrorText4Axes6})"/>
+      <Text ID="671" Value="J1 error(Count:{ErrorCountAxes1};Number:{ErrorNumberAxes1};Info:{ErrorText1Axes1};{ErrorText2Axes1};{ErrorText3Axes1};{ErrorText4Axes1})"/>
+      <Text ID="672" Value="J2 error(Count:{ErrorCountAxes2};Number:{ErrorNumberAxes2};Info:{ErrorText1Axes2};{ErrorText2Axes2};{ErrorText3Axes2};{ErrorText4Axes2})"/>
+      <Text ID="673" Value="J3 error(Count:{ErrorCountAxes3};Number:{ErrorNumberAxes3};Info:{ErrorText1Axes3};{ErrorText2Axes3};{ErrorText3Axes3};{ErrorText4Axes3})"/>
+      <Text ID="674" Value="J4 error(Count:{ErrorCountAxes4};Number:{ErrorNumberAxes4};Info:{ErrorText1Axes4};{ErrorText2Axes4};{ErrorText3Axes4};{ErrorText4Axes4})"/>
+      <Text ID="675" Value="J5 error(Count:{ErrorCountAxes5};Number:{ErrorNumberAxes5};Info:{ErrorText1Axes5};{ErrorText2Axes5};{ErrorText3Axes5};{ErrorText4Axes5})"/>
+      <Text ID="679" Value="Power error(Count:{ErrorCountAxes7};Number:{ErrorNumberAxes7};Info:{ErrorText1Axes7};{ErrorText2Axes7};{ErrorText3Axes7};{ErrorText4Axes7})"/>
+      <Text ID="683" Value="Cnc request to be reset."/>
+      <Text ID="684" Value="J1 request to be reset."/>
+      <Text ID="685" Value="J2 request to be reset."/>
+      <Text ID="686" Value="J3 request to be reset."/>
+      <Text ID="687" Value="J4 request to be reset."/>
+      <Text ID="688" Value="J5 request to be reset."/>
+      <Text ID="689" Value="J6 request to be reset."/>
+      <Text ID="690" Value="Power request to be reset."/>
+      <Text ID="20" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh">
+      <Text ID="505" Value="Cnc error(Count:{CncErrorCount};Number:{CncErrorNumber};Info:{ErrorText1Cnc};{ErrorText3Cnc};{ErrorText4Cnc})"/>
+      <Text ID="670" Value="J6 error(Count:{ErrorCountAxes6};Number:{ErrorNumberAxes6};Info:{ErrorText1Axes6};{ErrorText2Axes6};{ErrorText3Axes6};{ErrorText4Axes6})"/>
+      <Text ID="671" Value="J1 error(Count:{ErrorCountAxes1};Number:{ErrorNumberAxes1};Info:{ErrorText1Axes1};{ErrorText2Axes1};{ErrorText3Axes1};{ErrorText4Axes1})"/>
+      <Text ID="672" Value="J2 error(Count:{ErrorCountAxes2};Number:{ErrorNumberAxes2};Info:{ErrorText1Axes2};{ErrorText2Axes2};{ErrorText3Axes2};{ErrorText4Axes2})"/>
+      <Text ID="673" Value="J3 error(Count:{ErrorCountAxes3};Number:{ErrorNumberAxes3};Info:{ErrorText1Axes3};{ErrorText2Axes3};{ErrorText3Axes3};{ErrorText4Axes3})"/>
+      <Text ID="674" Value="J4 error(Count:{ErrorCountAxes4};Number:{ErrorNumberAxes4};Info:{ErrorText1Axes4};{ErrorText2Axes4};{ErrorText3Axes4};{ErrorText4Axes4})"/>
+      <Text ID="675" Value="J5 error(Count:{ErrorCountAxes5};Number:{ErrorNumberAxes5};Info:{ErrorText1Axes5};{ErrorText2Axes5};{ErrorText3Axes5};{ErrorText4Axes5})"/>
+      <Text ID="679" Value="Power error(Count:{ErrorCountAxes7};Number:{ErrorNumberAxes7};Info:{ErrorText1Axes7};{ErrorText2Axes7};{ErrorText3Axes7};{ErrorText4Axes7})"/>
+      <Text ID="683" Value="Cnc request to be reset."/>
+      <Text ID="684" Value="J1 request to be reset."/>
+      <Text ID="685" Value="J2 request to be reset."/>
+      <Text ID="686" Value="J3 request to be reset."/>
+      <Text ID="687" Value="J4 request to be reset."/>
+      <Text ID="688" Value="J5 request to be reset."/>
+      <Text ID="689" Value="J6 request to be reset."/>
+      <Text ID="690" Value="Power request to be reset."/>
+      <Text ID="20" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="505" Value="0"/>
+      <Index ID="670" Value="6"/>
+      <Index ID="671" Value="1"/>
+      <Index ID="672" Value="2"/>
+      <Index ID="673" Value="3"/>
+      <Index ID="674" Value="4"/>
+      <Index ID="675" Value="5"/>
+      <Index ID="679" Value="7"/>
+      <Index ID="683" Value="8"/>
+      <Index ID="684" Value="9"/>
+      <Index ID="685" Value="10"/>
+      <Index ID="686" Value="11"/>
+      <Index ID="687" Value="12"/>
+      <Index ID="688" Value="13"/>
+      <Index ID="689" Value="14"/>
+      <Index ID="690" Value="15"/>
+      <Index ID="20" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

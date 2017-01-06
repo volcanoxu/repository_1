@@ -1,0 +1,30 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="E:/Robot_moban/RobotNewEra_20150612/Physical/X20CP1586/X20CP1586/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="6axATrqFF" Source="MotionHandling.FeedForward.6axATrqFF.prg" />
+      <Task Name="OptMotion" Source="MotionHandling.Optimizer.OptMotion.prg" />
+      <Task Name="Config" Source="MotionHandling.Configuration.Config.prg" />
+      <Task Name="System" Source="MotionHandling.SystemHandling.System.prg" />
+      <Task Name="Cnc" Source="MotionHandling.CncHandling.Cnc.prg" />
+      <Task Name="Axes" Source="MotionHandling.AxesHandling.Axes.prg" />
+      <Task Name="Jog" Source="MotionHandling.Jogging.Jog.prg" />
+      <Task Name="Trf" Source="MotionHandling.Transformations.Trf.prg" />
+      <Task Name="Error" Source="ErrorHandling.Error.prg" />
+      <Task Name="HmiKeyCtrl" Source="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.prg" />
+      <Task Name="HmiHardKey" Source="HmiHandling.HmiHardKey.HmiHardKeyCtrl.prg" />
+      <Task Name="HmiPrg" Source="HmiHandling.HmiPrg.HmiPrg.prg" />
+      <Task Name="HmiAlarm" Source="HmiHandling.HmiAlarm.HmiAlarm.prg" />
+      <Task Name="HmiMain" Source="HmiHandling.HmiMain.HmiMain.prg" />
+      <Task Name="HmiFile" Source="HmiHandling.HmiMain.HmiFile.prg" />
+      <Task Name="HmiJogCtrl" Source="HmiHandling.HmiJog.HmiJogCtrl.prg" />
+      <Task Name="HmiEditor" Source="HmiHandling.HmiEditor.HmiEditor.prg" />
+      <Task Name="HmiFileVar" Source="HmiHandling.HmiEditor.HmiFileVar.prg" />
+      <Task Name="RecipeCont" Source="Recipe.RecipeControl.prg" />
+      <Task Name="HmiSetup" Source="HmiHandling.HmiSetup.HmiSetup.prg" />
+      <Task Name="UserStd" Source="UserStd.UserStd.prg" />
+      <Task Name="HmiIO" Source="HmiHandling.HmiIO.HmiIO.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

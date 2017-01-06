@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P600_Jogging">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="600"/>
+  <Property Name="LockedForeColor" Value="248"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+  <Property Name="Width" Value="640"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[globalArea]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="globalArea"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="202814" Value=""/>
+          <Text ID="203230" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="zh">
+          <Text ID="202814" Value=""/>
+          <Text ID="203230" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="202814" Value="1"/>
+          <Index ID="203230" Value="25"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_JoggingTitle">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSun12px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="363"/>
+          <Property Name="Left" Value="6"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[GroupControl]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="41"/>
+          <Property Name="Width" Value="541"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_ConfigFrame">
+          <Property Name="AlignmentVertical" Value="Top"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[DefaultBold]"/>
+          <Property Name="Height" Value="301"/>
+          <Property Name="Left" Value="18"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TabActive]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="25"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="93"/>
+          <Property Name="Width" Value="292"/>
+        </Control>
+        <Control ClassId="0x00001009" Name="Alarm_Current">
+          <Property Name="AcknowledgeState_Position" Value="None"/>
+          <Property Name="AlarmNumber_Alignment" Value="Left"/>
+          <Property Name="AlarmNumber_MinDigits" Value="3"/>
+          <Property Name="AlarmNumber_Position" Value="Column 1"/>
+          <Property Name="AlarmNumber_SeparatorTextGroup" Value="None"/>
+          <Property Name="AlarmNumber_Width" Value="33"/>
+          <Property Name="AlarmState_Position" Value="None"/>
+          <Property Name="AlarmText_Alignment" Value="Left"/>
+          <Property Name="AlarmText_Position" Value="Column 3"/>
+          <Property Name="AlarmText_SeparatorTextGroup" Value="None"/>
+          <Property Name="AlarmText_Width" Value="320"/>
+          <Property Name="BypassState_Position" Value="None"/>
+          <Property Name="ColumnCount" Value="3"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Cursor_LeftBitmap" Value="None"/>
+          <Property Name="Cursor_LeftTextGroup" Value="None"/>
+          <Property Name="Cursor_RightBitmap" Value="None"/>
+          <Property Name="Cursor_RightTextGroup" Value="None"/>
+          <Property Name="DateTime_Alignment" Value="Left"/>
+          <Property Name="DateTime_FormatStringBaseIndex" Value="0"/>
+          <Property Name="DateTime_FormatStringTextGroup" Value="Source[global].TextGroup[DateTimeFormats]"/>
+          <Property Name="DateTime_Position" Value="Column 2"/>
+          <Property Name="DateTime_SeparatorTextGroup" Value="None"/>
+          <Property Name="DateTime_Width" Value="149"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Event_Position" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[SimSun10px]"/>
+          <Property Name="GroupNumber_Position" Value="None"/>
+          <Property Name="Height" Value="61"/>
+          <Property Name="Input" Value="False"/>
+          <Property Name="Left" Value="6"/>
+          <Property Name="Node1" Value="User order"/>
+          <Property Name="Priority_Position" Value="None"/>
+          <Property Name="SortColumn" Value="Time"/>
+          <Property Name="SortOrder" Value="Descending"/>
+          <Property Name="Source" Value="Current"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="414"/>
+          <Property Name="Width" Value="541"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_PosFrame">
+          <Property Name="AlignmentVertical" Value="Top"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[DefaultBold]"/>
+          <Property Name="Height" Value="301"/>
+          <Property Name="Left" Value="317"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TabActive]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="93"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[0].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="139"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[1].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="14"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="166"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[2].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="193"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[3].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab5">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[4].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="21"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="247"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[5].TextIndex]"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="24"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="274"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Lab7">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="5"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="324"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[6].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="28"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="306"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Position">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="390"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="83"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Configuration">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="106"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="83"/>
+          <Property Name="Width" Value="116"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_ToolLabel">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="61"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="Width" Value="57"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_WorkObjectLabel">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="61"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="6"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="150"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_JogSpeedLabel">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="61"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="183"/>
+          <Property Name="Width" Value="110"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_JogSpeed">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="Left" Value="151"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="10"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericJogStep.Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="86"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_Separator">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="302"/>
+          <Property Name="EndY" Value="217"/>
+          <Property Name="ForeColor" Value="248"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="30"/>
+          <Property Name="StartY" Value="217"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[0].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="137"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[1].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="165"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[2].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="193"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[3].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="221"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[4].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="252"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_Unit6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="6"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[5].TextIndex]"/>
+          <Property Name="Left" Value="486"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="279"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_WorkObjectCheck">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_17]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="30"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[CheckBox]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="151"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_ToggleWorkObj]"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="Dropdown_JointTCP">
+          <Property Name="AlignmentVertical" Value="Bottom"/>
+          <Property Name="ButtonsBackColor" Value="16"/>
+          <Property Name="ButtonsBitmapGroup" Value="None"/>
+          <Property Name="ButtonsBorder" Value="None"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownJointTCP.SelectedIndex]"/>
+          <Property Name="Left" Value="157"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxIndex" Value="1"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SelectedBackColor" Value="235"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="29"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="224"/>
+          <Property Name="Width" Value="147"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_FormatLabel">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="61"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="227"/>
+          <Property Name="Width" Value="73"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="Dropdown_EulerQuant">
+          <Property Name="AlignmentVertical" Value="Bottom"/>
+          <Property Name="ButtonsBackColor" Value="16"/>
+          <Property Name="ButtonsBitmapGroup" Value="None"/>
+          <Property Name="ButtonsBorder" Value="None"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownDegreeRad.SelectedIndex]"/>
+          <Property Name="Left" Value="157"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxIndex" Value="1"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SelectedBackColor" Value="235"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="33"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="294"/>
+          <Property Name="Width" Value="147"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="Dropdown_RadDegree">
+          <Property Name="AlignmentVertical" Value="Bottom"/>
+          <Property Name="ButtonsBackColor" Value="16"/>
+          <Property Name="ButtonsBitmapGroup" Value="None"/>
+          <Property Name="ButtonsBorder" Value="None"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownEulerQuan.SelectedIndex]"/>
+          <Property Name="Left" Value="157"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxIndex" Value="1"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SelectedBackColor" Value="235"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="31"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="259"/>
+          <Property Name="Width" Value="147"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value1">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="1360"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="139"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[0].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value2">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="167"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[1].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value3">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[2].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value4">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="223"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[3].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value5">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="251"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[4].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value6">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="279"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[5].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value7">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="GroupID" Value="4"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[6].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="308"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[6].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_ToolCheck">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_31]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="30"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[CheckBox]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="119"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_ToolCheck]"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_NotAvailable">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="203"/>
+          <Property Name="Left" Value="323"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextNotAvailable.StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="35"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="134"/>
+          <Property Name="Width" Value="208"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_PosSwitch">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[ButtonFlat]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_28]"/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="38"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="337"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ButtonFlatPressed]"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[ControlButton]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndex" Value="39"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="343"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_ACTSET]"/>
+          <Property Name="Width" Value="177"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_SeparatorPos">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="518"/>
+          <Property Name="EndY" Value="129"/>
+          <Property Name="ForeColor" Value="248"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="327"/>
+          <Property Name="StartY" Value="129"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value8">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="1360"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="138"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value9">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="165"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value10">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="192"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value11">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value12">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="248"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value13">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="276"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_Value14">
+          <Property Name="AddFractionDigits" Value="4"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="GroupID" Value="7"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="367"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Max]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Min]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="305"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Value]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="117"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_PosTitle">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextActSet.TextIndex]"/>
+          <Property Name="Left" Value="325"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="37"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="97"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_CheckSet">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_106]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="505"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonCheckVar.StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[CheckBox]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="100"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_VarCheck]"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_ToolName">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextToolName.TextIndex]"/>
+          <Property Name="Left" Value="140"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_WorkObjectName">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextWorkObjectName.TextIndex]"/>
+          <Property Name="Left" Value="140"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="47"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="150"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_VarName">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[SimSunArial14px]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.TextIndex]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PageJogging]"/>
+          <Property Name="TextIndexOffset" Value="41"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="99"/>
+          <Property Name="Width" Value="142"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_ToolBrowse">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_29]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="130"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Toolbrowse]"/>
+          <Property Name="Width" Value="174"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_FrameBrowse">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_107]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="130"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="150"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_FrameBrowse]"/>
+          <Property Name="Width" Value="174"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_SetBrowse">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_108]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.StatusDatapoint]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="99"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_SetBrowse]"/>
+          <Property Name="Width" Value="142"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="VK_ToggleWorkObj">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonWorkObjectCheck.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_Toolbrowse">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotToolBrowse.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_WorkObjectBrowse">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonWorkObjectBrowse.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_ToolCheck">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtoToolCheck.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_ACTSET">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonActSet.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_PointBrowse">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonPointBrowse.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_VarCheck">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonCheckVar.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_FrameBrowse">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotFrameBrowse.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_SetBrowse">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotSetBrowse.Value]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[globalButtons]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="globalButtons"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[LoginPopup]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="LoginPopup"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]">
+      <Property Name="Down" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+      <Property Name="Right" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_Value11]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_Value11]"/>
+      <Property Name="Up" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_EulerQuant]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_Value13]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_Value13]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_EulerQuant]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_Value12]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_Value12]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value8]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value9]"/>
+      <Property Name="Left" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+      <Property Name="Right" Value="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]"/>
+      <Property Name="Up" Value="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value9]">
+      <Property Name="Down" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]"/>
+      <Property Name="Right" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value10]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value11]"/>
+      <Property Name="Left" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+      <Property Name="Right" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+      <Property Name="Up" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value11]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value12]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+      <Property Name="Up" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value12]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value13]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value11]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value13]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value14]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value12]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_Value14]">
+      <Property Name="Down" Value="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_EulerQuant]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_EulerQuant]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value13]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[globalButtons].Control[Slider_Feedrate]">
+      <Property Name="Down" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_Value9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_Value8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_Value8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value14]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[LoginPopup].Control[String_PasswordInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_Value10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_Value10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_Value10]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[LoginPopup].Control[String_PasswordInput]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[globalButtons].Control[Slider_Feedrate]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Alarm_Current]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_JogSpeed]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Dropdown_JointTCP]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Dropdown_EulerQuant]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Dropdown_RadDegree]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_Value1]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Numeric_Value2]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Numeric_Value3]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[Numeric_Value4]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Default].Control[Numeric_Value5]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[Numeric_Value6]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Default].Control[Numeric_Value7]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Default].Control[Numeric_Value8]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Default].Control[Numeric_Value9]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Default].Control[Numeric_Value10]"/>
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[Default].Control[Numeric_Value11]"/>
+    <TabSeqItem Index="19" Value="Source[embedded].Layer[Default].Control[Numeric_Value12]"/>
+    <TabSeqItem Index="20" Value="Source[embedded].Layer[Default].Control[Numeric_Value13]"/>
+    <TabSeqItem Index="21" Value="Source[embedded].Layer[Default].Control[Numeric_Value14]"/>
+  </TabSequence>
+</Page>

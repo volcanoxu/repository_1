@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<NcMapping NcSwId="ARNC0">
+  <NcObject Name="gRobot" ModuleAddress="ST1" Type="ncCNCSYS" Channel="1" AcoposSimulation="Off" InitParameter="cnc_i" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

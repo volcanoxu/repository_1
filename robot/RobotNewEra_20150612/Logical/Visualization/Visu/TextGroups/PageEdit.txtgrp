@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageEdit">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="ProgramName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiEditor.Name]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002001" Name="Col">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiEditor.HmiEditorCtrl.Components.PageEdit.LayerDefault.EditPrg.CursorCol]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002001" Name="Ln">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiEditor.HmiEditorCtrl.Components.PageEdit.LayerDefault.EditPrg.CursorLine]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="210091" Value="Current program"/>
+    <Text ID="210092" Value="&lt;NONE&gt; "/>
+    <Text ID="210093" Value="{ProgramName}"/>
+    <Text ID="210590" Value="Ln:{Ln} Col:{Col}"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="210091" Value="当前程序"/>
+    <Text ID="210092" Value="&lt;无&gt; "/>
+    <Text ID="210093" Value="{ProgramName}"/>
+    <Text ID="210590" Value="行:{Ln} 列:{Col}"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="210091" Value="0"/>
+    <Index ID="210092" Value="1"/>
+    <Index ID="210093" Value="2"/>
+    <Index ID="210590" Value="3"/>
+  </IndexMap>
+</TextGroup>

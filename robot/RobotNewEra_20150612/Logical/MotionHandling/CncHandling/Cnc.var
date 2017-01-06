@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Cnc
+ * File: Cnc.var
+ * Author: radaka
+ * Created: February 16, 2009
+ ********************************************************************
+ * Local variables of program Cnc
+ ********************************************************************)
+VAR CONSTANT
+	DRYRUN_P_FACTOR : UDINT := 200;
+	DRYRUN_CNC_STOP_MOVE_TIME_DELAY : TIME := T#200ms;
+END_VAR

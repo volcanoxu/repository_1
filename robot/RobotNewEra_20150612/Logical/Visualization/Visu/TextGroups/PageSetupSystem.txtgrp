@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageSetupSystem">
+  <Property Name="Description" Value="Texts for elements on pages"/>
+  <Property Name="Index" Value="14"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="89135" Value="Contrast"/>
+    <Text ID="89136" Value="Touch calibration"/>
+    <Text ID="89142" Value="Brightness"/>
+    <Text ID="89302" Value="Language"/>
+    <Text ID="89304" Value="Touch configuration"/>
+    <Text ID="89523" Value="Network settings"/>
+    <Text ID="89526" Value="IP address "/>
+    <Text ID="89527" Value="Node number"/>
+    <Text ID="90122" Value="Time"/>
+    <Text ID="90123" Value="Date"/>
+    <Text ID="90125" Value="Date &amp; Time"/>
+    <Text ID="95076" Value="Display settings"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="89135" Value=""/>
+    <Text ID="89136" Value="触摸校正"/>
+    <Text ID="89142" Value="亮度"/>
+    <Text ID="89302" Value="语言"/>
+    <Text ID="89304" Value=""/>
+    <Text ID="89523" Value="网络设置"/>
+    <Text ID="89526" Value="IP 地址"/>
+    <Text ID="89527" Value="节点号"/>
+    <Text ID="90122" Value="时间"/>
+    <Text ID="90123" Value="日期"/>
+    <Text ID="90125" Value="日期&amp;时间"/>
+    <Text ID="95076" Value="显示设置"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="89135" Value="6010"/>
+    <Index ID="89136" Value="6009"/>
+    <Index ID="89142" Value="6011"/>
+    <Index ID="89302" Value="6000"/>
+    <Index ID="89304" Value="6001"/>
+    <Index ID="89523" Value="6002"/>
+    <Index ID="89526" Value="6003"/>
+    <Index ID="89527" Value="6004"/>
+    <Index ID="90122" Value="6005"/>
+    <Index ID="90123" Value="6006"/>
+    <Index ID="90125" Value="6007"/>
+    <Index ID="95076" Value="6008"/>
+  </IndexMap>
+</TextGroup>

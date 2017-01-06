@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">HmiGlobal.typ</Object>
+    <Object Type="File" Description="Global variables">HmiGlobal.var</Object>
+    <Object Type="Package" Description="Hard Key On MP50">HmiHardKey</Object>
+    <Object Type="Package" Description="Common Control">HmiKeyCtrl</Object>
+    <Object Type="Package" Description="Main Page">HmiMain</Object>
+    <Object Type="Package" Description="Setup Page">HmiSetup</Object>
+    <Object Type="Package" Description="IO Page(NOT USED)">HmiIO</Object>
+    <Object Type="Package" Description="Prg Manage Page">HmiPrg</Object>
+    <Object Type="Package" Description="Hmi Program Editor">HmiEditor</Object>
+    <Object Type="Package" Description="Alarm Page">HmiAlarm</Object>
+    <Object Type="Package" Description="JogControl">HmiJog</Object>
+  </Objects>
+</Package>

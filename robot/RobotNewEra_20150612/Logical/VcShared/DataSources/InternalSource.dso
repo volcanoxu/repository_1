@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.26 SP08"?>
+<DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="InternalSource">
+  <Property Name="AutoRefresh" Value="False" />
+  <Property Name="DefaultUpdateTime" Value="200" />
+  <Property Name="Description" Value="" />
+  <Property Name="IsIntern" Value="True" />
+  <Property Name="TextGroup" Value="None" />
+  <DataPoints>
+    <Folder Name="Temperature">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="CPU">
+        <Property Name="DPLimit" Value="Default" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="PLCUnit" Value="Default" />
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="ConnectingVisus" Value="" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Room">
+        <Property Name="DPLimit" Value="Default" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="PLCUnit" Value="Default" />
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="ConnectingVisus" Value="" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+    <Folder Name="Memory">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="TotalFree">
+        <Property Name="DPLimit" Value="None" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UDINT" />
+        <Property Name="PLCUnit" Value="None" />
+        <Property Name="UnitGroup" Value="None" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="ConnectingVisus" Value="" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="TotalInstalled">
+        <Property Name="DPLimit" Value="None" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UDINT" />
+        <Property Name="PLCUnit" Value="None" />
+        <Property Name="UnitGroup" Value="None" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="ConnectingVisus" Value="" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+  </DataPoints>
+</DataSource>

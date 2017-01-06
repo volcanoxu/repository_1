@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.214?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">MotionGlobal.typ</Object>
+    <Object Type="File">MotionGlobal.var</Object>
+    <Object Type="File">MotionGlobalDefines.var</Object>
+    <Object Type="File">MotionGlobalSize.var</Object>
+    <Object Type="Package" Description="GMC">Configuration</Object>
+    <Object Type="Package" Description="GMC">SystemHandling</Object>
+    <Object Type="Package" Description="GMC">CncHandling</Object>
+    <Object Type="Package" Description="GMC">AxesHandling</Object>
+    <Object Type="Package" Description="Jogging">Jogging</Object>
+    <Object Type="Package" Description="Motion Init Files">MotionInitFiles</Object>
+    <Object Type="Package" Description="Trf Related">Transformations</Object>
+    <Object Type="Package" Description="Interpreter xml config files">Interpreter</Object>
+    <Object Type="Package" Description="NOT USED">FeedForward</Object>
+    <Object Type="Package" Description="Optimizer">Optimizer</Object>
+  </Objects>
+</Package>

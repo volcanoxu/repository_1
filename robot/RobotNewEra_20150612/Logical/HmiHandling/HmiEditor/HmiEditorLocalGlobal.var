@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: HmiEdit
+ * File: HmiEditGlobal.var
+ * Author: renj
+ * Created: October 20, 2014
+ ********************************************************************
+ * Variables of package HmiEdit
+ ********************************************************************)
+VAR
+	HmiEditorInternal : HmiEditorCtrlInternal_Type := (0);
+	HmiFileCtrlVar : HmiFileCtrl_Type := (0);
+END_VAR

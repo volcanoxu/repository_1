@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Apt" Description="power supply axis parameter table">ps_p</Object>
+    <Object Type="DataObject" Language="Apt" Description="acopos multi axes parameter table">acpm_p</Object>
+    <Object Type="DataObject" Language="Apt" Description="ACOPOS Parameter Table">acpmic_p</Object>
+    <Object Type="DataObject" Language="Ax">joint1_i</Object>
+    <Object Type="DataObject" Language="Ax">joint2_i</Object>
+    <Object Type="DataObject" Language="Ax" Description="ACP10: Axis data object.">joint3_i</Object>
+    <Object Type="DataObject" Language="Ax">joint4_i</Object>
+    <Object Type="DataObject" Language="Ax">joint5_i</Object>
+    <Object Type="DataObject" Language="Ax">joint6_i</Object>
+    <Object Type="Package" Description="An empty package">SDC</Object>
+    <Object Type="File">arnc0001.br</Object>
+    <Object Type="DataObject" Language="Cns" Description="ARNC0: CNC-System">robot_i</Object>
+  </Objects>
+</Package>

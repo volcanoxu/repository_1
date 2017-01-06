@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Div60">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[SCALED]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="164847" Value=""/>
+      <Text ID="164848" Value=""/>
+      <Text ID="164849" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh">
+      <Text ID="164847" Value=""/>
+      <Text ID="164848" Value=""/>
+      <Text ID="164849" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="164847" Value="0"/>
+      <Index ID="164848" Value="1"/>
+      <Index ID="164849" Value="2"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000602" Name="SCALED">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value=".01666666"/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

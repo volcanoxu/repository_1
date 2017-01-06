@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="6" Type="REF" RefString="Source[local].BitmapGroup[RobotGeo]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="RobotGeo" ClsId="0x308" Version="1" TargetIndex="6" Type="BMPG" RefString="Source[local].BitmapGroup[RobotGeo_en]">
+            <UInt32 Name="Count">6</UInt32>
+            <Group Name="RobotGeo0">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo0]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="RobotGeo1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="RobotGeo2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="RobotGeo3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="RobotGeo4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="RobotGeo5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="RobotGeo" ClsId="0x308" Version="1" TargetIndex="6" Type="BMPG" RefString="Source[local].BitmapGroup[RobotGeo_zh]">
+            <UInt32 Name="Count">6</UInt32>
+            <Group Name="RobotGeo0">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo0]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="RobotGeo1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="RobotGeo2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="RobotGeo3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="RobotGeo4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="RobotGeo5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[RobotGeo5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

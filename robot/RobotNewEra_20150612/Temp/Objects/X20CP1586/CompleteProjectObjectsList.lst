@@ -1,0 +1,2559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.1.211"?>
+<Objects>
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="130754274040000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="130752468840000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="130781766720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Runtime\runtime.var"
+    LogicalPath="Libraries.Runtime.runtime.var"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Runtime\runtime.typ"
+    LogicalPath="Libraries.Runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Runtime\runtime.fun"
+    LogicalPath="Libraries.Runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Runtime\Binary.lby"
+    LogicalPath="Libraries.Runtime"
+    Type="Library"
+    LastWriteTime="129592063740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Operator\operator.fun"
+    LogicalPath="Libraries.Operator.operator.fun"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Operator\Binary.lby"
+    LogicalPath="Libraries.Operator"
+    Type="Library"
+    LastWriteTime="129592063740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="129592063740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="129592063740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\DataObj\Binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="129991002640000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsMem\AsMem.var"
+    LogicalPath="Libraries.AsMem.AsMem.var"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsMem\AsMem.fun"
+    LogicalPath="Libraries.AsMem.AsMem.fun"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsMem\Binary.lby"
+    LogicalPath="Libraries.AsMem"
+    Type="Library"
+    LastWriteTime="129991002640000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArLog\AsArLog.var"
+    LogicalPath="Libraries.AsArLog.AsArLog.var"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArLog\AsArLog.typ"
+    LogicalPath="Libraries.AsArLog.AsArLog.typ"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArLog\AsArLog.fun"
+    LogicalPath="Libraries.AsArLog.AsArLog.fun"
+    Type="File"
+    LastWriteTime="129991002640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArLog\Binary.lby"
+    LogicalPath="Libraries.AsArLog"
+    Type="Library"
+    LastWriteTime="129991002640000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="129991002660000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArProf\AsArProf.var"
+    LogicalPath="Libraries.AsArProf.AsArProf.var"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArProf\AsArProf.typ"
+    LogicalPath="Libraries.AsArProf.AsArProf.typ"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArProf\AsArProf.fun"
+    LogicalPath="Libraries.AsArProf.AsArProf.fun"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArProf\Binary.lby"
+    LogicalPath="Libraries.AsArProf"
+    Type="Library"
+    LastWriteTime="129991002660000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="129991002660000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="129991002660000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\FileIO\Binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="129991002660000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="129991011200000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="129991011200000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\asrfbext\asrfbext.typ"
+    LogicalPath="Libraries.asrfbext.asrfbext.typ"
+    Type="File"
+    LastWriteTime="130068299360000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\asrfbext\asrfbext.fun"
+    LogicalPath="Libraries.asrfbext.asrfbext.fun"
+    Type="File"
+    LastWriteTime="130068299360000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\asrfbext\Binary.lby"
+    LogicalPath="Libraries.asrfbext"
+    Type="Library"
+    LastWriteTime="130068299360000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsICMP\AsICMP.var"
+    LogicalPath="Libraries.AsICMP.AsICMP.var"
+    Type="File"
+    LastWriteTime="130069967160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsICMP\AsICMP.fun"
+    LogicalPath="Libraries.AsICMP.AsICMP.fun"
+    Type="File"
+    LastWriteTime="130069967180000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsICMP\Binary.lby"
+    LogicalPath="Libraries.AsICMP"
+    Type="Library"
+    LastWriteTime="130069967180000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsUSB\AsUSB.var"
+    LogicalPath="Libraries.AsUSB.AsUSB.var"
+    Type="File"
+    LastWriteTime="130069967720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsUSB\AsUSB.typ"
+    LogicalPath="Libraries.AsUSB.AsUSB.typ"
+    Type="File"
+    LastWriteTime="130069967720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsUSB\AsUSB.fun"
+    LogicalPath="Libraries.AsUSB.AsUSB.fun"
+    Type="File"
+    LastWriteTime="130069967720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsUSB\Binary.lby"
+    LogicalPath="Libraries.AsUSB"
+    Type="Library"
+    LastWriteTime="130069967720000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\visapi\Visapi.typ"
+    LogicalPath="Libraries.visapi.Visapi.typ"
+    Type="File"
+    LastWriteTime="130122733380000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\visapi\Visapi.fun"
+    LogicalPath="Libraries.visapi.Visapi.fun"
+    Type="File"
+    LastWriteTime="130122733380000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\visapi\Visapi.var"
+    LogicalPath="Libraries.visapi.Visapi.var"
+    Type="File"
+    LastWriteTime="130122733380000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\visapi\Binary.lby"
+    LogicalPath="Libraries.visapi"
+    Type="Library"
+    LastWriteTime="130122733380000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\TRF_LIB\TRF_LIB.var"
+    LogicalPath="Libraries.TRF_LIB.TRF_LIB.var"
+    Type="File"
+    LastWriteTime="130579104000000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\TRF_LIB\TRF_LIB.typ"
+    LogicalPath="Libraries.TRF_LIB.TRF_LIB.typ"
+    Type="File"
+    LastWriteTime="130579104000000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\TRF_LIB\TRF_LIB.fun"
+    LogicalPath="Libraries.TRF_LIB.TRF_LIB.fun"
+    Type="File"
+    LastWriteTime="130579104000000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\TRF_LIB\Binary.lby"
+    LogicalPath="Libraries.TRF_LIB"
+    Type="Library"
+    LastWriteTime="130579104000000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIO\AsIO.var"
+    LogicalPath="Libraries.AsIO.AsIO.var"
+    Type="File"
+    LastWriteTime="130196435620000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIO\AsIO.fun"
+    LogicalPath="Libraries.AsIO.AsIO.fun"
+    Type="File"
+    LastWriteTime="130196435620000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIO\Binary.lby"
+    LogicalPath="Libraries.AsIO"
+    Type="Library"
+    LastWriteTime="130196435620000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIOMMan\AsIOMMan.var"
+    LogicalPath="Libraries.AsIOMMan.AsIOMMan.var"
+    Type="File"
+    LastWriteTime="130196437920000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIOMMan\AsIOMMan.fun"
+    LogicalPath="Libraries.AsIOMMan.AsIOMMan.fun"
+    Type="File"
+    LastWriteTime="130196437920000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIOMMan\Binary.lby"
+    LogicalPath="Libraries.AsIOMMan"
+    Type="Library"
+    LastWriteTime="130196437920000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIODiag\AsIODiag.var"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.var"
+    Type="File"
+    LastWriteTime="130196438820000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIODiag\AsIODiag.typ"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.typ"
+    Type="File"
+    LastWriteTime="130196438820000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIODiag\AsIODiag.fun"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.fun"
+    Type="File"
+    LastWriteTime="130196438820000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIODiag\Binary.lby"
+    LogicalPath="Libraries.AsIODiag"
+    Type="Library"
+    LastWriteTime="130196438820000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsSem\AsSem.var"
+    LogicalPath="Libraries.AsSem.AsSem.var"
+    Type="File"
+    LastWriteTime="130430445060000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsSem\AsSem.fun"
+    LogicalPath="Libraries.AsSem.AsSem.fun"
+    Type="File"
+    LastWriteTime="130430445060000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsSem\Binary.lby"
+    LogicalPath="Libraries.AsSem"
+    Type="Library"
+    LastWriteTime="130430445060000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="130591051580000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsBrStr\Binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="130591051580000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0ext\Binary.lby"
+    LogicalPath="Libraries.Arnc0ext"
+    Type="Library"
+    LastWriteTime="130670339440000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\MyLib\CusLib.hpp"
+    LogicalPath="Libraries.MyLib.CusLib.hpp"
+    Type="File"
+    LastWriteTime="130782591980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\MyLib\deelx.h"
+    LogicalPath="Libraries.MyLib.deelx.h"
+    Type="File"
+    LastWriteTime="130674798440000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\MyLib\ANSIC.lby"
+    LogicalPath="Libraries.MyLib"
+    Type="Library"
+    LastWriteTime="130674798440000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\LoopConR\LoopConR.var"
+    LogicalPath="Libraries.LoopConR.LoopConR.var"
+    Type="File"
+    LastWriteTime="130743021720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\LoopConR\LoopConR.typ"
+    LogicalPath="Libraries.LoopConR.LoopConR.typ"
+    Type="File"
+    LastWriteTime="130743021720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\LoopConR\LoopConR.fun"
+    LogicalPath="Libraries.LoopConR.LoopConR.fun"
+    Type="File"
+    LastWriteTime="130743021720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\LoopConR\Binary.lby"
+    LogicalPath="Libraries.LoopConR"
+    Type="Library"
+    LastWriteTime="130743021720000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="130751756720000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="130751756720000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="130751756740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="130751756740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\NcGlobal\Ncglobal.fun"
+    LogicalPath="Libraries.NcGlobal.Ncglobal.fun"
+    Type="File"
+    LastWriteTime="130751756740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\NcGlobal\Ncglobal.typ"
+    LogicalPath="Libraries.NcGlobal.Ncglobal.typ"
+    Type="File"
+    LastWriteTime="130751756740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\NcGlobal\Ncglobal.var"
+    LogicalPath="Libraries.NcGlobal.Ncglobal.var"
+    Type="File"
+    LastWriteTime="130751756740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="130751756740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0man\arnc0man.typ"
+    LogicalPath="Libraries.Arnc0man.arnc0man.typ"
+    Type="File"
+    LastWriteTime="130751756740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0man\Binary.lby"
+    LogicalPath="Libraries.Arnc0man"
+    Type="Library"
+    LastWriteTime="130751756740000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sdc\acp10sdc.var"
+    LogicalPath="Libraries.Acp10sdc.acp10sdc.var"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sdc\acp10sdc.typ"
+    LogicalPath="Libraries.Acp10sdc.acp10sdc.typ"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sdc\Binary.lby"
+    LogicalPath="Libraries.Acp10sdc"
+    Type="Library"
+    LastWriteTime="130751756760000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sim\acp10sim.var"
+    LogicalPath="Libraries.Acp10sim.acp10sim.var"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sim\acp10sim.typ"
+    LogicalPath="Libraries.Acp10sim.acp10sim.typ"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sim\Binary.lby"
+    LogicalPath="Libraries.Acp10sim"
+    Type="Library"
+    LastWriteTime="130751756760000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10_MC\acp10_mc.var"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.var"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10_MC\acp10_mc.typ"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.typ"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10_MC\acp10_mc.fun"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.fun"
+    Type="File"
+    LastWriteTime="130751756760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10_MC\Binary.lby"
+    LogicalPath="Libraries.Acp10_MC"
+    Type="Library"
+    LastWriteTime="130751756760000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0mx\arnc0mx.var"
+    LogicalPath="Libraries.Arnc0mx.arnc0mx.var"
+    Type="File"
+    LastWriteTime="130751756780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0mx\arnc0mx.typ"
+    LogicalPath="Libraries.Arnc0mx.arnc0mx.typ"
+    Type="File"
+    LastWriteTime="130751756780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0mx\arnc0mx.fun"
+    LogicalPath="Libraries.Arnc0mx.arnc0mx.fun"
+    Type="File"
+    LastWriteTime="130751756780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0mx\Binary.lby"
+    LogicalPath="Libraries.Arnc0mx"
+    Type="Library"
+    LastWriteTime="130751756780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="130752467460000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionGlobal.typ"
+    LogicalPath="MotionHandling.MotionGlobal.typ"
+    Type="File"
+    LastWriteTime="130618310540000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionGlobal.var"
+    LogicalPath="MotionHandling.MotionGlobal.var"
+    Type="File"
+    LastWriteTime="130618410880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionGlobalDefines.var"
+    LogicalPath="MotionHandling.MotionGlobalDefines.var"
+    Type="File"
+    LastWriteTime="130752476540000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionGlobalSize.var"
+    LogicalPath="MotionHandling.MotionGlobalSize.var"
+    Type="File"
+    LastWriteTime="130752467680000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config.typ"
+    LogicalPath="MotionHandling.Configuration.Config.typ"
+    Type="File"
+    LastWriteTime="130633282560000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\ConfigActions.st"
+    LogicalPath="MotionHandling.Configuration.Config.ConfigActions.st"
+    Type="File"
+    LastWriteTime="130752569100000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\Config.st"
+    LogicalPath="MotionHandling.Configuration.Config.Config.st"
+    Type="File"
+    LastWriteTime="130633282560000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\Config.var"
+    LogicalPath="MotionHandling.Configuration.Config.Config.var"
+    Type="File"
+    LastWriteTime="130633282560000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\IEC.prg"
+    LogicalPath="MotionHandling.Configuration.Config"
+    Type="Program"
+    LastWriteTime="130633282560000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Package.pkg"
+    LogicalPath="MotionHandling.Configuration"
+    Type="Package"
+    LastWriteTime="130752468000000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System.typ"
+    LogicalPath="MotionHandling.SystemHandling.System.typ"
+    Type="File"
+    LastWriteTime="130624735480000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System.var"
+    LogicalPath="MotionHandling.SystemHandling.System.var"
+    Type="File"
+    LastWriteTime="129991869200000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\System.st"
+    LogicalPath="MotionHandling.SystemHandling.System.System.st"
+    Type="File"
+    LastWriteTime="130062828540000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.typ"
+    LogicalPath="MotionHandling.SystemHandling.System.SystemPrv.typ"
+    Type="File"
+    LastWriteTime="129991869200000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.var"
+    LogicalPath="MotionHandling.SystemHandling.System.SystemPrv.var"
+    Type="File"
+    LastWriteTime="130231885200000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemActions.st"
+    LogicalPath="MotionHandling.SystemHandling.System.SystemActions.st"
+    Type="File"
+    LastWriteTime="130624735440000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\IEC.prg"
+    LogicalPath="MotionHandling.SystemHandling.System"
+    Type="Program"
+    LastWriteTime="129991869200000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\Package.pkg"
+    LogicalPath="MotionHandling.SystemHandling"
+    Type="Package"
+    LastWriteTime="129991869200000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc.typ"
+    LogicalPath="MotionHandling.CncHandling.Cnc.typ"
+    Type="File"
+    LastWriteTime="130633368160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc.var"
+    LogicalPath="MotionHandling.CncHandling.Cnc.var"
+    Type="File"
+    LastWriteTime="130256724020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\Cnc.st"
+    LogicalPath="MotionHandling.CncHandling.Cnc.Cnc.st"
+    Type="File"
+    LastWriteTime="130478925560000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.typ"
+    LogicalPath="MotionHandling.CncHandling.Cnc.CncPrivate.typ"
+    Type="File"
+    LastWriteTime="130256724020000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.var"
+    LogicalPath="MotionHandling.CncHandling.Cnc.CncPrivate.var"
+    Type="File"
+    LastWriteTime="130256724020000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncActions.st"
+    LogicalPath="MotionHandling.CncHandling.Cnc.CncActions.st"
+    Type="File"
+    LastWriteTime="130591057700000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\IEC.prg"
+    LogicalPath="MotionHandling.CncHandling.Cnc"
+    Type="Program"
+    LastWriteTime="130256724020000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\arnc0001.br"
+    LogicalPath="MotionHandling.CncHandling.arnc0001.br"
+    Type="File"
+    LastWriteTime="130509957680000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Arnc0sys.br"
+    LogicalPath="MotionHandling.CncHandling.Arnc0sys.br"
+    Type="File"
+    LastWriteTime="130510022620000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Package.pkg"
+    LogicalPath="MotionHandling.CncHandling"
+    Type="Package"
+    LastWriteTime="130510022620000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes.typ"
+    LogicalPath="MotionHandling.AxesHandling.Axes.typ"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes.var"
+    LogicalPath="MotionHandling.AxesHandling.Axes.var"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\Axes.st"
+    LogicalPath="MotionHandling.AxesHandling.Axes.Axes.st"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.typ"
+    LogicalPath="MotionHandling.AxesHandling.Axes.AxesPrivate.typ"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.var"
+    LogicalPath="MotionHandling.AxesHandling.Axes.AxesPrivate.var"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxACP10Actions.st"
+    LogicalPath="MotionHandling.AxesHandling.Axes.AxACP10Actions.st"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\IEC.prg"
+    LogicalPath="MotionHandling.AxesHandling.Axes"
+    Type="Program"
+    LastWriteTime="130781709020000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\AcpError\AcpError.ett"
+    LogicalPath="MotionHandling.AxesHandling.AcpError.AcpError.ett"
+    Type="File"
+    LastWriteTime="130781709020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\AcpError\Ett.dob"
+    LogicalPath="MotionHandling.AxesHandling.AcpError"
+    Type="DataObject"
+    LastWriteTime="130781709020000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Package.pkg"
+    LogicalPath="MotionHandling.AxesHandling"
+    Type="Package"
+    LastWriteTime="130781709020000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\JogGlobal.typ"
+    LogicalPath="MotionHandling.Jogging.JogGlobal.typ"
+    Type="File"
+    LastWriteTime="130752473320000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Jog\Jog.c"
+    LogicalPath="MotionHandling.Jogging.Jog.Jog.c"
+    Type="File"
+    LastWriteTime="130782592100000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Jog\Jog.var"
+    LogicalPath="MotionHandling.Jogging.Jog.Jog.var"
+    Type="File"
+    LastWriteTime="130752473320000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Jog\ANSIC.prg"
+    LogicalPath="MotionHandling.Jogging.Jog"
+    Type="Program"
+    LastWriteTime="130752473320000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\JogInit\JogInit.cnc"
+    LogicalPath="MotionHandling.Jogging.JogInit.JogInit.cnc"
+    Type="File"
+    LastWriteTime="130752473320000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\JogInit\Cnc.dob"
+    LogicalPath="MotionHandling.Jogging.JogInit"
+    Type="DataObject"
+    LastWriteTime="130752473320000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\JogPrg\JogPrg.cnc"
+    LogicalPath="MotionHandling.Jogging.JogPrg.JogPrg.cnc"
+    Type="File"
+    LastWriteTime="130797678961444840"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\JogPrg\Cnc.dob"
+    LogicalPath="MotionHandling.Jogging.JogPrg"
+    Type="DataObject"
+    LastWriteTime="130752473320000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Package.pkg"
+    LogicalPath="MotionHandling.Jogging"
+    Type="Package"
+    LastWriteTime="130752473320000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\ps_p\ps_p.apt"
+    LogicalPath="MotionHandling.MotionInitFiles.ps_p.ps_p.apt"
+    Type="File"
+    LastWriteTime="130002288280000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\ps_p\Apt.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.ps_p"
+    Type="DataObject"
+    LastWriteTime="130002288280000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\acpm_p\acpm_p.apt"
+    LogicalPath="MotionHandling.MotionInitFiles.acpm_p.acpm_p.apt"
+    Type="File"
+    LastWriteTime="130478794760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\acpm_p\Apt.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.acpm_p"
+    Type="DataObject"
+    LastWriteTime="130002300520000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\acpmic_p\acpmic_p.apt"
+    LogicalPath="MotionHandling.MotionInitFiles.acpmic_p.acpmic_p.apt"
+    Type="File"
+    LastWriteTime="130478794020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\acpmic_p\Apt.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.acpmic_p"
+    Type="DataObject"
+    LastWriteTime="130057825300000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint1_i\joint1_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint1_i.joint1_i.ax"
+    Type="File"
+    LastWriteTime="130613826100000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint1_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint1_i"
+    Type="DataObject"
+    LastWriteTime="130002288660000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint2_i\joint2_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint2_i.joint2_i.ax"
+    Type="File"
+    LastWriteTime="130614290420000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint2_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint2_i"
+    Type="DataObject"
+    LastWriteTime="130093317700000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint3_i\joint3_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint3_i.joint3_i.ax"
+    Type="File"
+    LastWriteTime="130748234080000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint3_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint3_i"
+    Type="DataObject"
+    LastWriteTime="130748234080000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint4_i\joint4_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint4_i.joint4_i.ax"
+    Type="File"
+    LastWriteTime="130613960120000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint4_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint4_i"
+    Type="DataObject"
+    LastWriteTime="130002288780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint5_i\joint5_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint5_i.joint5_i.ax"
+    Type="File"
+    LastWriteTime="130614291960000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint5_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint5_i"
+    Type="DataObject"
+    LastWriteTime="130064619140000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint6_i\joint6_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.joint6_i.joint6_i.ax"
+    Type="File"
+    LastWriteTime="130613961880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\joint6_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.joint6_i"
+    Type="DataObject"
+    LastWriteTime="130064619100000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_i\sdc_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_i.sdc_i.ax"
+    Type="File"
+    LastWriteTime="130204260060000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_i"
+    Type="DataObject"
+    LastWriteTime="130077120900000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_p\sdc_p.apt"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_p.sdc_p.apt"
+    Type="File"
+    LastWriteTime="130077120900000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_p\Apt.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_p"
+    Type="DataObject"
+    LastWriteTime="130077120900000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j1_i\sdc_j1_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j1_i.sdc_j1_i.ax"
+    Type="File"
+    LastWriteTime="130614298700000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j1_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j1_i"
+    Type="DataObject"
+    LastWriteTime="130614293160000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j2_i\sdc_j2_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j2_i.sdc_j2_i.ax"
+    Type="File"
+    LastWriteTime="130614292900000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j2_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j2_i"
+    Type="DataObject"
+    LastWriteTime="130614293260000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j3_i\sdc_j3_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j3_i.sdc_j3_i.ax"
+    Type="File"
+    LastWriteTime="130614298860000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j3_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j3_i"
+    Type="DataObject"
+    LastWriteTime="130614293380000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j4_i\sdc_j4_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j4_i.sdc_j4_i.ax"
+    Type="File"
+    LastWriteTime="130614299300000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j4_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j4_i"
+    Type="DataObject"
+    LastWriteTime="130614293520000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j5_i\sdc_j5_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j5_i.sdc_j5_i.ax"
+    Type="File"
+    LastWriteTime="130614299500000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j5_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j5_i"
+    Type="DataObject"
+    LastWriteTime="130614293600000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j6_i\sdc_j6_i.ax"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j6_i.sdc_j6_i.ax"
+    Type="File"
+    LastWriteTime="130614298420000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\sdc_j6_i\Ax.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC.sdc_j6_i"
+    Type="DataObject"
+    LastWriteTime="130614293900000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\SDC\Package.pkg"
+    LogicalPath="MotionHandling.MotionInitFiles.SDC"
+    Type="Package"
+    LastWriteTime="130614293760000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\arnc0001.br"
+    LogicalPath="MotionHandling.MotionInitFiles.arnc0001.br"
+    Type="File"
+    LastWriteTime="130670336160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\robot_i\robot_i.cns"
+    LogicalPath="MotionHandling.MotionInitFiles.robot_i.robot_i.cns"
+    Type="File"
+    LastWriteTime="130760139300000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\robot_i\Cns.dob"
+    LogicalPath="MotionHandling.MotionInitFiles.robot_i"
+    Type="DataObject"
+    LastWriteTime="130741303480000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\MotionInitFiles\Package.pkg"
+    LogicalPath="MotionHandling.MotionInitFiles"
+    Type="Package"
+    LastWriteTime="130748234080000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\Trf.c"
+    LogicalPath="MotionHandling.Transformations.Trf.Trf.c"
+    Type="File"
+    LastWriteTime="130796835358472995"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.typ"
+    LogicalPath="MotionHandling.Transformations.Trf.TrfPrv.typ"
+    Type="File"
+    LastWriteTime="130581719040000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.var"
+    LogicalPath="MotionHandling.Transformations.Trf.TrfPrv.var"
+    Type="File"
+    LastWriteTime="130663638000000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\ANSIC.prg"
+    LogicalPath="MotionHandling.Transformations.Trf"
+    Type="Program"
+    LastWriteTime="130581719040000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\TRFk_A0.br"
+    LogicalPath="MotionHandling.Transformations.TRFk_A0.br"
+    Type="File"
+    LastWriteTime="130581719040000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Package.pkg"
+    LogicalPath="MotionHandling.Transformations"
+    Type="Package"
+    LastWriteTime="130581719040000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipsys\gmcipsys.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipsys.gmcipsys.cnc"
+    Type="File"
+    LastWriteTime="130752565780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipsys\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipsys"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplbr\gmciplbr.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplbr.gmciplbr.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplbr\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplbr"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcbr\gmcipcbr.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcbr.gmcipcbr.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcbr\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcbr"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplsm\gmciplsm.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplsm.gmciplsm.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplsm\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplsm"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcsm\gmcipcsm.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcsm.gmcipcsm.cnc"
+    Type="File"
+    LastWriteTime="130748251120000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcsm\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcsm"
+    Type="DataObject"
+    LastWriteTime="130748251120000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcfg\gmcipcfg.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcfg.gmcipcfg.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipcfg\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipcfg"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipiec\gmcipiec.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipiec.gmcipiec.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipiec\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipiec"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplog\gmciplog.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplog.gmciplog.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmciplog\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmciplog"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipesm\gmcipesm.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipesm.gmcipesm.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipesm\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipesm"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipmxd\gmcipmxd.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipmxd.gmcipmxd.cnc"
+    Type="File"
+    LastWriteTime="130752457400000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipmxd\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipmxd"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipmx\gmcipmx.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipmx.gmcipmx.cnc"
+    Type="File"
+    LastWriteTime="130752462840000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\gmcipmx\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig.gmcipmx"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpConfig\Package.pkg"
+    LogicalPath="MotionHandling.Interpreter.GmcIpConfig"
+    Type="Package"
+    LastWriteTime="130748251120000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipvar\gmcipvar.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipvar.gmcipvar.cnc"
+    Type="File"
+    LastWriteTime="130796917264390987"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipvar\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipvar"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipfun\gmcipfun.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipfun.gmcipfun.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipfun\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipfun"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipfub\gmcipfub.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipfub.gmcipfub.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipfub\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipfub"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipubr\gmcipubr.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipubr.gmcipubr.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipubr\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipubr"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipusm\gmcipusm.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipusm.gmcipusm.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipusm\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipusm"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipus\gmcipus.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipus.gmcipus.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipus\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipus"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipuc\gmcipuc.cnc"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipuc.gmcipuc.cnc"
+    Type="File"
+    LastWriteTime="130670465780000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\gmcipuc\Cnc.dob"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig.gmcipuc"
+    Type="DataObject"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\GmcIpUserConfig\Package.pkg"
+    LogicalPath="MotionHandling.Interpreter.GmcIpUserConfig"
+    Type="Package"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Interpreter\Package.pkg"
+    LogicalPath="MotionHandling.Interpreter"
+    Type="Package"
+    LastWriteTime="130670465780000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\OptMotConfig.typ"
+    LogicalPath="MotionHandling.FeedForward.OptMotConfig.typ"
+    Type="File"
+    LastWriteTime="130451975660000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\OptMotConfig.var"
+    LogicalPath="MotionHandling.FeedForward.OptMotConfig.var"
+    Type="File"
+    LastWriteTime="130479832860000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\6axATrqFF.c"
+    LogicalPath="MotionHandling.FeedForward.6axATrqFF.6axATrqFF.c"
+    Type="File"
+    LastWriteTime="130640289880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\6axATrqFF.typ"
+    LogicalPath="MotionHandling.FeedForward.6axATrqFF.6axATrqFF.typ"
+    Type="File"
+    LastWriteTime="129992003360000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\6axATrqFF.var"
+    LogicalPath="MotionHandling.FeedForward.6axATrqFF.6axATrqFF.var"
+    Type="File"
+    LastWriteTime="129992630060000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\ANSIC.prg"
+    LogicalPath="MotionHandling.FeedForward.6axATrqFF"
+    Type="Program"
+    LastWriteTime="129992003360000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\Package.pkg"
+    LogicalPath="MotionHandling.FeedForward"
+    Type="Package"
+    LastWriteTime="130743067860000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Optimizer\Optimizer.typ"
+    LogicalPath="MotionHandling.Optimizer.Optimizer.typ"
+    Type="File"
+    LastWriteTime="130743070300000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Optimizer\Optimizer.var"
+    LogicalPath="MotionHandling.Optimizer.Optimizer.var"
+    Type="File"
+    LastWriteTime="130743070440000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Optimizer\OptMotion\OptMotion.c"
+    LogicalPath="MotionHandling.Optimizer.OptMotion.OptMotion.c"
+    Type="File"
+    LastWriteTime="130752523800000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Optimizer\OptMotion\ANSIC.prg"
+    LogicalPath="MotionHandling.Optimizer.OptMotion"
+    Type="Program"
+    LastWriteTime="130743069700000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Optimizer\Package.pkg"
+    LogicalPath="MotionHandling.Optimizer"
+    Type="Package"
+    LastWriteTime="130743069700000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Package.pkg"
+    LogicalPath="MotionHandling"
+    Type="Package"
+    LastWriteTime="130781709020000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiGlobal.typ"
+    LogicalPath="HmiHandling.HmiGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiGlobal.var"
+    LogicalPath="HmiHandling.HmiGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyGlobal.typ"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyGlobal.var"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyCtrl.c"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyCtrl.HmiHardKeyCtrl.c"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.typ"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyCtrl.HmiHardKeyLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.var"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyCtrl.HmiHardKeyLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiHardKey.HmiHardKeyCtrl"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\Package.pkg"
+    LogicalPath="HmiHandling.HmiHardKey"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyControlGlobal.typ"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyControlGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyControlGlobal.var"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyControlGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlActions.st"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.HmiKeyControlActions.st"
+    Type="File"
+    LastWriteTime="130796733944602995"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlCyclic.st"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.HmiKeyControlCyclic.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlInit.st"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.HmiKeyControlInit.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.var"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.HmiKeyControlPrv.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.typ"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl.HmiKeyControlPrv.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\IEC.prg"
+    LogicalPath="HmiHandling.HmiKeyCtrl.HmiKeyCtrl"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\Package.pkg"
+    LogicalPath="HmiHandling.HmiKeyCtrl"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMainGlobal.typ"
+    LogicalPath="HmiHandling.HmiMain.HmiMainGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMainGlobal.var"
+    LogicalPath="HmiHandling.HmiMain.HmiMainGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFileGlobal.typ"
+    LogicalPath="HmiHandling.HmiMain.HmiFileGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFileGlobal.var"
+    LogicalPath="HmiHandling.HmiMain.HmiFileGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMain.cpp"
+    LogicalPath="HmiHandling.HmiMain.HmiMain.HmiMain.cpp"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.typ"
+    LogicalPath="HmiHandling.HmiMain.HmiMain.HmiMainLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.var"
+    LogicalPath="HmiHandling.HmiMain.HmiMain.HmiMainLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiMain.HmiMain"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileCtrl.st"
+    LogicalPath="HmiHandling.HmiMain.HmiFile.HmiFileCtrl.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.typ"
+    LogicalPath="HmiHandling.HmiMain.HmiFile.HmiFileLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.var"
+    LogicalPath="HmiHandling.HmiMain.HmiFile.HmiFileLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\IEC.prg"
+    LogicalPath="HmiHandling.HmiMain.HmiFile"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\Package.pkg"
+    LogicalPath="HmiHandling.HmiMain"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetupGlobal.typ"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetupGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetupGlobal.var"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetupGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetupLocalGlobal.var"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetupLocalGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupCtrl.cpp"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetup.HmiSetupCtrl.cpp"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.typ"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetup.HmiSetupLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.var"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetup.HmiSetupLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiSetup.HmiSetup"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\Package.pkg"
+    LogicalPath="HmiHandling.HmiSetup"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIOGlobal.typ"
+    LogicalPath="HmiHandling.HmiIO.HmiIOGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIOGlobal.var"
+    LogicalPath="HmiHandling.HmiIO.HmiIOGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\Doc\TaskInteractionDiagnostics.vsd"
+    LogicalPath="HmiHandling.HmiIO.Doc.TaskInteractionDiagnostics.vsd"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\Doc\Package.pkg"
+    LogicalPath="HmiHandling.HmiIO.Doc"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\ModDiag.fun"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.ModDiag.fun"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\ModDiag.typ"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.ModDiag.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\ModDiag.var"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.ModDiag.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\internal_h.h"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.internal_h.h"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\iolist.c"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.iolist.c"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\iostatus.c"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.iostatus.c"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\modulediagnose.c"
+    LogicalPath="HmiHandling.HmiIO.ModDiag.modulediagnose.c"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\ANSIC.lby"
+    LogicalPath="HmiHandling.HmiIO.ModDiag"
+    Type="Library"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\HmiIOCtrl.st"
+    LogicalPath="HmiHandling.HmiIO.HmiIO.HmiIOCtrl.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\HmiIOCtrlLocal.typ"
+    LogicalPath="HmiHandling.HmiIO.HmiIO.HmiIOCtrlLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\HmiIOCtrlLocal.var"
+    LogicalPath="HmiHandling.HmiIO.HmiIO.HmiIOCtrlLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\IEC.prg"
+    LogicalPath="HmiHandling.HmiIO.HmiIO"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\Package.pkg"
+    LogicalPath="HmiHandling.HmiIO"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiProgramGlobal.typ"
+    LogicalPath="HmiHandling.HmiPrg.HmiProgramGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiProgramGlobal.var"
+    LogicalPath="HmiHandling.HmiPrg.HmiProgramGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgram.cpp"
+    LogicalPath="HmiHandling.HmiPrg.HmiPrg.HmiProgram.cpp"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.typ"
+    LogicalPath="HmiHandling.HmiPrg.HmiPrg.HmiProgramLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.var"
+    LogicalPath="HmiHandling.HmiPrg.HmiPrg.HmiProgramLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiPrg.HmiPrg"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\Package.pkg"
+    LogicalPath="HmiHandling.HmiPrg"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditorGlobal.typ"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditorGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditorGlobal.var"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditorGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditorLocalGlobal.typ"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditorLocalGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditorLocalGlobal.var"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditorLocalGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorCtrl.cpp"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditor.HmiEditorCtrl.cpp"
+    Type="File"
+    LastWriteTime="130767080160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.typ"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditor.HmiEditorLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.var"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditor.HmiEditorLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiEditor.HmiEditor"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileCtrlVar.st"
+    LogicalPath="HmiHandling.HmiEditor.HmiFileVar.HmiFileCtrlVar.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.typ"
+    LogicalPath="HmiHandling.HmiEditor.HmiFileVar.HmiFileVarLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.var"
+    LogicalPath="HmiHandling.HmiEditor.HmiFileVar.HmiFileVarLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\IEC.prg"
+    LogicalPath="HmiHandling.HmiEditor.HmiFileVar"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\Package.pkg"
+    LogicalPath="HmiHandling.HmiEditor"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarmGlobal.typ"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarmGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarmGlobal.var"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarmGlobal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.st"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarm.HmiAlarm.st"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.typ"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarm.HmiAlarm.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.var"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarm.HmiAlarm.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\IEC.prg"
+    LogicalPath="HmiHandling.HmiAlarm.HmiAlarm"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\Package.pkg"
+    LogicalPath="HmiHandling.HmiAlarm"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogGlobal.typ"
+    LogicalPath="HmiHandling.HmiJog.HmiJogGlobal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogGlobal.var"
+    LogicalPath="HmiHandling.HmiJog.HmiJogGlobal.var"
+    Type="File"
+    LastWriteTime="130797625649577510"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogCtrl.cpp"
+    LogicalPath="HmiHandling.HmiJog.HmiJogCtrl.HmiJogCtrl.cpp"
+    Type="File"
+    LastWriteTime="130797625648953509"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.typ"
+    LogicalPath="HmiHandling.HmiJog.HmiJogCtrl.HmiJogLocal.typ"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.var"
+    LogicalPath="HmiHandling.HmiJog.HmiJogCtrl.HmiJogLocal.var"
+    Type="File"
+    LastWriteTime="130754273980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\ANSIC.prg"
+    LogicalPath="HmiHandling.HmiJog.HmiJogCtrl"
+    Type="Program"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\Package.pkg"
+    LogicalPath="HmiHandling.HmiJog"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\Package.pkg"
+    LogicalPath="HmiHandling"
+    Type="Package"
+    LastWriteTime="130754273980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error.typ"
+    LogicalPath="ErrorHandling.Error.typ"
+    Type="File"
+    LastWriteTime="130754274040000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error.var"
+    LogicalPath="ErrorHandling.Error.var"
+    Type="File"
+    LastWriteTime="130754274040000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\Error.st"
+    LogicalPath="ErrorHandling.Error.Error.st"
+    Type="File"
+    LastWriteTime="130754274040000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.typ"
+    LogicalPath="ErrorHandling.Error.ErrorPrv.typ"
+    Type="File"
+    LastWriteTime="130754274040000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.var"
+    LogicalPath="ErrorHandling.Error.ErrorPrv.var"
+    Type="File"
+    LastWriteTime="130754274040000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\IEC.prg"
+    LogicalPath="ErrorHandling.Error"
+    Type="Program"
+    LastWriteTime="130754274040000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Package.pkg"
+    LogicalPath="ErrorHandling"
+    Type="Package"
+    LastWriteTime="130754274040000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeGlobal.typ"
+    LogicalPath="Recipe.RecipeGlobal.typ"
+    Type="File"
+    LastWriteTime="130752504220000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeGlobal.var"
+    LogicalPath="Recipe.RecipeGlobal.var"
+    Type="File"
+    LastWriteTime="130572071000000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControl.c"
+    LogicalPath="Recipe.RecipeControl.RecipeControl.c"
+    Type="File"
+    LastWriteTime="130782591700000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.typ"
+    LogicalPath="Recipe.RecipeControl.RecipeControlLocal.typ"
+    Type="File"
+    LastWriteTime="130572070800000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.var"
+    LogicalPath="Recipe.RecipeControl.RecipeControlLocal.var"
+    Type="File"
+    LastWriteTime="130573181680000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\ANSIC.prg"
+    LogicalPath="Recipe.RecipeControl"
+    Type="Program"
+    LastWriteTime="130572041700000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\Package.pkg"
+    LogicalPath="Recipe"
+    Type="Package"
+    LastWriteTime="130572041560000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\GlobalUserStd.var"
+    LogicalPath="UserStd.GlobalUserStd.var"
+    Type="File"
+    LastWriteTime="130571492980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\UserStd.c"
+    LogicalPath="UserStd.UserStd.UserStd.c"
+    Type="File"
+    LastWriteTime="130642892760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\User.typ"
+    LogicalPath="UserStd.UserStd.User.typ"
+    Type="File"
+    LastWriteTime="130571492980000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\User.var"
+    LogicalPath="UserStd.UserStd.User.var"
+    Type="File"
+    LastWriteTime="130577254860000000"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\ANSIC.prg"
+    LogicalPath="UserStd.UserStd"
+    Type="Program"
+    LastWriteTime="130571492980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\Package.pkg"
+    LogicalPath="UserStd"
+    Type="Package"
+    LastWriteTime="130571493500000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Visualization\MP50Key\VCObject.vc"
+    LogicalPath="Visualization.MP50Key.VCObject.vc"
+    Type="File"
+    LastWriteTime="130752464300000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Visualization\MP50Key\Vc.dob"
+    LogicalPath="Visualization.MP50Key"
+    Type="DataObject"
+    LastWriteTime="130752464280000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Visualization\Visu\VCObject.vc"
+    LogicalPath="Visualization.Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="130752464300000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Visualization\Visu\Vc.dob"
+    LogicalPath="Visualization.Visu"
+    Type="DataObject"
+    LastWriteTime="130752464280000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Visualization\Package.pkg"
+    LogicalPath="Visualization"
+    Type="Package"
+    LastWriteTime="130781967980000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\Config.pkg"
+    LogicalPath="X20CP1586"
+    Type="Configuration"
+    LastWriteTime="130781743000000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\Hardware.hw"
+    LogicalPath="X20CP1586.Hardware.hw"
+    Type="File"
+    LastWriteTime="130796726227259521"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\Hardware.hwl"
+    LogicalPath="X20CP1586.Hardware.hwl"
+    Type="File"
+    LastWriteTime="130600885920000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Cpu.sw"
+    LogicalPath="X20CP1586.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="130782624280000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Cpu.per"
+    LogicalPath="X20CP1586.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="130600883460000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\IoMap.iom"
+    LogicalPath="X20CP1586.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="130600885440000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\PvMap.vvm"
+    LogicalPath="X20CP1586.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="130600883460000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Acp10cfg.ncc"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="130782646880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Acp10map.ncm"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="130781883900000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\AXESMap.ncm"
+    LogicalPath="X20CP1586.X20CP1586.Motion.AXESMap.ncm"
+    Type="File"
+    LastWriteTime="130782702820000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Arnc0cfg.ncc"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Arnc0cfg.ncc"
+    Type="File"
+    LastWriteTime="130600891460000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Arnc0map.ncm"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Arnc0map.ncm"
+    Type="File"
+    LastWriteTime="130782647160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\CNCMap.ncm"
+    LogicalPath="X20CP1586.X20CP1586.Motion.CNCMap.ncm"
+    Type="File"
+    LastWriteTime="130781885340000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\MotionPvMa.vvm"
+    LogicalPath="X20CP1586.X20CP1586.Motion.MotionPvMa.vvm"
+    Type="File"
+    LastWriteTime="130601032880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10man\SG4\Powerlink\Acp10man.br"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Acp10man.br"
+    Type="File"
+    LastWriteTime="130655081760000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Acp10sys.br"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Acp10sys.br"
+    Type="File"
+    LastWriteTime="130751757260000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0man\SG4\Arnc0sys.br"
+    LogicalPath="X20CP1586.X20CP1586.Motion.Arnc0sys.br"
+    Type="File"
+    LastWriteTime="130657730020000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Motion\Package.pkg"
+    LogicalPath="X20CP1586.X20CP1586.Motion"
+    Type="Package"
+    LastWriteTime="130782647160000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\VC\5MP050.0653-02.dis"
+    LogicalPath="X20CP1586.X20CP1586.VC.5MP050.0653-02.dis"
+    Type="File"
+    LastWriteTime="130600896160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\VC\Package.pkg"
+    LogicalPath="X20CP1586.X20CP1586.VC"
+    Type="Package"
+    LastWriteTime="130782647500000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\HmiMap\Hmi.vvm"
+    LogicalPath="X20CP1586.X20CP1586.HmiMap.Hmi.vvm"
+    Type="File"
+    LastWriteTime="130600888580000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\HmiMap\Package.pkg"
+    LogicalPath="X20CP1586.X20CP1586.HmiMap"
+    Type="Package"
+    LastWriteTime="130600888620000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\X20CP1586\Cpu.pkg"
+    LogicalPath="X20CP1586.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="130782712820000000" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Physical\X20CP1586\Hardware.jpg"
+    LogicalPath="X20CP1586.Hardware.jpg"
+    Type="File"
+    LastWriteTime="130781952060000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\6axATrqFF\6axATrqFFGlobal.typ"
+    LogicalPath="6axATrqFFGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691077232226"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\6axATrqFF\6axATrqFFGlobal.var"
+    LogicalPath="6axATrqFFGlobal.var"
+    Type="File"
+    LastWriteTime="130796691077076211"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\6axATrqFF\6axATrqFFLocal.var"
+    LogicalPath="6axATrqFFLocal.var"
+    Type="File"
+    LastWriteTime="130796691077232226"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\OptMotion\OptMotionGlobal.typ"
+    LogicalPath="OptMotionGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691101102521"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\OptMotion\OptMotionGlobal.var"
+    LogicalPath="OptMotionGlobal.var"
+    Type="File"
+    LastWriteTime="130796691101102521"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\OptMotion\OptMotionLocal.var"
+    LogicalPath="OptMotionLocal.var"
+    Type="File"
+    LastWriteTime="130796691101102521"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Jog\JogGlobal.typ"
+    LogicalPath="JogGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691123984731"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Jog\JogGlobal.var"
+    LogicalPath="JogGlobal.var"
+    Type="File"
+    LastWriteTime="130796691123828716"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Jog\JogLocal.var"
+    LogicalPath="JogLocal.var"
+    Type="File"
+    LastWriteTime="130796691123984731"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Trf\TrfGlobal.typ"
+    LogicalPath="TrfGlobal.typ"
+    Type="File"
+    LastWriteTime="130796835479216995"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Trf\TrfGlobal.var"
+    LogicalPath="TrfGlobal.var"
+    Type="File"
+    LastWriteTime="130796835479216995"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Trf\TrfLocal.var"
+    LogicalPath="TrfLocal.var"
+    Type="File"
+    LastWriteTime="130796835479216995"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiHardKey\HmiHardKeyGlobal.typ"
+    LogicalPath="HmiHardKeyGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691167980961"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiHardKey\HmiHardKeyGlobal.var"
+    LogicalPath="HmiHardKeyGlobal.var"
+    Type="File"
+    LastWriteTime="130796691167980961"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiHardKey\HmiHardKeyLocal.var"
+    LogicalPath="HmiHardKeyLocal.var"
+    Type="File"
+    LastWriteTime="130796691167980961"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\RecipeCont\RecipeContGlobal.typ"
+    LogicalPath="RecipeContGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691195439601"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\RecipeCont\RecipeContGlobal.var"
+    LogicalPath="RecipeContGlobal.var"
+    Type="File"
+    LastWriteTime="130796691195439601"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\RecipeCont\RecipeContLocal.var"
+    LogicalPath="RecipeContLocal.var"
+    Type="File"
+    LastWriteTime="130796691195439601"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\UserStd\UserStdGlobal.typ"
+    LogicalPath="UserStdGlobal.typ"
+    Type="File"
+    LastWriteTime="130796691221494106"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\UserStd\UserStdGlobal.var"
+    LogicalPath="UserStdGlobal.var"
+    Type="File"
+    LastWriteTime="130796691221338091"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\UserStd\UserStdLocal.var"
+    LogicalPath="UserStdLocal.var"
+    Type="File"
+    LastWriteTime="130796691221494106"
+    Private="true" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10_MC\SG4\Acp10_MC.h"
+    LogicalPath="Acp10_MC.h"
+    Type="File"
+    LastWriteTime="130654875580000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10man\SG4\Acp10man.h"
+    LogicalPath="Acp10man.h"
+    Type="File"
+    LastWriteTime="130655080140000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10par\SG4\Acp10par.h"
+    LogicalPath="Acp10par.h"
+    Type="File"
+    LastWriteTime="130655085980000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sdc\SG4\Acp10sdc.h"
+    LogicalPath="Acp10sdc.h"
+    Type="File"
+    LastWriteTime="130655067860000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Acp10sim\SG4\Acp10sim.h"
+    LogicalPath="Acp10sim.h"
+    Type="File"
+    LastWriteTime="130655068680000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0ext\SG4\Arnc0ext.h"
+    LogicalPath="Arnc0ext.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0man\SG4\Arnc0man.h"
+    LogicalPath="Arnc0man.h"
+    Type="File"
+    LastWriteTime="130657730060000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Arnc0mx\SG4\Arnc0mx.h"
+    LogicalPath="Arnc0mx.h"
+    Type="File"
+    LastWriteTime="130657737160000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArLog\SG4\AsArLog.h"
+    LogicalPath="AsArLog.h"
+    Type="File"
+    LastWriteTime="129331253860000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsArProf\SG4\AsArProf.h"
+    LogicalPath="AsArProf.h"
+    Type="File"
+    LastWriteTime="129331253860000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsBrStr\SG4\AsBrStr.h"
+    LogicalPath="AsBrStr.h"
+    Type="File"
+    LastWriteTime="130345993540000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsICMP\SG4\AsICMP.h"
+    LogicalPath="AsICMP.h"
+    Type="File"
+    LastWriteTime="130004527260000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIO\SG4\AsIO.h"
+    LogicalPath="AsIO.h"
+    Type="File"
+    LastWriteTime="130003987280000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIODiag\SG4\AsIODiag.h"
+    LogicalPath="AsIODiag.h"
+    Type="File"
+    LastWriteTime="130003987280000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsIOMMan\SG4\AsIOMMan.h"
+    LogicalPath="AsIOMMan.h"
+    Type="File"
+    LastWriteTime="130003987280000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsMem\SG4\AsMem.h"
+    LogicalPath="AsMem.h"
+    Type="File"
+    LastWriteTime="129331253900000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\asrfbext\SG4\asrfbext.h"
+    LogicalPath="asrfbext.h"
+    Type="File"
+    LastWriteTime="129592342640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsSem\SG4\AsSem.h"
+    LogicalPath="AsSem.h"
+    Type="File"
+    LastWriteTime="130257244400000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\AsUSB\SG4\AsUSB.h"
+    LogicalPath="AsUSB.h"
+    Type="File"
+    LastWriteTime="130004527320000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\brsystem\SG4\brsystem.h"
+    LogicalPath="brsystem.h"
+    Type="File"
+    LastWriteTime="129331253940000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\DataObj\SG4\DataObj.h"
+    LogicalPath="DataObj.h"
+    Type="File"
+    LastWriteTime="129351024700000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\FileIO\SG4\FileIO.h"
+    LogicalPath="FileIO.h"
+    Type="File"
+    LastWriteTime="129496202880000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\LoopConR\SG4\LoopConR.h"
+    LogicalPath="LoopConR.h"
+    Type="File"
+    LastWriteTime="130177993640000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\ModDiag\SG4\ModDiag.h"
+    LogicalPath="ModDiag.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\MyLib\SG4\MyLib.h"
+    LogicalPath="MyLib.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\NcGlobal\SG4\NcGlobal.h"
+    LogicalPath="NcGlobal.h"
+    Type="File"
+    LastWriteTime="130655078740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Operator\SG4\Operator.h"
+    LogicalPath="Operator.h"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\Runtime\SG4\Runtime.h"
+    LogicalPath="Runtime.h"
+    Type="File"
+    LastWriteTime="129592063740000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="129209564180000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\sys_lib\SG4\sys_lib.h"
+    LogicalPath="sys_lib.h"
+    Type="File"
+    LastWriteTime="129458370920000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\TRF_LIB\SG4\TRF_LIB.h"
+    LogicalPath="TRF_LIB.h"
+    Type="File"
+    LastWriteTime="130397569840000000"
+    Private="false" />
+  <Object
+    Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Libraries\visapi\SG4\visapi.h"
+    LogicalPath="visapi.h"
+    Type="File"
+    LastWriteTime="129592337900000000"
+    Private="false" />
+</Objects>

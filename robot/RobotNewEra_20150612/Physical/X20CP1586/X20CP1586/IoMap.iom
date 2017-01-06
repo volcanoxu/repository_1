@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: renj
+ * Created: November 11, 2014
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	DI1.I1 AT %IX."X20DI9371".DigitalInput01;
+	DI1.I2 AT %IX."X20DI9371".DigitalInput02;
+	DI1.I3 AT %IX."X20DI9371".DigitalInput03;
+	DI1.I4 AT %IX."X20DI9371".DigitalInput04;
+	DI1.I5 AT %IX."X20DI9371".DigitalInput05;
+	DI1.I6 AT %IX."X20DI9371".DigitalInput06;
+	DI1.I7 AT %IX."X20DI9371".DigitalInput07;
+	DI1.I8 AT %IX."X20DI9371".DigitalInput08;
+	DI1.I9 AT %IX."X20DI9371".DigitalInput09;
+	DI1.I10 AT %IX."X20DI9371".DigitalInput10;
+	DI1.I11 AT %IX."X20DI9371".DigitalInput11;
+	DI1.I12 AT %IX."X20DI9371".DigitalInput12;
+END_VAR

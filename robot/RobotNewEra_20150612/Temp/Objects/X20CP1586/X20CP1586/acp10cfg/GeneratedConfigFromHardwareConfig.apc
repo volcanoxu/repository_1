@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AcoposParameterConfiguration>
+  <Root Name="IF3.ST1" ModuleDisabled="TRUE" />
+  <Root Name="IF3.ST2" ModuleDisabled="TRUE">
+    <Group Name="SS1">
+      <Parameter ID="390" Value="750" />
+    </Group>
+  </Root>
+  <Root Name="IF3.ST3" ModuleDisabled="TRUE">
+    <Group Name="SS1">
+      <Parameter ID="390" Value="750" />
+    </Group>
+  </Root>
+  <Root Name="IF3.ST4" ModuleDisabled="TRUE">
+    <Group Name="SS1">
+      <Parameter ID="390" Value="750" />
+    </Group>
+  </Root>
+</AcoposParameterConfiguration>

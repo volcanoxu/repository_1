@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="BRLogo" ClsId="0x306" Version="1" TargetIndex="91" Type="GFX" RefString="Source[local].Bitmap[BRLogo]">
+        <UInt16 Name="Width">39</UInt16>
+        <UInt16 Name="Height">22</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACcAAAAWCAYAAABDhYU9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVEhL7ZcxbsJAFER9EUSQQBSxERKiok8XpckFqOihoUl6zsEhco4I7pEbeMlGGmU8/t9rIqQYQfGk3X3zPyNROQuhDLvXPHy9F53hc12E2Ct7mo/NwH9z2ExChku/3zsbXuZhzaXAbKtyyET2y6n57sF7LKws7sly8EyTU3iX4uVxvpfz8PI4X3e5wUN9CZy+W/AuxcvjnCwXWUxHleEI7il4j4WVxb1VOeXt5bG2UPnLXoDZVuWQ4Zw3x1n13ruCTLLccfO7ULM6pzn2TU6BT5aDZ9h5WfXsAJwCf9FyimYVzjLwFy/HGc0qcAr87fytmtGsAqfAJ8tFkNGcdecce3YAToFvVc4jNccev8NwloHP5vmwMtAVPlZ5+PnAmXWs4PY5//7AKcMJUBPlLN9LAEcAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

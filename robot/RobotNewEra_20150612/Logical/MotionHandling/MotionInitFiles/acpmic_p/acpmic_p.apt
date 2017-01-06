@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="ENCOD_CMD" ID="719" Value="1" Disabled="FALSE" Description="Encoder1: Encoder command" />
+    <Parameter Name="ICTRL_MODE" ID="869" Value="1" Disabled="FALSE" Description="CTRL Current: Mode" />
+    <Parameter Name="BRAKE_TEST_POS_LIM" ID="15" Value="0.05" Unit="Rev." Description="Motor holding brake: Position error limit" />
+    <Parameter Name="UDC_NOMINAL" ID="390" Value="530" Unit="V" Description="CTRL DC bus: Nominal voltage" />
+  </Root>
+</AcoposParameterTable>

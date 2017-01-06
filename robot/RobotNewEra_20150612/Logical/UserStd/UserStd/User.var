@@ -1,0 +1,77 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: User
+ * File: User.var
+ * Author: Liub
+ * Created: January 16, 2012
+ ********************************************************************
+ * Local variables of program User
+ ********************************************************************)
+(*-----------------------------------------------------------------------*)
+(*以下常量可以按照需求修改，建议不要修改*)
+(*-----------------------------------------------------------------------*)
+VAR CONSTANT
+	MAX_USER : USINT := 8; (*修改此常量数值会改变数据模块大小，需要删除已创建的数据模块*)
+	MAX_USER_MINUS_ONE : USINT := MAX_USER-1; (*请勿修改*)
+	MAX_USER_NAME_LENGTH : USINT := 8; (*修改此常量数值会改变数据模块大小，需要删除已创建的数据模块*)
+	MAX_PASSWORD_LENGTH : USINT := 8; (*修改此常量数值会改变数据模块大小，需要删除已创建的数据模块*)
+	USER_ADMIN_PASSWORD : STRING[MAX_PASSWORD_LENGTH] := '123'; (*管理员密码*)
+	PASSWORD_DATA_NAME : STRING[10] := 'myUser'; (*创建数据模块名称*)
+END_VAR
+(*-----------------------------------------------------------------------*)
+(*以下常量请勿修改*)
+(*-----------------------------------------------------------------------*)
+VAR CONSTANT
+	MAX_USER_LEVEL : USINT := 4; (*最高密码等级*)
+END_VAR
+(*-----------------------------------------------------------------------*)
+(*命令接口*)
+(*-----------------------------------------------------------------------*)
+VAR
+	cmdLogIn : USINT := 0;
+	cmdLogOutToPre : USINT := 0;
+	cmdLogOut : USINT;
+	cmdNewUser : USINT := 0;
+	cmdDelUser : USINT := 0;
+END_VAR
+(*Interface to Visu*)
+VAR
+	userData : userData_typ := (0); (*Save to data object*)
+	visUserIndex : ARRAY[0..MAX_USER_MINUS_ONE] OF USINT := [10(0)];
+	visUserData : userData_typ := (0); (*Show to vis,can be change by different password level*)
+	preUser : user_typ := (0);
+	curUser : user_typ := (0);
+	newUser : user_typ := (0);
+	focusIndex : UINT := 0;
+	curPassword : STRING[10];
+END_VAR
+(*Variable Output*)
+VAR
+	errorInfo : UINT := 0;
+	errorNumber : UINT := 0;
+	disableLogOutToPre : UINT := 0; (*output: status of button logOutToPre*)
+END_VAR
+(*-----------------------------------------------------------------------*)
+(*The following is internal variable do not need modify *)
+(*-----------------------------------------------------------------------*)
+(*data object structure*)
+VAR
+	dataObjCreate : DatObjCreate := (0);
+	dataObjInfo : DatObjInfo := (0);
+	dataObjWrite : DatObjWrite := (0);
+	dataObjRead : DatObjRead := (0);
+END_VAR
+(*Other*)
+VAR
+	dataStruSize : UINT := 0;
+	dataObjSize : UINT := 0;
+	initError : USINT := 0;
+	ident : UDINT := 0;
+	userStep : UINT := 0;
+	result : UINT := 0;
+	k : USINT := 0;
+	j : USINT := 0;
+	i : USINT := 0;
+	constant : DINT := 0;
+END_VAR

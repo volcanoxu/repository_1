@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/asrfbext/asrfbext.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiHardKey/HmiHardKeyCtrl/HmiHardKeyLocal.var
+$(AS_PROJECT_PATH)/Logical/Libraries/asrfbext/asrfbext.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiHardKey/HmiHardKeyGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiHardKey/HmiHardKeyGlobal.typ

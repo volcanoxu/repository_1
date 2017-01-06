@@ -1,0 +1,37 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiPrgNew
+ * File: HmiProgramLocal.var
+ * Author: renj
+ * Created: December 02, 2014
+ ********************************************************************
+ * Local variables of program HmiPrgNew
+ ********************************************************************)
+(*File Devices Constants*)
+VAR
+	EMPTY_STFILE : STRING[300];
+END_VAR
+VAR CONSTANT
+	MAX_FILESVIEW : UINT := 12;
+END_VAR
+(*Function Blocks*)
+VAR
+	FB_CloseFile : FileClose;
+	FB_DirClose : DirClose := (0);
+	FB_DirOpen : DirOpen := (0);
+	FB_DirReadEx : DirReadEx;
+	FB_NewProgramCreate : FileCreate;
+	FB_NewProgramWrite : FileWrite;
+	FB_ProgramCopy : FileCopy;
+	FB_ProgramDelete : FileDelete;
+	FB_ProgramRename : FileRename;
+END_VAR
+(*Local Variables*)
+VAR
+	pCnc : REFERENCE TO Cnc_Type;
+	pSystem : REFERENCE TO System_Type;
+	Internal : HmiProgramInternal_Type := (0);
+	FileInfoReadDataEx : fiDIR_READ_EX_DATA := (0);
+	DTStruct : DTStructure := (0);
+END_VAR

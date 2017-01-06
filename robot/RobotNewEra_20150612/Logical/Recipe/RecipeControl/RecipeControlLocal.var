@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: ReceipeControl
+ * File: ReceipeControlLocal.var
+ * Author: renj
+ * Created: October 08, 2014
+ ********************************************************************
+ * Local variables of program ReceipeControl
+ ********************************************************************)
+VAR
+	Recipe : RECIPE_typ := (0);
+	RcpStep : RecipeState_Type := sIDLE;
+	DoIdent : UDINT := 0;
+	DataLen : UDINT := 0;
+	SysDataLen : UDINT := 0;
+	UserDataLen : UDINT := 0;
+	AdrOffset : UDINT := 0;
+	ErrInfo : STRING[64] := '';
+	DOCreate : DatObjCreate := (0);
+	DOWrite : DatObjWrite := (0);
+	DORead : DatObjRead := (0);
+	DOInfo : DatObjInfo := (0);
+END_VAR

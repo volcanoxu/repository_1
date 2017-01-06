@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageJogging">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="FrameVarName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiJog.Frame.VarName]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="ToolVarName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiJog.Tool.VarName]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="JointVarName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiJog.Joint.VarName]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="PointVarName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiJog.Point.VarName]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="203257" Value="Jogging"/>
+    <Text ID="203258" Value="Position"/>
+    <Text ID="203259" Value="Configuration"/>
+    <Text ID="203260" Value="Format:"/>
+    <Text ID="203261" Value="Jog Step:"/>
+    <Text ID="203262" Value="Tool:"/>
+    <Text ID="203263" Value="Frame:"/>
+    <Text ID="203264" Value="°"/>
+    <Text ID="203265" Value="mm"/>
+    <Text ID="203266" Value="rad"/>
+    <Text ID="203267" Value=""/>
+    <Text ID="203268" Value="Unit"/>
+    <Text ID="203269" Value="X:"/>
+    <Text ID="203270" Value="Y:"/>
+    <Text ID="203271" Value="Z:"/>
+    <Text ID="203272" Value="A:"/>
+    <Text ID="203273" Value="B:"/>
+    <Text ID="203274" Value="C:"/>
+    <Text ID="203275" Value="q1:"/>
+    <Text ID="203276" Value="q2:"/>
+    <Text ID="203277" Value="q3:"/>
+    <Text ID="203278" Value="q4:"/>
+    <Text ID="203279" Value="Q1:"/>
+    <Text ID="203280" Value="Q2:"/>
+    <Text ID="203281" Value="Q3:"/>
+    <Text ID="203282" Value="Q4:"/>
+    <Text ID="203283" Value="Q5:"/>
+    <Text ID="203284" Value="Q6:"/>
+    <Text ID="203285" Value="Joint"/>
+    <Text ID="203286" Value="TCP"/>
+    <Text ID="203287" Value="Euler"/>
+    <Text ID="203288" Value="Quaternion"/>
+    <Text ID="203289" Value="Radian"/>
+    <Text ID="203290" Value="Degree"/>
+    <Text ID="203502" Value="&lt;Not Available&gt;"/>
+    <Text ID="203741" Value="Act"/>
+    <Text ID="203742" Value="Set"/>
+    <Text ID="203744" Value="Act/Set"/>
+    <Text ID="203747" Value=""/>
+    <Text ID="203748" Value=""/>
+    <Text ID="203749" Value="..."/>
+    <Text ID="209546" Value="&lt;Not Selected&gt;"/>
+    <Text ID="209547" Value="&lt;No Program&gt;"/>
+    <Text ID="209548" Value="{PointVarName}"/>
+    <Text ID="209551" Value="{JointVarName}"/>
+    <Text ID="209552" Value="&lt;Not Selected&gt;"/>
+    <Text ID="209553" Value="&lt;No Program&gt;"/>
+    <Text ID="209554" Value="{FrameVarName}"/>
+    <Text ID="209555" Value="&lt;Not Selected&gt;"/>
+    <Text ID="209556" Value="&lt;No Program&gt;"/>
+    <Text ID="209557" Value="{ToolVarName}"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="203257" Value="手动"/>
+    <Text ID="203258" Value="位置"/>
+    <Text ID="203259" Value="配置"/>
+    <Text ID="203260" Value="格式:"/>
+    <Text ID="203261" Value="步长:"/>
+    <Text ID="203262" Value="工具:"/>
+    <Text ID="203263" Value="坐标系:"/>
+    <Text ID="203264" Value="°"/>
+    <Text ID="203265" Value="mm"/>
+    <Text ID="203266" Value="rad"/>
+    <Text ID="203267" Value=""/>
+    <Text ID="203268" Value="单位"/>
+    <Text ID="203269" Value="X:"/>
+    <Text ID="203270" Value="Y:"/>
+    <Text ID="203271" Value="Z:"/>
+    <Text ID="203272" Value="A:"/>
+    <Text ID="203273" Value="B:"/>
+    <Text ID="203274" Value="C:"/>
+    <Text ID="203275" Value="q1:"/>
+    <Text ID="203276" Value="q2:"/>
+    <Text ID="203277" Value="q3"/>
+    <Text ID="203278" Value="q4:"/>
+    <Text ID="203279" Value="Q1:"/>
+    <Text ID="203280" Value="Q2:"/>
+    <Text ID="203281" Value="Q3:"/>
+    <Text ID="203282" Value="Q4:"/>
+    <Text ID="203283" Value="Q5:"/>
+    <Text ID="203284" Value="Q6:"/>
+    <Text ID="203285" Value="关节"/>
+    <Text ID="203286" Value="末端"/>
+    <Text ID="203287" Value="欧拉角"/>
+    <Text ID="203288" Value="四元数"/>
+    <Text ID="203289" Value="弧度"/>
+    <Text ID="203290" Value="角度"/>
+    <Text ID="203502" Value="&lt;不可用&gt;"/>
+    <Text ID="203741" Value="实际"/>
+    <Text ID="203742" Value="设定"/>
+    <Text ID="203744" Value="实际/设定"/>
+    <Text ID="203747" Value=""/>
+    <Text ID="203748" Value=""/>
+    <Text ID="203749" Value="..."/>
+    <Text ID="209546" Value="&lt;未选择&gt;"/>
+    <Text ID="209547" Value="&lt;无程序&gt;"/>
+    <Text ID="209548" Value="{PointVarName}"/>
+    <Text ID="209551" Value="{JointVarName}"/>
+    <Text ID="209552" Value="&lt;未选择&gt;"/>
+    <Text ID="209553" Value="&lt;无程序&gt;"/>
+    <Text ID="209554" Value="{FrameVarName}"/>
+    <Text ID="209555" Value="&lt;未选择&gt;"/>
+    <Text ID="209556" Value="&lt;无程序&gt;"/>
+    <Text ID="209557" Value="{ToolVarName}"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="203257" Value="0"/>
+    <Index ID="203258" Value="1"/>
+    <Index ID="203259" Value="2"/>
+    <Index ID="203260" Value="3"/>
+    <Index ID="203261" Value="4"/>
+    <Index ID="203262" Value="5"/>
+    <Index ID="203263" Value="6"/>
+    <Index ID="203264" Value="9"/>
+    <Index ID="203265" Value="8"/>
+    <Index ID="203266" Value="10"/>
+    <Index ID="203267" Value="7"/>
+    <Index ID="203268" Value="11"/>
+    <Index ID="203269" Value="13"/>
+    <Index ID="203270" Value="15"/>
+    <Index ID="203271" Value="17"/>
+    <Index ID="203272" Value="19"/>
+    <Index ID="203273" Value="22"/>
+    <Index ID="203274" Value="25"/>
+    <Index ID="203275" Value="20"/>
+    <Index ID="203276" Value="23"/>
+    <Index ID="203277" Value="26"/>
+    <Index ID="203278" Value="28"/>
+    <Index ID="203279" Value="12"/>
+    <Index ID="203280" Value="14"/>
+    <Index ID="203281" Value="16"/>
+    <Index ID="203282" Value="18"/>
+    <Index ID="203283" Value="21"/>
+    <Index ID="203284" Value="24"/>
+    <Index ID="203285" Value="29"/>
+    <Index ID="203286" Value="30"/>
+    <Index ID="203287" Value="31"/>
+    <Index ID="203288" Value="32"/>
+    <Index ID="203289" Value="34"/>
+    <Index ID="203290" Value="33"/>
+    <Index ID="203502" Value="35"/>
+    <Index ID="203741" Value="37"/>
+    <Index ID="203742" Value="38"/>
+    <Index ID="203744" Value="39"/>
+    <Index ID="203747" Value="27"/>
+    <Index ID="203748" Value="36"/>
+    <Index ID="203749" Value="40"/>
+    <Index ID="209546" Value="41"/>
+    <Index ID="209547" Value="42"/>
+    <Index ID="209548" Value="43"/>
+    <Index ID="209551" Value="44"/>
+    <Index ID="209552" Value="47"/>
+    <Index ID="209553" Value="48"/>
+    <Index ID="209554" Value="49"/>
+    <Index ID="209555" Value="50"/>
+    <Index ID="209556" Value="51"/>
+    <Index ID="209557" Value="52"/>
+  </IndexMap>
+</TextGroup>

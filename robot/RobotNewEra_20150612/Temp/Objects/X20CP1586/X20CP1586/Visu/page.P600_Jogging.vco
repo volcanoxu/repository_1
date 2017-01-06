@@ -1,0 +1,3072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="P600_JoggingDefault" TargetIndex="Source[local].Page[P600_Jogging].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Text_JoggingTitle" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_JoggingTitle]">
+            <UInt32 Name="Left">6</UInt32>
+            <UInt32 Name="Top">41</UInt32>
+            <UInt32 Name="Right">546</UInt32>
+            <UInt32 Name="Bottom">403</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[GroupControl]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSun12px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_ConfigFrame" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ConfigFrame]">
+            <UInt32 Name="Left">18</UInt32>
+            <UInt32 Name="Top">93</UInt32>
+            <UInt32 Name="Right">309</UInt32>
+            <UInt32 Name="Bottom">393</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[TabActive]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">4</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[DefaultBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">25</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Alarm_Current" ClsId="0x1009" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Alarm_Current]">
+            <UInt32 Name="Left">6</UInt32>
+            <UInt32 Name="Top">414</UInt32>
+            <UInt32 Name="Right">546</UInt32>
+            <UInt32 Name="Bottom">474</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001009].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">186</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Source">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="SortColumn">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="SortOrder">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Input">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSun10px]</Reference>
+            </Group>
+            <Group Name="Cursor_LeftBitmap">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_RightBitmap">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_LeftTextGroup">
+              <UInt16 Name="Offset">96</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_RightTextGroup">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="DateTime_Position">
+              <UInt16 Name="Offset">120</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="DateTime_Alignment">
+              <UInt16 Name="Offset">121</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="DateTime_Width">
+              <UInt16 Name="Offset">122</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">149</UInt16>
+            </Group>
+            <Group Name="DateTime_FormatStringBaseIndex">
+              <UInt16 Name="Offset">126</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">0</UInt16>
+            </Group>
+            <Group Name="DateTime_SeparatorTextGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="DateTime_FormatStringTextGroup">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[DateTimeFormats]</Reference>
+            </Group>
+            <Group Name="GroupNumber_Position">
+              <UInt16 Name="Offset">136</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Position">
+              <UInt16 Name="Offset">148</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Alignment">
+              <UInt16 Name="Offset">149</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Width">
+              <UInt16 Name="Offset">150</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">33</UInt16>
+            </Group>
+            <Group Name="AlarmNumber_MinDigits">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">3</UInt16>
+            </Group>
+            <Group Name="AlarmNumber_SeparatorTextGroup">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Priority_Position">
+              <UInt16 Name="Offset">160</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AlarmText_Position">
+              <UInt16 Name="Offset">172</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="AlarmText_Alignment">
+              <UInt16 Name="Offset">173</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlarmText_Width">
+              <UInt16 Name="Offset">174</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">320</UInt16>
+            </Group>
+            <Group Name="AlarmText_SeparatorTextGroup">
+              <UInt16 Name="Offset">180</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlarmState_Position">
+              <UInt16 Name="Offset">184</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AcknowledgeState_Position">
+              <UInt16 Name="Offset">208</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="BypassState_Position">
+              <UInt16 Name="Offset">232</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="Event_Position">
+              <UInt16 Name="Offset">256</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_PosFrame" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_PosFrame]">
+            <UInt32 Name="Left">317</UInt32>
+            <UInt32 Name="Top">93</UInt32>
+            <UInt32 Name="Right">536</UInt32>
+            <UInt32 Name="Bottom">393</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[TabActive]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">4</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[DefaultBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab1" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab1]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">139</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">162</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[0].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">12</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab2" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab2]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">166</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">189</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[1].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">14</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab3" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab3]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">193</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">216</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[2].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">16</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab4" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab4]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">220</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">243</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[3].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">18</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab5" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab5]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">247</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">270</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[4].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">21</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab6" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab6]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">274</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">297</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[5].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">24</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Lab7" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab7]">
+            <UInt32 Name="Left">324</UInt32>
+            <UInt32 Name="Top">306</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">329</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">51</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPos[6].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">28</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Position" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Position]">
+            <UInt32 Name="Left">390</UInt32>
+            <UInt32 Name="Top">83</UInt32>
+            <UInt32 Name="Right">464</UInt32>
+            <UInt32 Name="Bottom">107</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">253</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Configuration" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Configuration]">
+            <UInt32 Name="Left">106</UInt32>
+            <UInt32 Name="Top">83</UInt32>
+            <UInt32 Name="Right">221</UInt32>
+            <UInt32 Name="Bottom">107</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">253</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">2</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_ToolLabel" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ToolLabel]">
+            <UInt32 Name="Left">61</UInt32>
+            <UInt32 Name="Top">118</UInt32>
+            <UInt32 Name="Right">117</UInt32>
+            <UInt32 Name="Bottom">143</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">5</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_WorkObjectLabel" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_WorkObjectLabel]">
+            <UInt32 Name="Left">61</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">130</UInt32>
+            <UInt32 Name="Bottom">175</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">6</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_JogSpeedLabel" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_JogSpeedLabel]">
+            <UInt32 Name="Left">61</UInt32>
+            <UInt32 Name="Top">183</UInt32>
+            <UInt32 Name="Right">170</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">4</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_JogSpeed" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]">
+            <UInt32 Name="Left">151</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">236</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericJogStep.Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">1</Double>
+            <Double Name="MaxValue">10</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">35</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="UnitText">
+              <UInt16 Name="Offset">57</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="UnitTextPosition">
+              <UInt16 Name="Offset">58</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="UnitTextAlignment">
+              <UInt16 Name="Offset">59</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_Separator" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Line_Separator]">
+            <UInt32 Name="StartX">30</UInt32>
+            <UInt32 Name="StartY">217</UInt32>
+            <UInt32 Name="EndX">302</UInt32>
+            <UInt32 Name="EndY">217</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LineWidth">
+              <UInt16 Name="Offset">1</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">248</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit1" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit1]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">137</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">160</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[0].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit2" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit2]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">165</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">188</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[1].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit3" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit3]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">193</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">216</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[2].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit4" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit4]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">221</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">244</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[3].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit5" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit5]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">252</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">275</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[4].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_Unit6" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit6]">
+            <UInt32 Name="Left">486</UInt32>
+            <UInt32 Name="Top">279</UInt32>
+            <UInt32 Name="Right">526</UInt32>
+            <UInt32 Name="Bottom">302</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextPosUnit[5].TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">7</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_WorkObjectCheck" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Button_WorkObjectCheck]">
+            <UInt32 Name="Left">30</UInt32>
+            <UInt32 Name="Top">151</UInt32>
+            <UInt32 Name="Right">54</UInt32>
+            <UInt32 Name="Bottom">175</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_ToggleWorkObj]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">40</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Dropdown_JointTCP" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]">
+            <UInt32 Name="Left">157</UInt32>
+            <UInt32 Name="Top">224</UInt32>
+            <UInt32 Name="Right">303</UInt32>
+            <UInt32 Name="Bottom">255</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">1</UInt32>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <Int32 Name="TextIndexOffset">29</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownJointTCP.SelectedIndex]</Reference>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">94</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="SelectedBackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">235</UInt32>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">84</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBorder">
+              <UInt16 Name="Offset">136</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBackColor">
+              <UInt16 Name="Offset">144</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">160</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">5</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_FormatLabel" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_FormatLabel]">
+            <UInt32 Name="Left">61</UInt32>
+            <UInt32 Name="Top">227</UInt32>
+            <UInt32 Name="Right">133</UInt32>
+            <UInt32 Name="Bottom">252</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">3</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Dropdown_EulerQuant" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]">
+            <UInt32 Name="Left">157</UInt32>
+            <UInt32 Name="Top">294</UInt32>
+            <UInt32 Name="Right">303</UInt32>
+            <UInt32 Name="Bottom">325</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">1</UInt32>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <Int32 Name="TextIndexOffset">33</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownDegreeRad.SelectedIndex]</Reference>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">94</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="SelectedBackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">235</UInt32>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">84</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBorder">
+              <UInt16 Name="Offset">136</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBackColor">
+              <UInt16 Name="Offset">144</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">160</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">5</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Dropdown_RadDegree" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]">
+            <UInt32 Name="Left">157</UInt32>
+            <UInt32 Name="Top">259</UInt32>
+            <UInt32 Name="Right">303</UInt32>
+            <UInt32 Name="Bottom">290</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">1</UInt32>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <Int32 Name="TextIndexOffset">31</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.DropdownEulerQuan.SelectedIndex]</Reference>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">94</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="SelectedBackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">235</UInt32>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">84</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBorder">
+              <UInt16 Name="Offset">136</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBackColor">
+              <UInt16 Name="Offset">144</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">160</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">5</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value1" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value1]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">139</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">159</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[0].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value2" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value2]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">167</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">187</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[1].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value3" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value3]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">195</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">215</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[2].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value4" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value4]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">223</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">243</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[3].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value5" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value5]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">251</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">271</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[4].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value6" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value6]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">279</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">299</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[5].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value7" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value7]">
+            <UInt32 Name="Left">377</UInt32>
+            <UInt32 Name="Top">308</UInt32>
+            <UInt32 Name="Right">477</UInt32>
+            <UInt32 Name="Bottom">328</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[6].Value]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPos[6].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_ToolCheck" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Button_ToolCheck]">
+            <UInt32 Name="Left">30</UInt32>
+            <UInt32 Name="Top">119</UInt32>
+            <UInt32 Name="Right">54</UInt32>
+            <UInt32 Name="Bottom">143</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_ToolCheck]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">40</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_NotAvailable" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_NotAvailable]">
+            <UInt32 Name="Left">323</UInt32>
+            <UInt32 Name="Top">134</UInt32>
+            <UInt32 Name="Right">530</UInt32>
+            <UInt32 Name="Bottom">336</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextNotAvailable.StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">35</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_PosSwitch" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Button_PosSwitch]">
+            <UInt32 Name="Left">337</UInt32>
+            <UInt32 Name="Top">343</UInt32>
+            <UInt32 Name="Right">513</UInt32>
+            <UInt32 Name="Bottom">380</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_ACTSET]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[ControlButton]</Reference>
+            <UInt16 Name="StyleTableSize">100</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[ButtonFlatPressed]</Reference>
+            </Group>
+            <Group Name="Border">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[ButtonFlat]</Reference>
+            </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">39</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">39</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_SeparatorPos" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Line_SeparatorPos]">
+            <UInt32 Name="StartX">327</UInt32>
+            <UInt32 Name="StartY">129</UInt32>
+            <UInt32 Name="EndX">518</UInt32>
+            <UInt32 Name="EndY">129</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LineWidth">
+              <UInt16 Name="Offset">1</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">248</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value8" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">138</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">161</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[0].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value9" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">165</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">188</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[1].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value10" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">192</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">215</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[2].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value11" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">220</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">243</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[3].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value12" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">248</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">271</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[4].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value13" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">276</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">299</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[5].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_Value14" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]">
+            <UInt32 Name="Left">367</UInt32>
+            <UInt32 Name="Top">305</UInt32>
+            <UInt32 Name="Right">483</UInt32>
+            <UInt32 Name="Bottom">328</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Value]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Min]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].Max]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.NumericPosSet[6].StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AddFractionDigits">
+              <UInt16 Name="Offset">29</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <SByte Name="Data">4</SByte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_PosTitle" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_PosTitle]">
+            <UInt32 Name="Left">325</UInt32>
+            <UInt32 Name="Top">97</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">126</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextActSet.TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">46</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">255</UInt32>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">37</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_CheckSet" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Button_CheckSet]">
+            <UInt32 Name="Left">505</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">529</UInt32>
+            <UInt32 Name="Bottom">124</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_VarCheck]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">62</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">39</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonCheckVar.StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_ToolName" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ToolName]">
+            <UInt32 Name="Left">140</UInt32>
+            <UInt32 Name="Top">118</UInt32>
+            <UInt32 Name="Right">289</UInt32>
+            <UInt32 Name="Bottom">143</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextToolName.TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">50</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_WorkObjectName" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_WorkObjectName]">
+            <UInt32 Name="Left">140</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">289</UInt32>
+            <UInt32 Name="Bottom">175</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextWorkObjectName.TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">47</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_VarName" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[Text_VarName]">
+            <UInt32 Name="Left">364</UInt32>
+            <UInt32 Name="Top">99</UInt32>
+            <UInt32 Name="Right">505</UInt32>
+            <UInt32 Name="Bottom">124</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.TextIndex]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">46</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[SimSunArial14px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">41</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[PageJogging]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_ToolBrowse" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_ToolBrowse]">
+            <UInt32 Name="Left">130</UInt32>
+            <UInt32 Name="Top">118</UInt32>
+            <UInt32 Name="Right">303</UInt32>
+            <UInt32 Name="Bottom">143</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_Toolbrowse]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_FrameBrowse" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_FrameBrowse]">
+            <UInt32 Name="Left">130</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">303</UInt32>
+            <UInt32 Name="Bottom">175</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_FrameBrowse]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_SetBrowse" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_SetBrowse]">
+            <UInt32 Name="Left">364</UInt32>
+            <UInt32 Name="Top">99</UInt32>
+            <UInt32 Name="Right">505</UInt32>
+            <UInt32 Name="Bottom">124</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[VK_SetBrowse]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.TextSetVar.StatusDatapoint]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="VK_ToggleWorkObj" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_ToggleWorkObj]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonWorkObjectCheck.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="VK_Toolbrowse" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_Toolbrowse]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotToolBrowse.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="VK_WorkObjectBrowse" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_WorkObjectBrowse]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonWorkObjectBrowse.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="VK_ToolCheck" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_ToolCheck]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtoToolCheck.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="VK_ACTSET" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_ACTSET]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonActSet.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="VK_PointBrowse" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_PointBrowse]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonPointBrowse.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="VK_VarCheck" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_VarCheck]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.ButtonCheckVar.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="VK_FrameBrowse" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_FrameBrowse]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotFrameBrowse.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="VK_SetBrowse" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[VK_SetBrowse]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.HmiHandling.HmiJog.HmiJog.Components.LayerDefault.HotSpotSetBrowse.Value]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P600_Jogging].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">55</UInt32>
+          <Reference Name="Text_JoggingTitle" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_JoggingTitle]</Reference>
+          <Reference Name="Text_ConfigFrame" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ConfigFrame]</Reference>
+          <Reference Name="Alarm_Current" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Alarm_Current]</Reference>
+          <Reference Name="Text_PosFrame" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_PosFrame]</Reference>
+          <Reference Name="Text_Lab1" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab1]</Reference>
+          <Reference Name="Text_Lab2" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab2]</Reference>
+          <Reference Name="Text_Lab3" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab3]</Reference>
+          <Reference Name="Text_Lab4" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab4]</Reference>
+          <Reference Name="Text_Lab5" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab5]</Reference>
+          <Reference Name="Text_Lab6" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab6]</Reference>
+          <Reference Name="Text_Lab7" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Lab7]</Reference>
+          <Reference Name="Text_Position" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Position]</Reference>
+          <Reference Name="Text_Configuration" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Configuration]</Reference>
+          <Reference Name="Text_ToolLabel" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ToolLabel]</Reference>
+          <Reference Name="Text_WorkObjectLabel" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_WorkObjectLabel]</Reference>
+          <Reference Name="Text_JogSpeedLabel" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_JogSpeedLabel]</Reference>
+          <Reference Name="Numeric_JogSpeed" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+          <Reference Name="Line_Separator" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Line_Separator]</Reference>
+          <Reference Name="Text_Unit1" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit1]</Reference>
+          <Reference Name="Text_Unit2" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit2]</Reference>
+          <Reference Name="Text_Unit3" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit3]</Reference>
+          <Reference Name="Text_Unit4" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit4]</Reference>
+          <Reference Name="Text_Unit5" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit5]</Reference>
+          <Reference Name="Text_Unit6" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_Unit6]</Reference>
+          <Reference Name="Button_WorkObjectCheck" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Button_WorkObjectCheck]</Reference>
+          <Reference Name="Dropdown_JointTCP" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+          <Reference Name="Text_FormatLabel" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_FormatLabel]</Reference>
+          <Reference Name="Dropdown_EulerQuant" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+          <Reference Name="Dropdown_RadDegree" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+          <Reference Name="Numeric_Value1" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value1]</Reference>
+          <Reference Name="Numeric_Value2" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value2]</Reference>
+          <Reference Name="Numeric_Value3" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value3]</Reference>
+          <Reference Name="Numeric_Value4" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value4]</Reference>
+          <Reference Name="Numeric_Value5" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value5]</Reference>
+          <Reference Name="Numeric_Value6" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value6]</Reference>
+          <Reference Name="Numeric_Value7" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value7]</Reference>
+          <Reference Name="Button_ToolCheck" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Button_ToolCheck]</Reference>
+          <Reference Name="Text_NotAvailable" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_NotAvailable]</Reference>
+          <Reference Name="Button_PosSwitch" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Button_PosSwitch]</Reference>
+          <Reference Name="Line_SeparatorPos" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Line_SeparatorPos]</Reference>
+          <Reference Name="Numeric_Value8" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+          <Reference Name="Numeric_Value9" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+          <Reference Name="Numeric_Value10" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+          <Reference Name="Numeric_Value11" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+          <Reference Name="Numeric_Value12" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+          <Reference Name="Numeric_Value13" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+          <Reference Name="Numeric_Value14" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+          <Reference Name="Text_PosTitle" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_PosTitle]</Reference>
+          <Reference Name="Button_CheckSet" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Button_CheckSet]</Reference>
+          <Reference Name="Text_ToolName" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_ToolName]</Reference>
+          <Reference Name="Text_WorkObjectName" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_WorkObjectName]</Reference>
+          <Reference Name="Text_VarName" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Text_VarName]</Reference>
+          <Reference Name="HotSpot_ToolBrowse" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_ToolBrowse]</Reference>
+          <Reference Name="HotSpot_FrameBrowse" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_FrameBrowse]</Reference>
+          <Reference Name="HotSpot_SetBrowse" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[HotSpot_SetBrowse]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="PP600_Jogging.LDefault" TargetIndex="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">2</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">202814</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">25</UInt32>
+            <UInt32 Name="TextIndex">203230</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">202814</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">203230</UInt32>
+                <UInt32 Name="TextOffset">30</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="zh" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[P600_Jogging].Layer[Default].TextGroup[Embedded].Language[zh]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">202814</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">203230</UInt32>
+                <UInt32 Name="TextOffset">30</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="P600_Jogging" ClsId="0x400" Version="1" TargetIndex="600" Type="PAGE" RefString="Source[local].Page[P600_Jogging]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+        <UInt32 Name="LayerCount">4</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[Default]</Reference>
+          <UInt16 Name="StyleTableSize">12</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="LockedForeColor">
+            <UInt16 Name="Offset">36</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">248</UInt32>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[globalArea]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Page[P600_Jogging].Layer[Default]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Layer[globalButtons]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Layer[LoginPopup]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">14</UInt32>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_JointTCP]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value11]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_RadDegree]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value12]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Dropdown_EulerQuant]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value13]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[globalButtons].Control[Slider_Feedrate]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value9]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[globalButtons].Control[Numeric_Feedrate]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalButtons].Control[Numeric_Feedrate]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value8]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[LoginPopup].Control[String_PasswordInput]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[LoginPopup].Control[String_PasswordInput]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalButtons].Control[Slider_Feedrate]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value14]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_JogSpeed]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P600_Jogging].Layer[Default].Control[Numeric_Value10]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

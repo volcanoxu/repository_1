@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiSetup
+ * File: HmiSetupLocal.var
+ * Author: renj
+ * Created: January 21, 2015
+ ********************************************************************
+ * Local variables of program HmiSetup
+ ********************************************************************)
+VAR
+	pSystem : REFERENCE TO System_Type;
+	pRecipe : REFERENCE TO RECIPE_typ;
+	pAxes : REFERENCE TO ARRAY[0..12] OF Axes_Type;
+	pKineAxis : REFERENCE TO KineAxisType;
+	KineAxes : ARRAY[0..5] OF KineAxisType := [6(0)];
+	test : ARRAY[0..21] OF USINT := [0,2,3,19(0)];
+	New_Variable : ARRAY[0..1] OF BOOL := [2(TRUE)];
+END_VAR

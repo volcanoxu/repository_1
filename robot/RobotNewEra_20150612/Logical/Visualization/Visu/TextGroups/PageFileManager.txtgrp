@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageFileManager">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="24"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="165705" Value="Edit"/>
+    <Text ID="165706" Value="Load"/>
+    <Text ID="165707" Value="New"/>
+    <Text ID="165708" Value="LevelUp"/>
+    <Text ID="165709" Value="PgUp"/>
+    <Text ID="165710" Value="PgDown"/>
+    <Text ID="166123" Value="Cut"/>
+    <Text ID="166124" Value="Copy"/>
+    <Text ID="166125" Value="Paste"/>
+    <Text ID="166126" Value="Delete"/>
+    <Text ID="166127" Value="Save as"/>
+    <Text ID="166128" Value="Rename"/>
+    <Text ID="167571" Value="Folder"/>
+    <Text ID="167572" Value="File"/>
+    <Text ID="201552" Value="Name"/>
+    <Text ID="201553" Value="Date"/>
+    <Text ID="201554" Value="Size"/>
+    <Text ID="201555" Value="File Manager"/>
+    <Text ID="211089" Value="Modify"/>
+    <Text ID="211090" Value="Insert"/>
+    <Text ID="213705" Value="Device:"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="165705" Value="编辑"/>
+    <Text ID="165706" Value="载入"/>
+    <Text ID="165707" Value="新建"/>
+    <Text ID="165708" Value="上级"/>
+    <Text ID="165709" Value="上页"/>
+    <Text ID="165710" Value="下页"/>
+    <Text ID="166123" Value="剪切"/>
+    <Text ID="166124" Value="复制"/>
+    <Text ID="166125" Value="粘贴"/>
+    <Text ID="166126" Value="删除"/>
+    <Text ID="166127" Value="另存为"/>
+    <Text ID="166128" Value="重命名"/>
+    <Text ID="167571" Value="文件夹"/>
+    <Text ID="167572" Value="文件"/>
+    <Text ID="201552" Value="文件名"/>
+    <Text ID="201553" Value="日期"/>
+    <Text ID="201554" Value="大小"/>
+    <Text ID="201555" Value="程序管理器"/>
+    <Text ID="211089" Value="修改"/>
+    <Text ID="211090" Value="插入"/>
+    <Text ID="213705" Value="设备:"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="165705" Value="0"/>
+    <Index ID="165706" Value="1"/>
+    <Index ID="165707" Value="2"/>
+    <Index ID="165708" Value="3"/>
+    <Index ID="165709" Value="4"/>
+    <Index ID="165710" Value="5"/>
+    <Index ID="166123" Value="6"/>
+    <Index ID="166124" Value="7"/>
+    <Index ID="166125" Value="8"/>
+    <Index ID="166126" Value="9"/>
+    <Index ID="166127" Value="10"/>
+    <Index ID="166128" Value="11"/>
+    <Index ID="167571" Value="12"/>
+    <Index ID="167572" Value="13"/>
+    <Index ID="201552" Value="14"/>
+    <Index ID="201553" Value="15"/>
+    <Index ID="201554" Value="16"/>
+    <Index ID="201555" Value="17"/>
+    <Index ID="211089" Value="18"/>
+    <Index ID="211090" Value="19"/>
+    <Index ID="213705" Value="20"/>
+  </IndexMap>
+</TextGroup>

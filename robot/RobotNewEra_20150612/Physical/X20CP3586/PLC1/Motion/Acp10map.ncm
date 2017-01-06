@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<NcMapping NcSwId="Acp10">
+  <NcObject Name="gPowerSupply" ModuleId="8B0Pxxxxxxxx.xxx-x" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ1" ModuleId="8BVIxxxxxxDx.xxx-x" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="joint1_i" AcoposParameter="acpm_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ2" ModuleId="8BVIxxxxxxDx.xxx-x" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="joint2_i" AcoposParameter="acpm_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ3" ModuleId="8BVIxxxxxxDx.xxx-x1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="joint3_i" AcoposParameter="acpmic_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ4" ModuleId="8BVIxxxxxxDx.xxx-x1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="joint4_i" AcoposParameter="acpmic_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ5" ModuleId="8BVIxxxxxxDx.xxx-x2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="joint5_i" AcoposParameter="acpmic_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisQ6" ModuleId="8BVIxxxxxxDx.xxx-x2" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="joint6_i" AcoposParameter="acpmic_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

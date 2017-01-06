@@ -1,0 +1,12 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Jogging/Jog/Jog.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Jogging/JogGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ

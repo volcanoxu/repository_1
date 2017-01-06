@@ -1,0 +1,15 @@
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Configuration/Config/Config.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/SystemHandling/System.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0man/arnc0man.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalDefines.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/SystemHandling/System.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Configuration/Config.typ

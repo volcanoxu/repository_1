@@ -1,0 +1,34 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: System
+ * File: SystemPrivate.var
+ * Author: radaka
+ * Created: February 18, 2009
+ ********************************************************************
+ * Local variables of program System
+ ********************************************************************)
+VAR
+	System : ARRAY[0..MAX_SYS_MINUS_ONE] OF System_Type := [MAX_SYS_MINUS_ONE+1(0)];
+	SystemPrivate : ARRAY[0..MAX_SYS_MINUS_ONE] OF SystemPrivate_Type := [MAX_SYS_MINUS_ONE+1(0)];
+	k : UDINT := 0;
+	j : UDINT := 0;
+	i : UDINT := 0;
+	RTInfo_0 : RTInfo := (0);
+	pCnc : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type;
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	StartUp : BOOL;
+	m : USINT;
+	pCncMFunction : REFERENCE TO ARRAY[0..1023] OF USINT;
+	n : UDINT;
+	TempIndex : USINT;
+	TempMode : USINT;
+	pSystem : REFERENCE TO System_Type;
+	pSystemPrivate : REFERENCE TO SystemPrivate_Type;
+	StartUpFirst : BOOL;
+	pCncDat : REFERENCE TO ARNC0CNC_typ;
+	AxesErrorIndex : STRING[40] := '';
+	TempIndexString : STRING[4];
+	CncErrorIndex : STRING[40];
+	pAxisDat : REFERENCE TO ACP10AXIS_typ;
+END_VAR

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version="4.2.1.211"?>
+<Trace>
+  <Configuration Type="CNC" Active="true">
+    <Sampling SamplingTime="0.006" TracingTime="15" CalculateSamplingTime="True" CalculateTracingTime="False">
+      <Trigger Delay="0" Threshold="0" Condition="ncOFF" />
+    </Sampling>
+    <Channels>
+      <Channel Traced="True" NcObject="gAxisZ" ID="20" Description="Trajectory Speed" />
+    </Channels>
+  </Configuration>
+</Trace>

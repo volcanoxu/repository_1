@@ -1,0 +1,170 @@
+<Language Name="zh" ID="1">
+  <LogicalFont Name="SimSunArial10px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="10" />
+    <Property Name="Index" Value="20" />
+    <Property Name="FontSize" Value="13" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="SimSunArial12px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="19" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="SimSunArial14px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="14" />
+    <Property Name="Index" Value="18" />
+    <Property Name="FontSize" Value="19" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="SimSun12px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="17" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Button1">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="16" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="SimSun14px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="14" />
+    <Property Name="Index" Value="15" />
+    <Property Name="FontSize" Value="19" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="ArialUnicode12Bold">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="14" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="ArialUni14pxBold">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="13" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="DefaultBold">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="12" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="CourierNew11Bold">
+    <Property Name="PhysicalFont" Value="courbd" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="11" />
+    <Property Name="Index" Value="11" />
+    <Property Name="FontSize" Value="17" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="ArialUnicode14pxBold">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="10" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="DejaVu9PxBold">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="9" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="ArialUnicode18pxBold">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="8" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Pads">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="7" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Info">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="6" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Status">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="5" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Html_SDM">
+    <Property Name="PhysicalFont" Value="arialxsr" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="4" />
+    <Property Name="FontSize" Value="21" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Input">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="3" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="SimSun10px">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="10" />
+    <Property Name="Index" Value="2" />
+    <Property Name="FontSize" Value="13" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Header">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="12" />
+    <Property Name="Index" Value="1" />
+    <Property Name="FontSize" Value="16" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+  <LogicalFont Name="Default">
+    <Property Name="PhysicalFont" Value="simsun" />
+    <Property Name="Width" Value="0" />
+    <Property Name="Height" Value="10" />
+    <Property Name="Index" Value="0" />
+    <Property Name="FontSize" Value="13" />
+    <Property Name="AntiAliasing" Value="False" />
+  </LogicalFont>
+</Language>

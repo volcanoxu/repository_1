@@ -1,0 +1,72 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: Hmi
+ * File: Hmi.var
+ * Author: liug
+ * Created: March 04, 2013
+ ********************************************************************
+ * Variables of package Hmi
+ ********************************************************************)
+VAR
+	MX_POINT_ZERO : {REDUND_UNREPLICABLE} MXPointType := (0);
+	MX_FRAME_ZERO : {REDUND_UNREPLICABLE} MXFrameType := (0);
+	MX_TOOL_ZERO : {REDUND_UNREPLICABLE} MXToolType := (0);
+	HmiGlobal : HmiGlobal_Type;
+END_VAR
+VAR RETAIN
+	HmiRetain : HmiRetain_Type;
+END_VAR
+(*Global Alarm*)
+VAR
+	WarnMessage : ARRAY[0..WARN_MESSAGE_NUM] OF BOOL;
+END_VAR
+(*Constants*)
+VAR CONSTANT
+	MAX_REAL_AX_MINUS_ONE : USINT := 5;
+	ARSIM_PC : USINT := 3;
+	MAX_DEVICES : UINT := 9;
+	MAX_PLUS_MINUS_KEY : USINT := 6;
+	MAX_PLUS_MINUS_KEY_MINUS_ONE : USINT := MAX_PLUS_MINUS_KEY-1;
+	MAX_FUNCTION_KEY : USINT := 9;
+	MAX_FUNCTION_KEY_MINUS_ONE : USINT := MAX_FUNCTION_KEY-1;
+	MAX_PAGE_KEY : USINT := 7;
+	MAX_PAGE_KEY_MINUS_ONE : USINT := MAX_PAGE_KEY-1;
+	MAX_ERRORS : UINT := 1000; (*maximum number of errors recorded in history*)
+	MAX_ALARMS : USINT := 100; (*maximum number of defined alarms*)
+	MAX_WARNINGS : USINT := 50; (*maximum number of defined warnings*)
+	MAX_FIELD_ALRAMS : USINT := 6; (*maximum number of field alarms*)
+	PAGE_MAIN : UINT := 100;
+	PAGE_SETUPKINEMATICS : UINT := 230;
+	PAGE_SETUPAXIS : UINT := 220;
+	PAGE_SETUPCALIB : UINT := 240;
+	PAGE_SETUP : UINT := 200;
+	PAGE_IO : UINT := 300;
+	PAGE_PROGRAM : UINT := 400;
+	PAGE_EDITOR : UINT := 500;
+	PAGE_EDITOR_DATA : UINT := 510;
+	PAGE_JOGGING : UINT := 600;
+	PAGE_ALARM : UINT := 700;
+	STRING_PER_LINE : USINT := 120;
+	PROG_READ_NUMBER : UDINT := STRING_PER_LINE*PROG_CMD_NUMBER;
+	PROG_CMD_NUMBER : UINT := 1000;
+	LAYER_HIDE : USINT := 1;
+	LAYER_SHOW : USINT := 0;
+	LANG_ENGLISH : USINT := 0;
+	LANG_CHINESE : USINT := 1;
+	USER_GUEST : USINT := 0;
+	USER_OPERATOR : USINT := 1;
+	USER_PROGRAMMER : USINT := 2;
+	LINENUMBER_PERPAGE : USINT := 19;
+	LINENUMBER_PERPAGE_MINUS : USINT := LINENUMBER_PERPAGE-1;
+	WARN_MESSAGE_NUM : USINT := 19;
+	USER_ADMINISTRATOR : USINT := 3;
+	ERROR : USINT := 3;
+	LOCK : USINT := 2;
+	AUTO : USINT := 1;
+	DISABLED : USINT := 3;
+	JOG : USINT := 0;
+	RUN : USINT := 2;
+	PAUSE : USINT := 1;
+	STOP : USINT := 0;
+END_VAR

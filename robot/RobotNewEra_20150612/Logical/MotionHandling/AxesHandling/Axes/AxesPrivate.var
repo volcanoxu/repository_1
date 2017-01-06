@@ -1,0 +1,26 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Axes
+ * File: Axes.var
+ * Author: B&R
+ * Created: February 09, 2009
+ ********************************************************************
+ * Local variables of program Axes
+ ********************************************************************)
+VAR CONSTANT
+	AXES_NET_TIMEOUT : UDINT := 60000;
+END_VAR
+VAR
+	AxesPrivate : ARRAY[0..MAX_AX_MINUS_ONE] OF AxesPrivate_Type := [MAX_AX_MINUS_ONE+1(0)];
+	MCAxes : ARRAY[0..MAX_AX_MINUS_ONE] OF MCAxes_Type := [MAX_AX_MINUS_ONE+1(0)];
+	pAxACP10Dat : REFERENCE TO ACP10AXIS_typ;
+	i : USINT := 0;
+	RTInfo_0 : RTInfo;
+	Axes : ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type := [MAX_AX_MINUS_ONE+1(0)];
+	StartUp : BOOL;
+	pAxes : REFERENCE TO Axes_Type;
+	pAxesPrivate : REFERENCE TO AxesPrivate_Type;
+	pMCAxes : REFERENCE TO MCAxes_Type;
+	StartUpFirst : BOOL;
+END_VAR

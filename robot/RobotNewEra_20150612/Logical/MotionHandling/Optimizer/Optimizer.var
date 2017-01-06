@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Package: Optimizer
+ * File: Optimizer.var
+ * Author: renj
+ * Created: April 24, 2015
+ ********************************************************************
+ * Variables of package Optimizer
+ ********************************************************************)
+VAR
+	OptMotConfig : OPTMOT_CONFIG_ADVANCED_typ;
+END_VAR

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Program interface">HmiKeyControlGlobal.typ</Object>
+    <Object Type="File">HmiKeyControlGlobal.var</Object>
+    <Object Type="Program" Language="IEC" Description="Handles the Cnc panel key control  functionalities">HmiKeyCtrl</Object>
+  </Objects>
+</Package>

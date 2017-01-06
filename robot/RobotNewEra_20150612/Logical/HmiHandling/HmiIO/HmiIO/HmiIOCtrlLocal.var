@@ -1,0 +1,96 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiIOCtrl
+ * File: HmiIOCtrlLocal.var
+ * Author: renj
+ * Created: October 15, 2014
+ ********************************************************************
+ * Local variables of program HmiIOCtrl
+ ********************************************************************)
+VAR CONSTANT
+	BLACK_WHITE : UINT := 15;
+	WHITE_ORANGE : UINT := 4093;
+	CHANGE_FORCE_VALUE : USINT := 6;
+	COMMAND : USINT := 1;
+	MAX_VALUE_BOOL : BOOL := 1;
+	MAX_VALUE_DINT : DINT := 2147483647;
+	MAX_VALUE_INT : INT := 32767;
+	MAX_VALUE_SINT : SINT := 127;
+	MAX_VALUE_UDINT : UDINT := 4294967295;
+	MAX_VALUE_UINT : UINT := 65535;
+	MAX_VALUE_USINT : USINT := 255;
+	MIN_VALUE_BOOL : BOOL := 0;
+	MIN_VALUE_DINT : DINT := -2147483648;
+	MIN_VALUE_INT : INT := -32768;
+	MIN_VALUE_SINT : SINT := -128;
+	MIN_VALUE_UDINT : UDINT := 0;
+	MIN_VALUE_UINT : UINT := 0;
+	MIN_VALUE_USINT : USINT := 0;
+	GREY : UINT := 63738;
+	INIT : USINT := 0;
+	IO_COMMAND : USINT := 4;
+	IO_INIT : USINT := 3;
+	NUMERIC_GREY : UINT := 250;
+	NUMERIC_ORANGE : UINT := 253;
+	NUMERIC_WHITE : UINT := 15;
+	ORANGE : UINT := 63741;
+	PAGE_SERVICE_DIAGNOSTICS : UINT := 300;
+	UPDATE_IO_LIST : USINT := 5;
+	UPDATE_LIST : USINT := 2;
+	WHITE : UINT := 63503;
+	WAIT_FOR_ACKNOWLEDGE : USINT := 17;
+	PAGE_CHANGE : USINT := 20;
+	IO_GETADDR : USINT := 15;
+	UPDATE_FORCE_VALUE : USINT := 32;
+	ENABLE_FORCE : USINT := 30;
+	DISABLE_FORCE : USINT := 31;
+END_VAR
+VAR
+	AlarmInformation : ModuleAlarmInformation_typ;
+	ColorNumericOld : UINT;
+	ColorOld : UINT;
+	DetailsAvailable : BOOL;
+	DiagnoseOption : USINT;
+	Elements : UINT;
+	EndIndex : USINT;
+	EndValue : USINT;
+	Equal : DINT;
+	Index : USINT;
+	InvisibleIndex : USINT;
+	IOIndexArray : ARRAY[0..MAX_IO_LINES_MINUS_ONE] OF USINT;
+	IOReadIndex : USINT;
+	IOStartIndex : USINT;
+	LineIndex : USINT;
+	ModuleDiagnose_1 : ModuleDiagnose;
+	ModuleInformation : ARRAY[0..99] OF ModuleInformation_Type;
+	NumberIO : USINT;
+	NumberOfTotalModules : USINT;
+	NumberOfTotalModulesOld : USINT;
+	pEnableForce : ARRAY[0..254] OF BOOL;
+	pForceValue : ARRAY[0..254] OF DINT;
+	pIOData : REFERENCE TO SingleIOEntry_typ;
+	pIOInformation : IODPList_typ;
+	pStatusBuffer : ARRAY[0..254] OF SingleIOStatus_typ;
+	ResetIndex : USINT;
+	SelectedIndex : USINT;
+	SelectedIOIndex : USINT;
+	SelectedLineIndex : USINT;
+	SelectedModuleIndex : USINT;
+	StartIndex : USINT;
+	Status : UINT;
+	StatusIOList : UINT;
+	Step : USINT;
+	UpdateCounter : UDINT;
+	status_adr : UINT;
+	pv_adr : UDINT;
+	data_len : UDINT;
+	PointData : STRING[60];
+	IODPEnableForce : AsIOEnableForcing;
+	IODPDisableForce : AsIODisableForcing;
+	IODPSetForceValue : AsIOSetForceValue;
+	Internal : HmiIOCtrlInternal_Type := (0);
+	DiagRTInfo : RTInfo;
+	cycT : UDINT;
+	UpdateIOCounter : UDINT;
+END_VAR

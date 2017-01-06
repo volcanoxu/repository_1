@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="KeyHandling">
+    <Folder Name="KeySourceTables">
+      <Folder Name="POBJ">
+        <Object Name="5MP050.0653-02" ClsId="0x307" Version="1" Type="KSTable" RefString="Source[local].KSTable[5MP050.0653-02]">
+          <UInt16 Name="KeyCount">37</UInt16>
+          <UInt16 Name="LevelCount">6</UInt16>
+          <Group Name="1">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="2">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="3">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="4">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="5">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="6">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="7">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="8">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="9">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="10">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="11">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="12">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="13">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="14">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="15">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="16">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="17">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="18">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="19">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="20">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="21">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="22">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="23">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="24">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="25">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="26">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="27">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="28">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="29">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="30">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="31">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="32">
+            <Int32 Name="Led">1</Int32>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedRun]</Reference>
+          </Group>
+          <Group Name="33">
+            <Int32 Name="Led">1</Int32>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedError]</Reference>
+          </Group>
+          <Group Name="34">
+            <Int32 Name="Led">1</Int32>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedMotion]</Reference>
+          </Group>
+          <Group Name="35">
+            <Int32 Name="Led">1</Int32>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+            <Reference Name="KeyCode" Type="VKEY">Source[local].VirtualKey[VK_LedProcess]</Reference>
+          </Group>
+          <Group Name="36">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+          <Group Name="37">
+            <Int32 Name="Led">0</Int32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+            <UInt32 Name="KeyCode">4294967295</UInt32>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

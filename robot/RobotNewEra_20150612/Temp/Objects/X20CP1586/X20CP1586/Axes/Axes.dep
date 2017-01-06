@@ -1,0 +1,15 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.fun
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes/AxesPrivate.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes/AxesPrivate.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.var

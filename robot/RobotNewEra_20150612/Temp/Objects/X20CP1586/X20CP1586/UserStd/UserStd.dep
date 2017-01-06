@@ -1,0 +1,12 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/UserStd/UserStd/User.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/UserStd/UserStd/User.typ
+$(AS_PROJECT_PATH)/Logical/UserStd/GlobalUserStd.var
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiKeyCtrl/HmiKeyControlGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ

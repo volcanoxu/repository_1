@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HardKeySim
+ * File: HardKeySim.var
+ * Author: liug
+ * Created: March 04, 2013
+ ********************************************************************
+ * Local variables of program HardKeySim
+ ********************************************************************)
+VAR
+	Enable_RfbExtConnect : BOOL := FALSE;
+	pAge : UDINT := 0;
+	Status_RfbExtDataAge : UDINT := 0;
+	uiTimeOut : UDINT := 0;
+	Status_RfbExtJoystickValue : UINT := 0;
+	Status_RfbExtConnect : UINT := 0;
+	pLib : AsRfbExtType := (0);
+	Status_RfbExtInit : UINT := 0;
+END_VAR

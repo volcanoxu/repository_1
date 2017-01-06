@@ -1,0 +1,12 @@
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/FeedForward/6axATrqFF/6axATrqFF.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/AxesHandling/Axes.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/FeedForward/6axATrqFF/6axATrqFF.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Optimizer/Optimizer.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Optimizer/Optimizer.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalDefines.var

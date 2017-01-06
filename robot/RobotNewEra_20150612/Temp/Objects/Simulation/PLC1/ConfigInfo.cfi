@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="OptMotion"
+      Disable="false"
+      Source="MotionHandling.Optimizer.OptMotion"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\OptMotion\OptMotionLocal.var" />
+    </Task>
+    <Task
+      Name="Cnc"
+      Disable="false"
+      Source="MotionHandling.CncHandling.Cnc"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Cnc\Cnc.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Cnc\CncActions.st.var" />
+    </Task>
+    <Task
+      Name="System"
+      Disable="false"
+      Source="MotionHandling.SystemHandling.System"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\System\System.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\System\SystemActions.st.var" />
+    </Task>
+    <Task
+      Name="Axes"
+      Disable="false"
+      Source="MotionHandling.AxesHandling.Axes"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Axes\Axes.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Axes\AxACP10Actions.st.var" />
+    </Task>
+    <Task
+      Name="Jog"
+      Disable="false"
+      Source="MotionHandling.Jogging.Jog"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Jog\Jog.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Jog\JogLocal.var" />
+    </Task>
+    <Task
+      Name="Config"
+      Disable="false"
+      Source="MotionHandling.Configuration.Config"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Config\ConfigActions.st.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Config\Config.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\Config.var" />
+    </Task>
+    <Task
+      Name="Trf"
+      Disable="false"
+      Source="MotionHandling.Transformations.Trf"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Trf\TrfLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Error"
+      Disable="false"
+      Source="ErrorHandling.Error"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\Error\Error.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.var" />
+    </Task>
+    <Task
+      Name="HmiKeyCtrl"
+      Disable="false"
+      Source="HmiHandling.HmiKeyCtrl.HmiKeyCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiKeyCtrl\HmiKeyControlActions.st.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiKeyCtrl\HmiKeyControlCyclic.st.var" />
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiKeyCtrl\HmiKeyControlInit.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.typ" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="HmiPrg"
+      Disable="false"
+      Source="HmiHandling.HmiPrg.HmiPrg"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="HmiAlarm"
+      Disable="false"
+      Source="HmiHandling.HmiAlarm.HmiAlarm"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiAlarm\HmiAlarm.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.var" />
+    </Task>
+    <Task
+      Name="HmiMain"
+      Disable="false"
+      Source="HmiHandling.HmiMain.HmiMain"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.var" />
+    </Task>
+    <Task
+      Name="HmiFile"
+      Disable="false"
+      Source="HmiHandling.HmiMain.HmiFile"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiFile\HmiFileCtrl.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.var" />
+    </Task>
+    <Task
+      Name="HmiJogCtrl"
+      Disable="false"
+      Source="HmiHandling.HmiJog.HmiJogCtrl"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.var" />
+    </Task>
+    <Task
+      Name="RecipeCont"
+      Disable="false"
+      Source="Recipe.RecipeControl"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\RecipeCont\RecipeContLocal.var" />
+    </Task>
+    <Task
+      Name="UserStd"
+      Disable="false"
+      Source="UserStd.UserStd"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\UserStd\UserStd\User.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\UserStd\UserStd\User.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\UserStd\UserStdLocal.var" />
+    </Task>
+    <Task
+      Name="HmiHardKey"
+      Disable="false"
+      Source="HmiHandling.HmiHardKey.HmiHardKeyCtrl"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiHardKey\HmiHardKeyLocal.var" />
+    </Task>
+    <Task
+      Name="HmiEditor"
+      Disable="false"
+      Source="HmiHandling.HmiEditor.HmiEditor"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.var" />
+    </Task>
+    <Task
+      Name="HmiFileVar"
+      Disable="false"
+      Source="HmiHandling.HmiEditor.HmiFileVar"
+      Language="IEC">
+      <InternalFile
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Temp\Objects\Simulation\PLC1\HmiFileVar\HmiFileCtrlVar.st.var" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.var" />
+    </Task>
+    <Task
+      Name="HmiSetup"
+      Disable="false"
+      Source="HmiHandling.HmiSetup.HmiSetup"
+      Language="ANSIC">
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.typ" />
+      <File
+        Path="D:\AS\workspace\projects\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

@@ -1,0 +1,3 @@
+VAR
+	Par6axATrf : ARRAY[0..31] OF TRF_DYN04B_typ := [32(0)];
+END_VAR

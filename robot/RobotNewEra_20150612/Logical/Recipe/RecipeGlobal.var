@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: Receipe
+ * File: ReceipeGlobal.var
+ * Author: renj
+ * Created: October 08, 2014
+ ********************************************************************
+ * Variables of package Receipe
+ ********************************************************************)
+VAR CONSTANT
+	NB_RECIPE : USINT := 20;
+	LEN_RCP_NAME : USINT := 10;
+	SG3 : USINT := 1;
+	SG4 : USINT := 2;
+	CPU_TYPE : USINT := SG4;
+END_VAR

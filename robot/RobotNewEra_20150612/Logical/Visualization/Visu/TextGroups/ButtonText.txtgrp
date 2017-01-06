@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ButtonText">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="15"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="Feedrate">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiKeyCtrl.HmiKeyControl.Components.LayerButtons.SliderV.Value]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="200071" Value="{Feedrate}% "/>
+    <Text ID="201019" Value="Continuous"/>
+    <Text ID="201020" Value="Single Step"/>
+    <Text ID="201021" Value="Base"/>
+    <Text ID="201022" Value="Joint"/>
+    <Text ID="201023" Value="Tool"/>
+    <Text ID="202009" Value="Auto Mode"/>
+    <Text ID="202010" Value="Jog Mode"/>
+    <Text ID="202011" Value="ON/OFF"/>
+    <Text ID="202012" Value="Login"/>
+    <Text ID="203752" Value="Direct"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="200071" Value="{Feedrate}%"/>
+    <Text ID="201019" Value="连续"/>
+    <Text ID="201020" Value="单步"/>
+    <Text ID="201021" Value="基坐标"/>
+    <Text ID="201022" Value="关节"/>
+    <Text ID="201023" Value="工具"/>
+    <Text ID="202009" Value="自动模式"/>
+    <Text ID="202010" Value="手动模式"/>
+    <Text ID="202011" Value="开/关"/>
+    <Text ID="202012" Value="登录"/>
+    <Text ID="203752" Value="直接"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="200071" Value="2"/>
+    <Index ID="201019" Value="3"/>
+    <Index ID="201020" Value="4"/>
+    <Index ID="201021" Value="5"/>
+    <Index ID="201022" Value="6"/>
+    <Index ID="201023" Value="7"/>
+    <Index ID="202009" Value="0"/>
+    <Index ID="202010" Value="1"/>
+    <Index ID="202011" Value="12"/>
+    <Index ID="202012" Value="8"/>
+    <Index ID="203752" Value="11"/>
+  </IndexMap>
+</TextGroup>

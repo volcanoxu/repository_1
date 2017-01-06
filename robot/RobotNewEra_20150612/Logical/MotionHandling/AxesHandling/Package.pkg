@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.214?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Axes.typ</Object>
+    <Object Type="File">Axes.var</Object>
+    <Object Type="Program" Language="IEC" Description="A new program">Axes</Object>
+    <Object Type="DataObject" Language="Ett" Description="ACP10: ErrorText data object.">AcpError</Object>
+  </Objects>
+</Package>

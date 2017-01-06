@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="5MP050.0653-02" Type="5MP050.0653-02" Version="1.0.3.0">
+    <Connection Connector="ETH1" TargetModule="X20CP1586" TargetConnector="IF2" NodeNumber="1" />
+    <Parameter ID="Terminal" Value="true" />
+    <Parameter ID="VncVcObjectName" Value="Visu" />
+    <Parameter ID="VncKeyMappingFile" Value="VC\5MP050.0653-02.dis" />
+    <Parameter ID="VncAuthentication" Value="1" />
+    <Parameter ID="VncPasswordViewOnly" Value="1" />
+    <Parameter ID="VncPasswordViewControl" Value="2" />
+    <Parameter ID="VncMaxConnections" Value="8" />
+    <Parameter ID="VncRefreshRate" Value="100" />
+    <Parameter ID="VncTitle" Value="6AxesRobot" />
+  </Module>
+  <Module Name="8B0Pxxxxxxxx.xxx-x" Type="8B0Pxxxxxxxx.xxx-x" Version="1.0.0.3" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="X20CP1586" TargetConnector="IF3" NodeNumber="1" />
+    <Connection Connector="PLK2" TargetModule="8BVIxxxxxxDx.xxx-x" TargetConnector="PLK1" NodeNumber="1" />
+  </Module>
+  <Module Name="8BVIxxxxxxDx.xxx-x" Type="8BVIxxxxxxDx.xxx-x" Version="1.0.0.7" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8B0Pxxxxxxxx.xxx-x" TargetConnector="PLK2" NodeNumber="2" />
+    <Connection Connector="PLK2" TargetModule="8BVIxxxxxxDx.xxx-x1" TargetConnector="PLK1" NodeNumber="2" />
+  </Module>
+  <Module Name="8BVIxxxxxxDx.xxx-x1" Type="8BVIxxxxxxDx.xxx-x" Version="1.0.0.7" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVIxxxxxxDx.xxx-x" TargetConnector="PLK2" NodeNumber="3" />
+    <Connection Connector="PLK2" TargetModule="8BVIxxxxxxDx.xxx-x2" TargetConnector="PLK1" NodeNumber="3" />
+  </Module>
+  <Module Name="8BVIxxxxxxDx.xxx-x2" Type="8BVIxxxxxxDx.xxx-x" Version="1.0.0.7" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVIxxxxxxDx.xxx-x1" TargetConnector="PLK2" NodeNumber="4" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20CP1586" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20CP1586" Type="X20CP1586" Version="1.0.5.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="EthInterfaceRedundant" Value="0" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.1.9" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="EplInterfaceRedundant" Value="0" />
+      <Group ID="Channel1" />
+      <Parameter ID="ChannelID1" Value="ACP10_MC_BROADCAST" />
+      <Parameter ID="ChannelType1" Value="OCTET[96]" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="0" />
+    </Connector>
+    <Parameter ID="UserRamSize" Value="770048" />
+    <Parameter ID="RemanentGlobalPvSize" Value="81920" />
+    <Parameter ID="VolatileGlobalPvSize" Value="500000" />
+    <Parameter ID="BRObjects" Value="500" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="Connections" Value="8" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="X20CP1586.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="4000" />
+    <Parameter ID="Cyclic1Duration" Value="4000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Stack" Value="400000" />
+    <Parameter ID="Cyclic1Output" Value="1" />
+    <Parameter ID="Cyclic2Duration" Value="30000" />
+    <Parameter ID="Cyclic2Tolerance" Value="30000" />
+    <Parameter ID="Cyclic2Stack" Value="28192" />
+    <Parameter ID="Cyclic3Duration" Value="20000" />
+    <Parameter ID="Cyclic3Tolerance" Value="30000000" />
+    <Parameter ID="Cyclic3Stack" Value="81920" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="30000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="Cyclic8Stack" Value="38192" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="CNC_PrgDir" />
+    <Parameter ID="FileDevicePath1" Value="C:\Data\Programs" />
+  </Module>
+  <Module Name="X20DI9371" Type="X20DI9371" Version="1.0.1.2" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+</Hardware>

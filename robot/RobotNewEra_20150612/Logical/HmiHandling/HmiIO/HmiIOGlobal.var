@@ -1,0 +1,29 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: HmiDiagnostics
+ * File: HmiDiagnostics.var
+ * Author: B&R, International Applications
+ * Created: February 13, 2009
+ ********************************************************************
+ * Local variables of program HmiDiagnostics
+ ********************************************************************)
+VAR CONSTANT
+	MAX_LINES : USINT := 21;
+	MAX_LINES_MINUS_ONE : USINT := MAX_LINES-1;
+	MAX_IO_LINES_MINUS_ONE : USINT := MAX_IO_LINES-1;
+	MAX_IO_LINES : USINT := 15;
+END_VAR
+VAR
+	HmiIOCtrl : HmiIOCtrl_Type;
+	DI1 : HW_DI_typ := (0);
+	DI2 : HW_DI_typ := (0);
+	DI3 : HW_DI_typ := (0);
+	DI4 : HW_DI_typ := (0);
+	DI5 : HW_DI_typ := (0);
+	DO1 : HW_DO_typ := (0);
+	DO2 : HW_DO_typ := (0);
+	DO3 : HW_DO_typ := (0);
+	DO4 : HW_DO_typ := (0);
+	DO5 : HW_DO_typ := (0);
+END_VAR

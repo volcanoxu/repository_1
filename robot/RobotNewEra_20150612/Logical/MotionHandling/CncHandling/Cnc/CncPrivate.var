@@ -1,0 +1,22 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Cnc
+ * File: Cnc.var
+ * Author: radaka
+ * Created: February 16, 2009
+ ********************************************************************
+ * Local variables of program Cnc
+ ********************************************************************)
+VAR
+	Cnc : ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type := [MAX_CNC_MINUS_ONE+1(0)];
+	CncPrivate : ARRAY[0..MAX_CNC_MINUS_ONE] OF CncPrivate_Type := [MAX_CNC_MINUS_ONE+1(0)];
+	i : USINT := 0;
+	j : USINT := 0;
+	pCncDat : REFERENCE TO ARNC0CNC_typ;
+	pCncDatBlockMonitor : REFERENCE TO ARNC0NCSMO_typ;
+	pCnc : REFERENCE TO Cnc_Type;
+	StartUp : BOOL;
+	pCncPrivate : REFERENCE TO CncPrivate_Type;
+	StartUpFirst : BOOL;
+END_VAR

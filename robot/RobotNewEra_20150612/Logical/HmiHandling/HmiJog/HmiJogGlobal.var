@@ -1,0 +1,28 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: HmiJog
+ * File: HmiJogGlobal.var
+ * Author: renj
+ * Created: January 06, 2015
+ ********************************************************************
+ * Variables of package HmiJog
+ ********************************************************************)
+VAR
+	HmiJog : HmiJogCtrlType := (0);
+END_VAR
+(*Global System Status*)
+VAR
+	JointAct : MXJointAxisType;
+	PointAct : MXPointType := (0);
+END_VAR
+VAR RETAIN
+	FrmSync : MXFrameType := (0);
+	ToolSync : MXToolType;
+	JointSync : MXAxisTargetType := (0);
+	PointSync : MXPointType := (0);
+	JointTCPSync : BOOL := FALSE;
+END_VAR
+VAR
+	JointLimitsSync : ARRAY[0..5] OF HmiJointLimitType := [6(0)];
+END_VAR

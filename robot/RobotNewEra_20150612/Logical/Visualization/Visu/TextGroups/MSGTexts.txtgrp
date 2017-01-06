@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MSGTexts">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="201581" Value="Login"/>
+    <Text ID="201582" Value="Login"/>
+    <Text ID="201583" Value="Logout"/>
+    <Text ID="201584" Value="Input password:"/>
+    <Text ID="201991" Value="Cancel"/>
+    <Text ID="201993" Value="Delete"/>
+    <Text ID="201994" Value="OK"/>
+    <Text ID="201996" Value="File in use. Do you still want to delete this File?"/>
+    <Text ID="201998" Value="Rename as:"/>
+    <Text ID="201999" Value="Rename"/>
+    <Text ID="202002" Value="New program"/>
+    <Text ID="202003" Value="Program name(NewProgram by default)"/>
+    <Text ID="202004" Value="Overwrite"/>
+    <Text ID="202005" Value="Do you want to overwrite this File(Folder)?"/>
+    <Text ID="202006" Value="File already exists, enter a new name."/>
+    <Text ID="202007" Value="File in process, modification is not allowed"/>
+    <Text ID="202008" Value="Warning"/>
+    <Text ID="202412" Value="File in use. Do you still want to rename this File?"/>
+    <Text ID="202810" Value="File in use. Do you still want to cut this File?"/>
+    <Text ID="202811" Value="Cut"/>
+    <Text ID="206727" Value="New variable"/>
+    <Text ID="206728" Value="Variable name"/>
+    <Text ID="206729" Value="Invalid variable name! Recommended name:"/>
+    <Text ID="206730" Value="Size:"/>
+    <Text ID="207258" Value="Constant"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="201581" Value="登录"/>
+    <Text ID="201582" Value="登录"/>
+    <Text ID="201583" Value="注销"/>
+    <Text ID="201584" Value="输入密码："/>
+    <Text ID="201991" Value="取消"/>
+    <Text ID="201993" Value="删除"/>
+    <Text ID="201994" Value="确认"/>
+    <Text ID="201996" Value="文件正在使用中，确定要删除该文件？"/>
+    <Text ID="201998" Value="重命名为："/>
+    <Text ID="201999" Value="重命名"/>
+    <Text ID="202002" Value="新建文件"/>
+    <Text ID="202003" Value="文件名（缺省为NewProgram）"/>
+    <Text ID="202004" Value="覆盖"/>
+    <Text ID="202005" Value="确定覆盖该文件(夹)？"/>
+    <Text ID="202006" Value="文件已存在，输入新的文件名"/>
+    <Text ID="202007" Value="文件使用中，不允许修改"/>
+    <Text ID="202008" Value="警告"/>
+    <Text ID="202412" Value="文件正在使用中，确定要重命名该文件？"/>
+    <Text ID="202810" Value="文件正在使用中，确定要剪切该文件？"/>
+    <Text ID="202811" Value="剪切"/>
+    <Text ID="206727" Value="新变量"/>
+    <Text ID="206728" Value="变量名"/>
+    <Text ID="206729" Value="无效变量名。推荐的变量名为："/>
+    <Text ID="206730" Value="维数："/>
+    <Text ID="207258" Value="常量"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="201581" Value="2"/>
+    <Index ID="201582" Value="3"/>
+    <Index ID="201583" Value="4"/>
+    <Index ID="201584" Value="5"/>
+    <Index ID="201991" Value="0"/>
+    <Index ID="201993" Value="6"/>
+    <Index ID="201994" Value="1"/>
+    <Index ID="201996" Value="7"/>
+    <Index ID="201998" Value="12"/>
+    <Index ID="201999" Value="10"/>
+    <Index ID="202002" Value="8"/>
+    <Index ID="202003" Value="9"/>
+    <Index ID="202004" Value="16"/>
+    <Index ID="202005" Value="17"/>
+    <Index ID="202006" Value="13"/>
+    <Index ID="202007" Value="18"/>
+    <Index ID="202008" Value="19"/>
+    <Index ID="202412" Value="11"/>
+    <Index ID="202810" Value="15"/>
+    <Index ID="202811" Value="14"/>
+    <Index ID="206727" Value="20"/>
+    <Index ID="206728" Value="21"/>
+    <Index ID="206729" Value="22"/>
+    <Index ID="206730" Value="23"/>
+    <Index ID="207258" Value="24"/>
+  </IndexMap>
+</TextGroup>

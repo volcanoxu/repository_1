@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%IW.ModuleID_CPU" Type="UINT">
+<Prod Device="$root" DPName="ModuleID_CPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureBoard" Type="UINT">
+<Prod Device="$root" DPName="TemperatureBoard" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%ID.SerialNumber" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID" Type="UINT">
+<Prod Device="$root" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%ID.PowerOnCycles" Type="UDINT">
+<Prod Device="$root" DPName="PowerOnCycles" Kind="io"/>
+</LN>
+<LN ID="%ID.OperatingHours" Type="UDINT">
+<Prod Device="$root" DPName="OperatingHours" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatus" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatus" Kind="io"/>
+</LN>
+<LN ID="%IB.MtcxVersionMajor" Type="USINT">
+<Prod Device="$root" DPName="MtcxVersionMajor" Kind="io"/>
+</LN>
+<LN ID="%IB.MtcxVersionMinor" Type="USINT">
+<Prod Device="$root" DPName="MtcxVersionMinor" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperaturePS" Type="UINT">
+<Prod Device="$root" DPName="TemperaturePS" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureHDD" Type="UINT">
+<Prod Device="$root" DPName="TemperatureHDD" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureRAM" Type="UINT">
+<Prod Device="$root" DPName="TemperatureRAM" Kind="io"/>
+</LN>
+<LN ID="::Axes:Axes[0].Input.Parameter.ConfigOk/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="Config:Config.Output.Monitor.ConfigOk" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Input.Parameter.ConfigOk" Kind="pv"/>
+</LN>
+<LN ID="::Cnc:Cnc[0].Input.Parameter.ConfigOk/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="Config:Config.Output.Monitor.ConfigOk" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Cnc:Cnc[0].Input.Parameter.ConfigOk" Kind="pv"/>
+</LN>
+<LN ID="::System:System[0].Input.Parameter.ConfigOk/1" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="Config:Config.Output.Monitor.ConfigOk" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="System:System[0].Input.Parameter.ConfigOk" Kind="pv"/>
+</LN>
+<LN ID="::Config:Config.Input.Parameter.SystemAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="System:System[0].Output.Monitor.SystemAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Config:Config.Input.Parameter.SystemAddress" Kind="pv"/>
+</LN>
+<LN ID="::Config:Config.Input.Parameter.CncAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Cnc:Cnc[0].Output.Monitor.CncAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Config:Config.Input.Parameter.CncAddress" Kind="pv"/>
+</LN>
+<LN ID="::Config:Config.Input.Parameter.AxesAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Output.Monitor.AxesAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Config:Config.Input.Parameter.AxesAddress" Kind="pv"/>
+</LN>
+<LN ID="::System:System[0].Input.Parameter.AxesAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Output.Monitor.AxesAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="System:System[0].Input.Parameter.AxesAddress" Kind="pv"/>
+</LN>
+<LN ID="::System:System[0].Input.Parameter.CncAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Cnc:Cnc[0].Output.Monitor.CncAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="System:System[0].Input.Parameter.CncAddress" Kind="pv"/>
+</LN>
+<LN ID="::Trf:AxesAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Output.Monitor.AxesAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Trf:AxesAddress" Kind="pv"/>
+</LN>
+<LN ID="::Jog:CncAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Cnc:Cnc[0].Output.Monitor.CncAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Jog:CncAddress" Kind="pv"/>
+</LN>
+<LN ID="::6axATrqFF:AxesAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Output.Monitor.AxesAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="6axATrqFF:AxesAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.SystemAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="System:System[0].Output.Monitor.SystemAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.SystemAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.CncAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Cnc:Cnc[0].Output.Monitor.CncAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.CncAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.AxesAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="Axes:Axes[0].Output.Monitor.AxesAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.AxesAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.JogAddress/4" Type="UDINT">
+<Prod Device="TC#1-CPYDEV" DPName="::Jog:Jogging.JogAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.JogAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.RecipeAddress/4" Type="UDINT">
+<Prod Device="TC#8-CPYDEV" DPName="::RecipeCont:Recipe.Monitor.RecipeAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.RecipeAddress" Kind="pv"/>
+</LN>
+<LN ID="::HmiGlobal.Address.ErrorAddress/4" Type="UDINT">
+<Prod Device="TC#2-CPYDEV" DPName="::Error:Error.Output.Monitor.ErrorHandlingAddress" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::HmiGlobal.Address.ErrorAddress" Kind="pv"/>
+</LN>
+</Links></IO>

@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiJogCtrl
+ * File: HmiJogLocal.var
+ * Author: renj
+ * Created: January 06, 2015
+ ********************************************************************
+ * Local variables of program HmiJogCtrl
+ ********************************************************************)
+VAR
+	pCnc : REFERENCE TO Cnc_Type;
+	pSystem : REFERENCE TO System_Type;
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	Point : MXPointType := (0);
+	ToolEnableSync : BOOL := FALSE;
+	FrmEnableSync : BOOL := FALSE;
+	JogStepSync : LREAL := 0.0;
+END_VAR

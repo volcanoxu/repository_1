@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlarmState_long">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="87326" Value="Inactive"/>
+    <Text ID="87327" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="87326" Value=""/>
+    <Text ID="87327" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="87326" Value="0"/>
+    <Index ID="87327" Value="1"/>
+  </IndexMap>
+</TextGroup>

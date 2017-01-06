@@ -1,0 +1,14 @@
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiMain/HmiMain/HmiMainLocal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/SystemHandling/System.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobal.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/CncHandling/Cnc.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiMain/HmiMain/HmiMainLocal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Arnc0mx/arnc0mx.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiMain/HmiMainGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiMain/HmiMainGlobal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiMain/HmiFileGlobal.var

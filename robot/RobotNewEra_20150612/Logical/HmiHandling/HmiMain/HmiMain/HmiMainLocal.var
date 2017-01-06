@@ -1,0 +1,15 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HmiMain
+ * File: HmiMainLocal.var
+ * Author: renj
+ * Created: November 17, 2014
+ ********************************************************************
+ * Local variables of program HmiMain
+ ********************************************************************)
+VAR
+	pSystem : REFERENCE TO System_Type;
+	pCnc : REFERENCE TO Cnc_Type;
+	Internal : HmiMainCtrlInternal_Type;
+END_VAR

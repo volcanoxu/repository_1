@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Package: Motion
+ * File: Manager.var
+ * Author: passaglial
+ * Created: October 22, 2008
+ ********************************************************************
+ * Variables of package Motion
+ ********************************************************************)
+VAR
+	ACP10_MC_MN_PRES_IF0 : ARRAY[0..255] OF USINT := [256(0)];
+END_VAR
+VAR CONSTANT
+	DRYRUN_STOP_MOVEMENT_TIME_DELAY : TIME := T#2000ms;
+	JOG_SW_LIMIT_MARGIN : REAL := 2.0;
+END_VAR
+(*********************************************************)
+VAR CONSTANT
+	MOVE_CYCLIC_POSITION_EXTERN : USINT := 1;
+	ADDITIVE_CYCLIC_POSITION_EXTERN : USINT := 1;
+	OUTPUT_CYCLIC_POSITION_EXTERN : USINT := 1;
+END_VAR

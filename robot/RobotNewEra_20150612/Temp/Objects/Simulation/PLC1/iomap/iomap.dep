@@ -1,0 +1,10 @@
+$(AS_PROJECT_PATH)/logical/motionhandling/configuration/config.typ
+$(AS_PROJECT_PATH)/logical/motionhandling/axeshandling/axes.typ
+$(AS_PROJECT_PATH)/logical/motionhandling/cnchandling/cnc.typ
+$(AS_PROJECT_PATH)/logical/motionhandling/systemhandling/system.typ
+$(AS_PROJECT_PATH)/logical/motionhandling/transformations/trf/trfprv.var
+$(AS_PROJECT_PATH)/logical/motionhandling/jogging/jog/jog.var
+$(AS_PROJECT_PATH)/logical/hmihandling/hmiglobal.typ
+$(AS_PROJECT_PATH)/logical/motionhandling/jogging/jogglobal.typ
+$(AS_PROJECT_PATH)/logical/recipe/recipeglobal.typ
+$(AS_PROJECT_PATH)/logical/errorhandling/error.typ

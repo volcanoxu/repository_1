@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=67</DeviceParameters>
+    <ConnectionParameters>/AM=* /DAIP=192.168.1.9 /REPO=11159 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>E:\Robot_moban\RobotNewEra_20150612\RobotNewEra.apj</ApjFullFileName>
+    <ProjectName>RobotNewEra</ProjectName>
+    <ActiveConfigurationName>X20CP1586</ActiveConfigurationName>
+    <LicenseDataFolder>E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

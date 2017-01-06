@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiIO/HmiIOGlobal.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/MotionGlobalSize.var
+$(AS_PROJECT_PATH)/Logical/Recipe/RecipeGlobal.var
+$(AS_PROJECT_PATH)/Logical/Libraries/TRF_LIB/TRF_LIB.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/FeedForward/OptMotConfig.var
+$(AS_PROJECT_PATH)/Logical/Libraries/TRF_LIB/TRF_LIB.typ
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Optimizer/Optimizer.var
+$(AS_PROJECT_PATH)/Logical/MotionHandling/Optimizer/Optimizer.typ

@@ -1,0 +1,37 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: Global.var
+ * Author: radaka
+ * Created: February 09, 2009
+ ********************************************************************
+ * Global variables of project CncMotionHandling
+ ********************************************************************)
+VAR CONSTANT
+	LABEL_SIZE : USINT := 80;
+END_VAR
+(********************************************************************
+MODE*)
+VAR CONSTANT
+	MAX_MODE : USINT := 2;
+	MAX_MODE_MINUS_ONE : USINT := MAX_MODE-1;
+END_VAR
+(********************************************************************
+SYS*)
+VAR CONSTANT
+	MAX_SYS : USINT := 1;
+	MAX_SYS_MINUS_ONE : USINT := MAX_SYS-1;
+END_VAR
+(********************************************************************
+CNC*)
+VAR CONSTANT
+	MAX_CNC : USINT := 1;
+	MAX_CNC_MINUS_ONE : USINT := MAX_CNC-1;
+END_VAR
+(********************************************************************
+AX*)
+VAR CONSTANT
+	MAX_AX : USINT := 13; (*6 TCP + 6 JOINTS + 1 PS + 1 FRAME*)
+	MAX_AX_MINUS_TWO : USINT := MAX_AX-2;
+	MAX_AX_MINUS_ONE : USINT := MAX_AX-1;
+END_VAR

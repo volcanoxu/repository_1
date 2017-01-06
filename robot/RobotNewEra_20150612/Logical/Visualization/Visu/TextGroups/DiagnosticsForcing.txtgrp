@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DiagnosticsForcing">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="21"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="175752" Value="On"/>
+    <Text ID="175753" Value="Off"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="175752" Value="使能"/>
+    <Text ID="175753" Value="关闭"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="175752" Value="1"/>
+    <Index ID="175753" Value="0"/>
+  </IndexMap>
+</TextGroup>

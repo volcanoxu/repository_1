@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiEditor/HmiFileVar/HmiFileVarLocal.var
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiEditor/HmiFileVar/HmiFileVarLocal.typ
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiEditor/HmiEditorLocalGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="5PC820.SX01-00" Type="5PC820.SX01-00" X="3" Y="53" />
+    <Module Name="5PC800_B945_11" Type="5PC800.B945-11" X="8.099998" Y="63" />
+    <Module Name="5MP050.0653-04" Type="5MP050.0653-04" X="321" Y="58" />
+    <Module Name="X20BB80" Type="X20BB80" X="200" Y="188" />
+    <Module Name="X20BM11" Type="X20BM11" X="238" Y="188" />
+    <Module Name="X20DI9372" Type="X20DI9372" X="238" Y="188" />
+    <Module Name="X20TB12" Type="X20TB12" X="238" Y="215" />
+    <Module Name="X20BM11a" Type="X20BM11" X="251" Y="188" />
+    <Module Name="X20DO9321" Type="X20DO9321" X="251" Y="188" />
+    <Module Name="X20TB12a" Type="X20TB12" X="251" Y="215" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="225" Y="188" />
+    <Module Name="X20TB12b" Type="X20TB12" X="225" Y="215" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="200" Y="188" />
+    <Module Name="8B0Pxxxxxxxx.xxx-x" Type="8B0Pxxxxxxxx.xxx-x" X="116" Y="410" />
+    <Module Name="8BVIxxxxxxDx.xxx-x" Type="8BVIxxxxxxDx.xxx-x" X="273" Y="415" />
+    <Module Name="8BVIxxxxxxDx.xxx-x1" Type="8BVIxxxxxxDx.xxx-x" X="330" Y="411" />
+    <Module Name="8BVIxxxxxxDx.xxx-x2" Type="8BVIxxxxxxDx.xxx-x" X="394" Y="412" />
+  </Modules>
+  <Links />
+</BR.AS.HardwareTopology>

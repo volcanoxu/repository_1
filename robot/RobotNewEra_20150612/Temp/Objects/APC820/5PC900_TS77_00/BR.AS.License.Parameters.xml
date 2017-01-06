@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=*</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>E:\Robot_moban\RobotNewEra_20150612\RobotNewEra.apj</ApjFullFileName>
+    <ProjectName>RobotNewEra</ProjectName>
+    <ActiveConfigurationName>APC820</ActiveConfigurationName>
+    <LicenseDataFolder>E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\APC820\5PC900_TS77_00</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

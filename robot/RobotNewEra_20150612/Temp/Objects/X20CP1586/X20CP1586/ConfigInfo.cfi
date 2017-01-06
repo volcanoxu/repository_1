@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.1.211"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="6axATrqFF"
+      Disable="false"
+      Source="MotionHandling.FeedForward.6axATrqFF"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\6axATrqFF.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\FeedForward\6axATrqFF\6axATrqFF.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\6axATrqFF\6axATrqFFLocal.var" />
+    </Task>
+    <Task
+      Name="OptMotion"
+      Disable="false"
+      Source="MotionHandling.Optimizer.OptMotion"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\OptMotion\OptMotionLocal.var" />
+    </Task>
+    <Task
+      Name="Config"
+      Disable="false"
+      Source="MotionHandling.Configuration.Config"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Config\ConfigActions.st.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Config\Config.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Configuration\Config\Config.var" />
+    </Task>
+    <Task
+      Name="System"
+      Disable="false"
+      Source="MotionHandling.SystemHandling.System"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\System\System.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\SystemHandling\System\SystemPrv.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\System\SystemActions.st.var" />
+    </Task>
+    <Task
+      Name="Cnc"
+      Disable="false"
+      Source="MotionHandling.CncHandling.Cnc"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Cnc\Cnc.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\CncHandling\Cnc\CncPrivate.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Cnc\CncActions.st.var" />
+    </Task>
+    <Task
+      Name="Axes"
+      Disable="false"
+      Source="MotionHandling.AxesHandling.Axes"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Axes\Axes.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\AxesHandling\Axes\AxesPrivate.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Axes\AxACP10Actions.st.var" />
+    </Task>
+    <Task
+      Name="Jog"
+      Disable="false"
+      Source="MotionHandling.Jogging.Jog"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Jogging\Jog\Jog.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Jog\JogLocal.var" />
+    </Task>
+    <Task
+      Name="Trf"
+      Disable="false"
+      Source="MotionHandling.Transformations.Trf"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\MotionHandling\Transformations\Trf\TrfPrv.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Trf\TrfLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Error"
+      Disable="false"
+      Source="ErrorHandling.Error"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\Error\Error.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\ErrorHandling\Error\ErrorPrv.var" />
+    </Task>
+    <Task
+      Name="HmiKeyCtrl"
+      Disable="false"
+      Source="HmiHandling.HmiKeyCtrl.HmiKeyCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiKeyCtrl\HmiKeyControlActions.st.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiKeyCtrl\HmiKeyControlCyclic.st.var" />
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiKeyCtrl\HmiKeyControlInit.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiKeyCtrl\HmiKeyCtrl\HmiKeyControlPrv.typ" />
+    </Task>
+    <Task
+      Name="HmiHardKey"
+      Disable="false"
+      Source="HmiHandling.HmiHardKey.HmiHardKeyCtrl"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiHardKey\HmiHardKeyCtrl\HmiHardKeyLocal.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiHardKey\HmiHardKeyLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="HmiPrg"
+      Disable="false"
+      Source="HmiHandling.HmiPrg.HmiPrg"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiPrg\HmiPrg\HmiProgramLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="HmiAlarm"
+      Disable="false"
+      Source="HmiHandling.HmiAlarm.HmiAlarm"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiAlarm\HmiAlarm.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiAlarm\HmiAlarm\HmiAlarm.var" />
+    </Task>
+    <Task
+      Name="HmiMain"
+      Disable="false"
+      Source="HmiHandling.HmiMain.HmiMain"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiMain\HmiMainLocal.var" />
+    </Task>
+    <Task
+      Name="HmiFile"
+      Disable="false"
+      Source="HmiHandling.HmiMain.HmiFile"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiFile\HmiFileCtrl.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiMain\HmiFile\HmiFileLocal.var" />
+    </Task>
+    <Task
+      Name="HmiJogCtrl"
+      Disable="false"
+      Source="HmiHandling.HmiJog.HmiJogCtrl"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiJog\HmiJogCtrl\HmiJogLocal.var" />
+    </Task>
+    <Task
+      Name="HmiEditor"
+      Disable="false"
+      Source="HmiHandling.HmiEditor.HmiEditor"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiEditor\HmiEditorLocal.var" />
+    </Task>
+    <Task
+      Name="HmiFileVar"
+      Disable="false"
+      Source="HmiHandling.HmiEditor.HmiFileVar"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiFileVar\HmiFileCtrlVar.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiEditor\HmiFileVar\HmiFileVarLocal.var" />
+    </Task>
+    <Task
+      Name="RecipeCont"
+      Disable="false"
+      Source="Recipe.RecipeControl"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\Recipe\RecipeControl\RecipeControlLocal.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\RecipeCont\RecipeContLocal.var" />
+    </Task>
+    <Task
+      Name="HmiSetup"
+      Disable="false"
+      Source="HmiHandling.HmiSetup.HmiSetup"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiSetup\HmiSetup\HmiSetupLocal.var" />
+    </Task>
+    <Task
+      Name="UserStd"
+      Disable="false"
+      Source="UserStd.UserStd"
+      Language="ANSIC">
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\User.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\UserStd\UserStd\User.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\UserStd\UserStdLocal.var" />
+    </Task>
+    <Task
+      Name="HmiIO"
+      Disable="true"
+      Source="HmiHandling.HmiIO.HmiIO"
+      Language="IEC">
+      <InternalFile
+        Path="E:\Robot_moban\RobotNewEra_20150612\Temp\Objects\X20CP1586\X20CP1586\HmiIO\HmiIOCtrl.st.var" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\HmiIOCtrlLocal.typ" />
+      <File
+        Path="E:\Robot_moban\RobotNewEra_20150612\Logical\HmiHandling\HmiIO\HmiIO\HmiIOCtrlLocal.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="X20BM11" Type="X20BM11" X="250" Y="100" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="250" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="250" Y="127" />
+    <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
+    <Module Name="8B0Pxxxxxxxx.xxx-x" Type="8B0Pxxxxxxxx.xxx-x" X="262.55" Y="258.05" />
+    <Module Name="8BVIxxxxxxDx.xxx-x" Type="8BVIxxxxxxDx.xxx-x" X="388.45" Y="258.05" />
+    <Module Name="8BVIxxxxxxDx.xxx-x1" Type="8BVIxxxxxxDx.xxx-x" X="444.45" Y="258.05" />
+    <Module Name="8BVIxxxxxxDx.xxx-x2" Type="8BVIxxxxxxDx.xxx-x" X="498.45" Y="255.049988" />
+    <Module Name="5MP050.0653-02" Type="5MP050.0653-02" X="523.5" Y="-66.5" />
+  </Modules>
+  <Links />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT --  Bernecker + Rainer
+ ********************************************************************
+ * Program: Error
+ * File: ErrorPrv.var
+ * Author: haged
+ * Created: July 07, 2010
+ ********************************************************************
+ * Local variables of program Error
+ ********************************************************************)
+VAR
+	pSystem : REFERENCE TO ARRAY[0..MAX_SYS_MINUS_ONE] OF System_Type;
+	pCnc : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type; (*pTrf : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Trf_Type;*)
+	pAxes : REFERENCE TO ARRAY[0..MAX_AX_MINUS_ONE] OF Axes_Type;
+	Error : ErrorHandling_Type := (0);
+	i : INT;
+	cycT : DINT;
+	RTInfo_0 : RTInfo;
+	AlarmAcknDelay : UDINT;
+	OldStopKey : BOOL;
+END_VAR

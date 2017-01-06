@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.214?>
+<NcMapping NcSwId="ACP10" DisabledNodesAreHidden="False">
+  <NcObject Name="gPowerSupply" ModuleAddress="SDC_IF1.ST7" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" Disabled="FALSE" />
+  <NcObject Name="gAxisQ1" ModuleAddress="SDC_IF1.ST8" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j1_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisQ2" ModuleAddress="SDC_IF1.ST9" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j2_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisQ3" ModuleAddress="SDC_IF1.ST10" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j3_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisQ4" ModuleAddress="SDC_IF1.ST11" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j4_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisQ5" ModuleAddress="SDC_IF1.ST12" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j5_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisQ6" ModuleAddress="SDC_IF1.ST13" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_j6_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisX" ModuleAddress="SDC_IF1.ST1" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisY" ModuleAddress="SDC_IF1.ST2" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisZ" ModuleAddress="SDC_IF1.ST3" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisA" ModuleAddress="SDC_IF1.ST4" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisB" ModuleAddress="SDC_IF1.ST5" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+  <NcObject Name="gAxisC" ModuleAddress="SDC_IF1.ST6" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="sdc_i" AcoposParameter="sdc_p" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" />
+</NcMapping>

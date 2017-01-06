@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <AppMod Name="&lt;Default&gt;" Img="AppModule.ico">
+    <Cat Name="Cyclic #1" Img="Cyclic.ico">
+      <Mod Name="6axATrqFF" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="OptMotion" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="Config" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="System" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="Cnc" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="Axes" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="Jog" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="Trf" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+    </Cat>
+    <Cat Name="Cyclic #2" Img="Cyclic.ico">
+      <Mod Name="Error" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="HmiKeyCtrl" Img="Task.ico" Stat="Different" Act="Download" Vars="Init">
+      </Mod>
+      <Mod Name="HmiHardKey" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+    </Cat>
+    <Cat Name="Cyclic #3" Img="Cyclic.ico">
+      <Mod Name="HmiPrg" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+    </Cat>
+    <Cat Name="Cyclic #8" Img="Cyclic.ico">
+      <Mod Name="HmiAlarm" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="HmiMain" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="HmiFile" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="HmiJogCtrl" Img="Task.ico" Stat="Different" Act="Download" Vars="Init">
+      </Mod>
+      <Mod Name="HmiEditor" Img="Task.ico" Stat="Different" Act="Download" Vars="Init">
+      </Mod>
+      <Mod Name="HmiFileVar" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="RecipeCont" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="HmiSetup" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+      <Mod Name="UserStd" Img="Task.ico" Stat="Equal" Act="Ignore" Vars="Init">
+      </Mod>
+    </Cat>
+    <Cat Name="Data Objects" Img="SimpleData.ico">
+      <Mod Name="Acp10sys" Img="SimpleData.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="Arnc0sys" Img="SimpleData.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="arnc0001" Img="SimpleData.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="ALHistory" Img="SimpleData.ico" Stat="OnTargetOnly" Act="Ignore">
+      </Mod>
+      <Mod Name="myUser" Img="SimpleData.ico" Stat="OnTargetOnly" Act="Ignore">
+      </Mod>
+      <Mod Name="RecipeData" Img="SimpleData.ico" Stat="OnTargetOnly" Act="Ignore">
+      </Mod>
+    </Cat>
+    <Cat Name="Nc Data Objects" Img="MotionData.ico">
+      <Mod Name="acp10cfg" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="arnc0map" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="arnc0cfg" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="acp10map" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="cncmap" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="axesmap" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_p" Img="files\Apt.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="ps_p" Img="files\Apt.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="acpm_p" Img="files\Apt.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="acpmic_p" Img="files\Apt.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j1_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j2_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j3_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j4_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j5_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sdc_j6_i" Img="files\Ax.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="robot_i" Img="files\Cns.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="AcpError" Img="files\Ett.dob.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="TRFk_A0" Img="files\Binary.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="JogInit" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="JogPrg" Img="files\Cnc.dob.ico" Stat="Different" Act="Download">
+      </Mod>
+      <Mod Name="gmcipsys" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmciplbr" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipcbr" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmciplsm" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipcsm" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipcfg" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipiec" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmciplog" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipesm" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipmxd" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipmx" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipvar" Img="files\Cnc.dob.ico" Stat="Different" Act="Download">
+      </Mod>
+      <Mod Name="gmcipfun" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipfub" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipubr" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipusm" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipus" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="gmcipuc" Img="files\Cnc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+    </Cat>
+    <Cat Name="Visualization" Img="VisualData.ico">
+      <Mod Name="Visu" Img="files\Vc.dob.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+    </Cat>
+    <Cat Name="Binary Objects" Img="Binaries.ico">
+      <Mod Name="vcnet" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcgclass" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccpopup" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="Visu01" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="Visu02" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="Visu03" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="arialbd" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="arial" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="simsun" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="courbd" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="dejavz0z" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="arialxsr" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcshared" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccscale" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccddbox" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccslider" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccdt" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccalarm" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcchspot" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccshape" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccedit" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccbmp" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcclbox" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcctext" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccbtn" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccstr" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccline" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccovl" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vccnum" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcpdvnc" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcfile" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcpfx20" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcrt" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcfntttf" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcalarm" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcdsint" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vctcal" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcmgr" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcdsloc" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="visvc" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcpdsw" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+      <Mod Name="vcbclass" Img="Binary.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+    </Cat>
+    <Cat Name="Library Objects" Img="Libraries.ico">
+      <Mod Name="NcGlobal" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="powerlnk" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Acp10par" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Runtime" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="astime" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="FileIO" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Acp10man" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="brsystem" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="sys_lib" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="DataObj" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsMem" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsArProf" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsArLog" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Arnc0man" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="Acp10_MC" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="Acp10sdc" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="Acp10sim" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="Arnc0ext" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE" Res="Warm">
+      </Mod>
+      <Mod Name="vcresman" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="visapi" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="ashw" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="standard" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsIOMMan" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsIODiag" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsIO" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="TRF_LIB" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsIecCon" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsBrStr" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="loopconr" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="asrfbext" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Arnc0mx" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="Operator" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsICMP" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsUSB" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="AsSem" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+      <Mod Name="ModDiag" Img="files\IEC.lby.ico" Stat="Equal" Act="Ignore" Chng="TRUE">
+      </Mod>
+    </Cat>
+    <Cat Name="Configuration Objects" Img="Configuration.ico">
+      <Mod Name="ashwd" Img="files\BR.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="asfw" Img="files\BR.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="arconfig" Img="files\rtc.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="sysconf" Img="files\BR.ico" Stat="Equal" Act="Ignore" Res="Warm">
+      </Mod>
+      <Mod Name="iomap" Img="files\iom.ico" Stat="Equal" Act="Ignore">
+      </Mod>
+    </Cat>
+  </AppMod>
+</Transfer>

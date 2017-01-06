@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ManualMode">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="170725" Value="Joint"/>
+    <Text ID="170726" Value="Base"/>
+    <Text ID="170727" Value="Tool"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="170725" Value="关节"/>
+    <Text ID="170726" Value="基坐标"/>
+    <Text ID="170727" Value="工具"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="170725" Value="0"/>
+    <Index ID="170726" Value="1"/>
+    <Index ID="170727" Value="2"/>
+  </IndexMap>
+</TextGroup>

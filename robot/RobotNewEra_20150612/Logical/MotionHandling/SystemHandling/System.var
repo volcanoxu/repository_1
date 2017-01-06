@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: System
+ * File: System.var
+ * Author: radaka
+ * Created: February 18, 2009
+ ********************************************************************
+ * Local variables of program System
+ ********************************************************************)
+VAR CONSTANT
+	CHANGING_MODE : USINT := 253;
+	NO_MODE_ACTIVE : USINT := 254;
+	NO_PART_OF_SYSTEM : USINT := 254;
+	SYSTEM_TIMEOUT : UDINT := 80000;
+END_VAR

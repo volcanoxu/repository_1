@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/UserStd/GlobalUserStd.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.var
+$(AS_PROJECT_PATH)/Logical/HmiHandling/HmiGlobal.typ

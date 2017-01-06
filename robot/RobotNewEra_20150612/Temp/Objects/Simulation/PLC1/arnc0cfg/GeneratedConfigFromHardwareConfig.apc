@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AcoposParameterConfiguration>
+  <Root Name="SL1.IF1.ST1" ModuleDisabled="TRUE">
+    <Group Name="SS2" ModuleDisabled="TRUE">
+      <Parameter ID="97" Value="4" />
+    </Group>
+    <Group Name="SS3" ModuleDisabled="TRUE">
+      <Parameter ID="85" Value="4" />
+      <Parameter ID="420" Value="10000" />
+      <Parameter ID="421" Value="1" />
+      <Parameter ID="422" Value="0" />
+      <Parameter ID="429" Value="0.0" />
+      <Parameter ID="775" Value="0.0" />
+    </Group>
+    <Group Name="M1" ModuleDisabled="TRUE">
+      <Parameter ID="30" Value="16#0002" />
+      <Parameter ID="31" Value="16#0203" />
+      <Parameter ID="46" Value="1" />
+      <Parameter ID="47" Value="2" />
+      <Parameter ID="42" Value="0.35" />
+      <Parameter ID="43" Value="2.2" />
+      <Parameter ID="44" Value="0.03" />
+      <Parameter ID="45" Value="0.01" />
+      <Parameter ID="64" Value="632" />
+      <Parameter ID="65" Value="2225" />
+      <Parameter ID="66" Value="-30" />
+      <Parameter ID="67" Value="5.7266" />
+      <Parameter ID="68" Value="36.0938" />
+      <Parameter ID="69" Value="62.9375" />
+      <Parameter ID="70" Value="87.25" />
+      <Parameter ID="71" Value="109.6016" />
+      <Parameter ID="72" Value="130.3984" />
+      <Parameter ID="73" Value="150" />
+      <Parameter ID="48" Value="400" />
+      <Parameter ID="49" Value="43.98" />
+      <Parameter ID="50" Value="6000" />
+      <Parameter ID="51" Value="12000" />
+      <Parameter ID="52" Value="0.6" />
+      <Parameter ID="53" Value="0.52" />
+      <Parameter ID="54" Value="2.4" />
+      <Parameter ID="55" Value="0.73" />
+      <Parameter ID="56" Value="0.82" />
+      <Parameter ID="57" Value="0.71" />
+      <Parameter ID="58" Value="3.7" />
+      <Parameter ID="59" Value="0.0855" />
+      <Parameter ID="60" Value="31" />
+      <Parameter ID="61" Value="0.0497" />
+      <Parameter ID="62" Value="1.6E-05" />
+      <Parameter ID="63" Value="1000000" />
+      <Parameter ID="849" Value="1500" />
+      <Parameter ID="74" Value="110" />
+    </Group>
+  </Root>
+</AcoposParameterConfiguration>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Local data types">HmiIOGlobal.typ</Object>
+    <Object Type="File">HmiIOGlobal.var</Object>
+    <Object Type="Package" Description="Documentation">Doc</Object>
+    <Object Type="Library" Language="ANSIC">ModDiag</Object>
+    <Object Type="Program" Language="IEC" Description="IO Handling">HmiIO</Object>
+  </Objects>
+</Package>

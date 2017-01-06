@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.211?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">JogGlobal.typ</Object>
+    <Object Type="Program" Language="ANSIC">Jog</Object>
+    <Object Type="DataObject" Language="Cnc" Description="CNC Program">JogInit</Object>
+    <Object Type="DataObject" Language="Cnc" Description="CNC Program">JogPrg</Object>
+  </Objects>
+</Package>

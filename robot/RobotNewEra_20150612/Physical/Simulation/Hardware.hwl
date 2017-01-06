@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="5MP050.0653-02" Type="5MP050.0653-02" X="182" Y="-273" />
+    <Module Name="8LSA25.E9060D200-0" Type="8LSA25.E9060D200-0" X="483" Y="382.5" />
+    <Module Name="8V1045.00-2" Type="8V1045.00-2" X="483" Y="100" />
+    <Module Name="8AC120.60-1" Type="8AC120.60-1" X="508.2" Y="306.5" />
+    <Module Name="8AC120.60-1a" Type="8AC120.60-1" X="497" Y="306.5" />
+    <Module Name="8AC114.60-2" Type="8AC114.60-2" X="485.8" Y="306.5" />
+    <Module Name="PLC1" Type="PC_any" X="100" Y="100" />
+    <Module Name="5LS182.6-1" Type="5LS182.6-1" X="418" Y="110" />
+  </Modules>
+  <Links />
+</BR.AS.HardwareTopology>

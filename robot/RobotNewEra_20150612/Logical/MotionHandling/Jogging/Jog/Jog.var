@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Jog
+ * File: Jog.var
+ * Author: frigenif
+ * Created: December 05, 2012
+ ********************************************************************
+ * Local variables of program Jog
+ ********************************************************************)
+VAR
+	pCnc : REFERENCE TO ARRAY[0..MAX_CNC_MINUS_ONE] OF Cnc_Type;
+	Jogging : Jog_Type := (0);
+	CncAddress : UDINT := 0;
+END_VAR
+VAR CONSTANT
+	JOG_WAIT : USINT := 0;
+	JOG_RUN : USINT := 1;
+END_VAR

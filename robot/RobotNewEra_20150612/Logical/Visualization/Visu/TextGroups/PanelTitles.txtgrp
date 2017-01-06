@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PanelTitles">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="51"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="200120" Value="Feedrate"/>
+    <Text ID="200121" Value="Auto Mode"/>
+    <Text ID="200122" Value="Jog Mode"/>
+    <Text ID="200123" Value=""/>
+    <Text ID="200124" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="200120" Value="进给率"/>
+    <Text ID="200121" Value="自动模式"/>
+    <Text ID="200122" Value="手动模式"/>
+    <Text ID="200123" Value=""/>
+    <Text ID="200124" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="200120" Value="1"/>
+    <Index ID="200121" Value="0"/>
+    <Index ID="200122" Value="2"/>
+    <Index ID="200123" Value="3"/>
+    <Index ID="200124" Value="4"/>
+  </IndexMap>
+</TextGroup>

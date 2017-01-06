@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="CalibBmp" ClsId="0x306" Version="1" TargetIndex="62" Type="GFX" RefString="Source[local].Bitmap[CalibBmp]">
+        <UInt16 Name="Width">36</UInt16>
+        <UInt16 Name="Height">36</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALUSURBVFhHzZg/aBRBFMYvIqKnKApWiiCCwun9/5Nr5AhaKjk7q9hFbELsTWMRWxFikypFrOTAKlERRFBBY2GhEFREBNEoiEoOOWPi7y1vjrnbi+7mVnY++Jidb+a9+W5udnZ2E/2gWCwm4UihUJiFoyrHh3K5fBhDd0ulUpPyscrxASPHMPIE/mKGXqocHyqVSgozDzHWwtBzleODE4ZSqdQOBj8Ox+EtzCzDtXw+36Q+DS/AwVqttlVD/hsGGGgMLjMra0IxYojuaYbUv6Cf1dhowV9zkAHu2wPC3wz4Cn7ieoX2r/B1Vx8xdjOXy+3VVP2DhKMk/mEN8hRtKJPJbO+1htLp9G60OvU3VswSf+lpL2E/IOkpk5TrFuUl1sZmbfYWNWaeoftuezGMPgVXJR7+ZN86qs3hUa1W9zDIB022xLRntUmMDsI76N8w1F5D8CNag/oR7Sp71Ul02Tglz4L9g0KBJLOaRFgXjTtsC9eTtK2IbswYQ6a/GrhIyIDEybXVNiFaKBB0xkowo7Iknje6cD1DhmjXNHQT9QeqtezZDgSCbmvwe8pdqsni7hjwX4bgKov5hMYfgt6WQWmMBgMBnzXhVamzePejfVetzQCGRH8nC1zyUJ9T/ZHUA4HOBzRIOKLaeUtrM4ghIW1Dkofystab6y5u2eLpNAzrQjpfkSANHFNN7ijfQEEN0T5DKfknjUb/cdUMh73HDRcN6EsShEENhWDDPUPO/WXdoCHeRd0LBHTc9tlsdh/ahm97yqTkoQx/2wtI4tzG6NajQ0CgOw9XgXPHDwGJOg5ocMJO+LcDmr4MXKctmgOaAUm7j7ALmKgxg9t6HWHRdqLJvvZW+wujOcIaMIjvkE9d1tEiZuxD/iLXZkZMv2gP+RbceQ2y4dKLog+91lCsYG24ZQgj7c8x8IXK8UE/WN1jduQlMv4PVphIYuYcM3WDMoJPeonEH3gDNJAEd1O+AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageIO">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="175736" Value="Name"/>
+    <Text ID="175737" Value="Logical name"/>
+    <Text ID="175738" Value="Data type"/>
+    <Text ID="175739" Value=" Act value"/>
+    <Text ID="175740" Value="Forcing"/>
+    <Text ID="175741" Value="Force value"/>
+    <Text ID="175742" Value="Module information"/>
+    <Text ID="175743" Value="PV name"/>
+    <Text ID="176267" Value="Path"/>
+    <Text ID="176268" Value="Status"/>
+    <Text ID="176269" Value="Module list"/>
+    <Text ID="176303" Value="No I/Os configured on this module! \nPress cancel to continue!"/>
+    <Text ID="176304" Value="Information"/>
+    <Text ID="176306" Value="Force all off"/>
+    <Text ID="176307" Value="Force on"/>
+    <Text ID="176308" Value="Force off"/>
+    <Text ID="176309" Value="LineUp"/>
+    <Text ID="176310" Value="LineDn"/>
+    <Text ID="176311" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="175736" Value="名称"/>
+    <Text ID="175737" Value="逻辑名称"/>
+    <Text ID="175738" Value="数据类型"/>
+    <Text ID="175739" Value="实际值"/>
+    <Text ID="175740" Value="强制"/>
+    <Text ID="175741" Value="强制值"/>
+    <Text ID="175742" Value="模块信息"/>
+    <Text ID="175743" Value="变量名称"/>
+    <Text ID="176267" Value="路径"/>
+    <Text ID="176268" Value="状态"/>
+    <Text ID="176269" Value="模块列表"/>
+    <Text ID="176303" Value="该模块没有I/O配置 请按取消键继续！"/>
+    <Text ID="176304" Value="信息"/>
+    <Text ID="176306" Value="强制所有关"/>
+    <Text ID="176307" Value="强制开"/>
+    <Text ID="176308" Value="强制关"/>
+    <Text ID="176309" Value="上一行"/>
+    <Text ID="176310" Value="下一行"/>
+    <Text ID="176311" Value="退出"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="175736" Value="0"/>
+    <Index ID="175737" Value="1"/>
+    <Index ID="175738" Value="2"/>
+    <Index ID="175739" Value="3"/>
+    <Index ID="175740" Value="4"/>
+    <Index ID="175741" Value="5"/>
+    <Index ID="175742" Value="6"/>
+    <Index ID="175743" Value="7"/>
+    <Index ID="176267" Value="8"/>
+    <Index ID="176268" Value="9"/>
+    <Index ID="176269" Value="10"/>
+    <Index ID="176303" Value="11"/>
+    <Index ID="176304" Value="12"/>
+    <Index ID="176306" Value="13"/>
+    <Index ID="176307" Value="14"/>
+    <Index ID="176308" Value="15"/>
+    <Index ID="176309" Value="16"/>
+    <Index ID="176310" Value="17"/>
+    <Index ID="176311" Value="18"/>
+  </IndexMap>
+</TextGroup>

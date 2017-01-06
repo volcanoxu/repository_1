@@ -1,0 +1,7 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	DOMove : DatObjMove;	(* #1"D:/AS/workspace/projects/RobotNewEra_20150612/Logical/Recipe/RecipeControl/RecipeControl.c" #2"22" #3"33" *)
+END_VAR

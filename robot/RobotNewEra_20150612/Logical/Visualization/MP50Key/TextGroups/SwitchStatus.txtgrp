@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SwitchStatus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="164890" Value="OFF"/>
+    <Text ID="164891" Value="ON"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="164890" Value="OFF"/>
+    <Text ID="164891" Value="ON"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="164890" Value="0"/>
+    <Index ID="164891" Value="1"/>
+  </IndexMap>
+</TextGroup>

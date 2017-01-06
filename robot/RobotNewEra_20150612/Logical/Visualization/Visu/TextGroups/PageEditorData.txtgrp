@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageEditorData">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="ProgramName">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HmiHandling.HmiRetain.HmiEditor.Name]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="206400" Value="Variable name"/>
+    <Text ID="206401" Value="Dimension"/>
+    <Text ID="206402" Value="Constant"/>
+    <Text ID="206403" Value="Type:"/>
+    <Text ID="206404" Value="Current program"/>
+    <Text ID="206405" Value="&lt;NONE&gt; "/>
+    <Text ID="206406" Value="{ProgramName}"/>
+    <Text ID="207312" Value="Position"/>
+    <Text ID="207313" Value="Orient"/>
+    <Text ID="207314" Value="X"/>
+    <Text ID="207315" Value="Y"/>
+    <Text ID="207317" Value="Z"/>
+    <Text ID="207318" Value="[0]"/>
+    <Text ID="207319" Value="[1]"/>
+    <Text ID="207320" Value="Radius"/>
+    <Text ID="207321" Value="Type"/>
+    <Text ID="207322" Value="[5]"/>
+    <Text ID="207323" Value="[4]"/>
+    <Text ID="207324" Value="[3]"/>
+    <Text ID="207325" Value="[2]"/>
+    <Text ID="207326" Value="Angle"/>
+    <Text ID="207327" Value="               Of"/>
+    <Text ID="207507" Value="Frame"/>
+    <Text ID="207642" Value="JointAxis"/>
+    <Text ID="207774" Value="V"/>
+    <Text ID="207775" Value="Mode"/>
+    <Text ID="207778" Value="Trans"/>
+    <Text ID="207779" Value="Radius"/>
+    <Text ID="207780" Value="Type"/>
+    <Text ID="208044" Value="INT"/>
+    <Text ID="208045" Value="BOOL"/>
+    <Text ID="208046" Value="REAL"/>
+    <Text ID="208543" Value="Save"/>
+    <Text ID="208544" Value="Reload"/>
+    <Text ID="209041" Value="Save"/>
+    <Text ID="209043" Value="Clear"/>
+    <Text ID="209046" Value="Teach"/>
+    <Text ID="209047" Value="Set Jog"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="206400" Value="变量名"/>
+    <Text ID="206401" Value="维数"/>
+    <Text ID="206402" Value="常量"/>
+    <Text ID="206403" Value="类型:"/>
+    <Text ID="206404" Value="当前程序"/>
+    <Text ID="206405" Value="&lt;无&gt; "/>
+    <Text ID="206406" Value="{ProgramName}"/>
+    <Text ID="207312" Value="Position"/>
+    <Text ID="207313" Value="Orient"/>
+    <Text ID="207314" Value="X"/>
+    <Text ID="207315" Value="Y"/>
+    <Text ID="207317" Value="Z"/>
+    <Text ID="207318" Value="[0]"/>
+    <Text ID="207319" Value="[1]"/>
+    <Text ID="207320" Value="Radius"/>
+    <Text ID="207321" Value="Type"/>
+    <Text ID="207322" Value="[5]"/>
+    <Text ID="207323" Value="[4]"/>
+    <Text ID="207324" Value="[3]"/>
+    <Text ID="207325" Value="[2]"/>
+    <Text ID="207326" Value="Angle"/>
+    <Text ID="207327" Value="               Of"/>
+    <Text ID="207507" Value="Frame"/>
+    <Text ID="207642" Value="JointAxis"/>
+    <Text ID="207774" Value="V"/>
+    <Text ID="207775" Value="Mode"/>
+    <Text ID="207778" Value="Trans"/>
+    <Text ID="207779" Value="Radius"/>
+    <Text ID="207780" Value="Type"/>
+    <Text ID="208044" Value="INT"/>
+    <Text ID="208045" Value="BOOL"/>
+    <Text ID="208046" Value="REAL"/>
+    <Text ID="208543" Value="保存"/>
+    <Text ID="208544" Value="重新载入"/>
+    <Text ID="209041" Value="保存"/>
+    <Text ID="209043" Value="清除"/>
+    <Text ID="209046" Value="示教"/>
+    <Text ID="209047" Value="设为点动"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="206400" Value="0"/>
+    <Index ID="206401" Value="1"/>
+    <Index ID="206402" Value="2"/>
+    <Index ID="206403" Value="3"/>
+    <Index ID="206404" Value="4"/>
+    <Index ID="206405" Value="9"/>
+    <Index ID="206406" Value="10"/>
+    <Index ID="207312" Value="11"/>
+    <Index ID="207313" Value="12"/>
+    <Index ID="207314" Value="13"/>
+    <Index ID="207315" Value="14"/>
+    <Index ID="207317" Value="15"/>
+    <Index ID="207318" Value="16"/>
+    <Index ID="207319" Value="17"/>
+    <Index ID="207320" Value="23"/>
+    <Index ID="207321" Value="22"/>
+    <Index ID="207322" Value="21"/>
+    <Index ID="207323" Value="20"/>
+    <Index ID="207324" Value="19"/>
+    <Index ID="207325" Value="18"/>
+    <Index ID="207326" Value="26"/>
+    <Index ID="207327" Value="24"/>
+    <Index ID="207507" Value="25"/>
+    <Index ID="207642" Value="27"/>
+    <Index ID="207774" Value="28"/>
+    <Index ID="207775" Value="29"/>
+    <Index ID="207778" Value="30"/>
+    <Index ID="207779" Value="31"/>
+    <Index ID="207780" Value="32"/>
+    <Index ID="208044" Value="35"/>
+    <Index ID="208045" Value="34"/>
+    <Index ID="208046" Value="33"/>
+    <Index ID="208543" Value="36"/>
+    <Index ID="208544" Value="37"/>
+    <Index ID="209041" Value="38"/>
+    <Index ID="209043" Value="39"/>
+    <Index ID="209046" Value="40"/>
+    <Index ID="209047" Value="41"/>
+  </IndexMap>
+</TextGroup>
